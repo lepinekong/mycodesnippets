@@ -1,10 +1,10 @@
 Red [
-    Title: "vscode.readable.codesnippet"
+    Title: "vscode.markdown-gen.red"
 ]
 
 Article: [
 
-    Title: {vscode.readable.codesnippet}
+    Title: {vscode.markdown-gen.red}
 
     Source: [
         .title: {ReAdABLE Source}
