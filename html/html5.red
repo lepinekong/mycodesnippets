@@ -15,7 +15,7 @@ Article: [
     
     html5: [
 
-        .title: {html5}
+        .title: {html5 blank snippet:}
         .code: {
             <!doctype html>
             <html lang="fr">
@@ -35,7 +35,7 @@ Article: [
             </body>
             </html>                
         }
-        .text: {VSCode Snippet:}
+        .text: {To create VSCode Snippet:}
         .code: {
             "html5": {
                 "prefix": "html5",

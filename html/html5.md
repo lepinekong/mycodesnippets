@@ -7,7 +7,7 @@
 [http://mycodesnippets.space/html5.red](https://github.com/lepinekong/mycodesnippets/blob/master/html5.red)
 
 
-### html5
+### html5 blank snippet:
 
 
 
@@ -34,12 +34,12 @@
 ```
 
 
-VSCode Snippet:
+To create VSCode Snippet:
 
 
 ```
 
-            "html5": {
+"html5": {
 "prefix": "html5",
 "body": [
     "            <body>\r",
@@ -65,7 +65,7 @@ VSCode Snippet:
     "            </html> "
 ],
 "description": "html5"
-            }            
+}            
         
 ```
 
