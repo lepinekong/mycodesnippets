@@ -27,6 +27,11 @@ Article: [
                 "description": "do-trace"
             }	            
         }
+        .text: {Reference Guide: }
+        .link: [
+            https://code.visualstudio.com/docs/editor/userdefinedsnippets
+            "Creating your own snippets | code.visualstudio.com"
+        ]
     ]
 ]
 

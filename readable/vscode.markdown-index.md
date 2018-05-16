@@ -9,11 +9,12 @@
 
 ### vscode.markdown-index
 
+Copy and paste this snippet in red.json (don't forget the "," separator):
 
 
 ```
 
-            "markdown-index": {
+"markdown-index": {
 "prefix": "markdown-index",
 "body": [
     "Red [\r",
@@ -36,7 +37,30 @@
     "markdown-gen"
 ],
 "description": "markdown-index"
-            }            
+}            
+        
+```
+
+
+If you need to recreate it with Easy Snippet, start with this snippet: 
+
+
+```
+
+Red [
+Title: "{TM_DIRECTORY:default}"
+]
+
+Article: [
+
+Title: {Index of {TM_DIRECTORY:default} code snippets}
+
+{2:caption}: [
+    .title: {{1:title}}
+    .text: {[{2:caption}](./{3:filenamewithoutextension})}       
+]
+
+]
         
 ```
 

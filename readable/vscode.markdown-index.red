@@ -16,6 +16,7 @@ Article: [
     vscode.markdown-index: [
 
         .title: {vscode.markdown-index}
+        .text: {Copy and paste this snippet in red.json (don't forget the "," separator):}
         .code: {
             "markdown-index": {
                 "prefix": "markdown-index",
@@ -41,6 +42,23 @@ Article: [
                 ],
                 "description": "markdown-index"
             }                            
+        }
+        .text: {If you need to recreate it with Easy Snippet, start with this snippet: }
+        .code: {
+            Red [
+                Title: "{TM_DIRECTORY:default}"
+            ]
+
+            Article: [
+
+                Title: {Index of {TM_DIRECTORY:default} code snippets}
+
+                {2:caption}: [
+                    .title: {{1:title}}
+                    .text: {[{2:caption}](./{3:filenamewithoutextension})}       
+                ]
+
+            ]                
         }
     ]
 ]
