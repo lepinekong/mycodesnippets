@@ -12,6 +12,12 @@ Article: [
         }        
     ]
 
+    vscode.markdown-index: [
+        .title: {vscode snippet for ReAdABLE index skeleton}
+        .text: {[vscode.markdown-index](./vscode.markdown-index)
+        }
+    ]    
+
     vscode.readable.tracing: [
         .title: {VSCode Snippet  for do-trace}
         .text: {[vscode.readable.tracing](./vscode.readable.tracing)
