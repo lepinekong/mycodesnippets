@@ -8,9 +8,12 @@ Article: [
 
     Index: [
         .title: {Index}
-        .text: {[vscode.markdown-gen.red](./vscode.markdown-gen)}
-        .text: {[vscode.readable.tracing.red](./vscode.readable.tracing)}
-        .text: {[vscode.mycodesnippets.red](./vscode.mycodesnippets)}
+        .text: {[vscode.markdown-gen.red](./vscode.markdown-gen)
+        }
+        .text: {[vscode.readable.tracing.red](./vscode.readable.tracing)
+        }
+        .text: {[vscode.mycodesnippets.red](./vscode.mycodesnippets)
+        }
     ]
 ]
 
