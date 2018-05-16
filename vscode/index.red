@@ -8,7 +8,7 @@ Article: [
 
     vscode.codesnippets.variables: [
         .title: {How to create VSCode Snippet with variables}
-        .text: {[vscode.codesnippets.variables.red](./vscode.codesnippets.variables)}       
+        .text: {[vscode.codesnippets.variables](./vscode.codesnippets.variables)}       
     ]
 
 ]
