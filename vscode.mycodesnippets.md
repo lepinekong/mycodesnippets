@@ -13,7 +13,7 @@
 
 ```
 
-            "mycodesnippets": {
+"mycodesnippets": {
 "prefix": "mycodesnippets",
 "body": [
     "Red [\r",
@@ -41,7 +41,7 @@
     "]"
 ],
 "description": "mycodesnippets"
-            }            
+}            
         
 ```
 

@@ -13,7 +13,7 @@
 
 ```
 
-            "do-trace": {
+"do-trace": {
 "prefix": "do-trace",
 "body": [
     "            do-trace ${TM_LINE_INDEX:default} [\r",
@@ -21,7 +21,7 @@
     "            ] %${TM_FILENAME:default}"
 ],
 "description": "do-trace"
-            }	            
+}	            
         
 ```
 
