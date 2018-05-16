@@ -2,9 +2,12 @@
 # Index of MyCodeSnippets.Space
 
 
-### Categories
+### VSCode
 
-- [VSCode](http://mycodesnippets.space/vscode/)
-                        
-- [ReAdABLE Human Format](http://mycodesnippets.space/readable/)
-                        
+[A samples of general VSCode Snippets](./vscode/)
+
+
+### ReAdABLE
+
+[Some usefull VSCode snippet for ReAdABLE Human Format ](./readable/)
+
