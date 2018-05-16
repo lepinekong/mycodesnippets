@@ -6,6 +6,12 @@ Article: [
 
     Title: {VSCode Code Snippets for ReAdABLE Human Format}
 
+    Intro: [
+        .text: {
+            [ReAdABLE Human Format](http://readablehumanformat.com) is an easy format to generate markdown with better semantics and more automation capability.
+        }
+    ]
+
     vscode.markdown-gen: [
         .title: {VSCode Snippet for markdown-gen}
         .text: {[vscode.markdown-gen](./vscode.markdown-gen)

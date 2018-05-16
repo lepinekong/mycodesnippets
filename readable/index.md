@@ -2,6 +2,9 @@
 # VSCode Code Snippets for ReAdABLE Human Format
 
 
+[ReAdABLE Human Format](http://readablehumanformat.com) is an easy format to generate markdown with better semantics and more automation capability.
+
+
 ### VSCode Snippet for markdown-gen
 
 [vscode.markdown-gen](./vscode.markdown-gen)
