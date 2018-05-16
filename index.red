@@ -6,9 +6,9 @@ Article: [
 
     Title: {Index of MyCodeSnippets.Space}
 
-    VSCode: [
-        .title: {VSCode}
-        .text: {[A samples of general VSCode Snippets](./vscode/)
+    Html: [
+        .title: {Html}
+        .text: {[Code Snippets for Html](./html/)
         }        
     ]
 
@@ -22,7 +22,13 @@ Article: [
         .title: {ReAdABLE}
         .text: {[Some usefull VSCode snippets for ReAdABLE Human Format ](./readable/)
         }        
-    ]    
+    ] 
+
+    VSCode: [
+        .title: {VSCode}
+        .text: {[A samples of general VSCode Snippets](./vscode/)
+        }        
+    ]       
 ]
 
 do read http://readablehumanformat.com/lib.red

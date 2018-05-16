@@ -2,9 +2,9 @@
 # Index of MyCodeSnippets.Space
 
 
-### VSCode
+### Html
 
-[A samples of general VSCode Snippets](./vscode/)
+[Code Snippets for Html](./html/)
 
 
 ### Jekyll
@@ -15,4 +15,9 @@
 ### ReAdABLE
 
 [Some usefull VSCode snippets for ReAdABLE Human Format ](./readable/)
+
+
+### VSCode
+
+[A samples of general VSCode Snippets](./vscode/)
 
