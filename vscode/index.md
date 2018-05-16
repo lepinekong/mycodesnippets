@@ -1,7 +1,7 @@
 
-# VSCode Code Snippets for ReAdABLE Human Format
+# VSCode Snippets examples
 
 
-### Index
+### How to create VSCode Snippet with variables
 
 [vscode.codesnippets.variables.red](./vscode.codesnippets.variables)

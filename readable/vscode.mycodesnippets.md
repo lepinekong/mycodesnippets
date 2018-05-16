@@ -7,7 +7,7 @@
 [http://mycodesnippets.space/vscode.mycodesnippets.red](https://github.com/lepinekong/mycodesnippets/blob/master/vscode.mycodesnippets.red)
 
 
-### vscode.mycodesnippets
+### Vscode for creating a skeleton for mycodesnippets
 
 
 

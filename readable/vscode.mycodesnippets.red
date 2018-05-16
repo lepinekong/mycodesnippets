@@ -16,7 +16,7 @@ Article: [
     
     vscode.mycodesnippets: [
 
-        .title: {vscode.mycodesnippets}
+        .title: {Vscode for creating a skeleton for mycodesnippets}
         .code: {
             "mycodesnippets": {
                 "prefix": "mycodesnippets",

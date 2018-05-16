@@ -4,12 +4,13 @@ Red [
 
 Article: [
 
-    Title: {VSCode Code Snippets for ReAdABLE Human Format}
+    Title: {VSCode Snippets examples}
 
-    Index: [
-        .title: {Index}
-        .text: {[vscode.codesnippets.variables.red](./vscode.codesnippets.variables)}
+    vscode.codesnippets.variables: [
+        .title: {How to create VSCode Snippet with variables}
+        .text: {[vscode.codesnippets.variables.red](./vscode.codesnippets.variables)}       
     ]
+
 ]
 
 ; files: read %.

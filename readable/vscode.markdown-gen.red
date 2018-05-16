@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {vscode.markdown-gen.red}
+    Title: {VSCode Snippet for markdown-gen}
 
     Source: [
         .title: {ReAdABLE Source}
@@ -15,7 +15,7 @@ Article: [
     
     vscode.readable.codesnippet: [
 
-        .title: {vscode.readable.codesnippet}
+        .title: {Will generate the lines necessary for calling markdown-gen:}
         .code: {
             "markdown-gen": {
                 "prefix": "markdown-gen",

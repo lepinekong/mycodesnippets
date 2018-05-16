@@ -1,5 +1,5 @@
 
-# vscode.readable.codesnippet
+# VSCode Snippet for markdown-gen
 
 
 ### ReAdABLE Source
@@ -7,7 +7,7 @@
 [http://mycodesnippets.space/vscode.readable.codesnippet.red](https://github.com/lepinekong/mycodesnippets/blob/master/vscode.readable.codesnippet.red)
 
 
-### vscode.readable.codesnippet
+### Will generate the lines necessary for calling markdown-gen:
 
 
 
