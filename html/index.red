@@ -1,18 +1,17 @@
 Red [
-    Title: "{TM_DIRECTORY:default}"
+    Title: "html"
 ]
 
 Article: [
 
-    Title: {Index of {TM_DIRECTORY:default} code snippets}
+    Title: {Index of Html code snippets}
 
-    {2:caption}: [
-        .title: {{1:title}}
-        .text: {[{2:caption}](./{3:filenamewithoutextension})}       
+    html5: [
+        .title: {Html5 Blank Snippet}
+        .text: {[html5](./html5)}       
     ]
 
 ]
-
 
 do read http://readablehumanformat.com/lib.red
 markdown-gen
