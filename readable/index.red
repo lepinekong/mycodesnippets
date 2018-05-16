@@ -6,13 +6,21 @@ Article: [
 
     Title: {VSCode Code Snippets for ReAdABLE Human Format}
 
-    Index: [
-        .title: {Index}
-        .text: {[vscode.markdown-gen.red](./vscode.markdown-gen)
-        }
-        .text: {[vscode.readable.tracing.red](./vscode.readable.tracing)
-        }
-        .text: {[vscode.mycodesnippets.red](./vscode.mycodesnippets)
+    vscode.markdown-gen: [
+        .title: {VSCode ReAdABLE Snippet for markdown-gen}
+        .text: {[vscode.markdown-gen](./vscode.markdown-gen)
+        }        
+    ]
+
+    vscode.readable.tracing: [
+        .title: {VSCode ReAdABLE for do-trace}
+        .text: {[vscode.readable.tracing](./vscode.readable.tracing)
+        }        
+    ]
+
+    vscode.mycodesnippets: [
+        .title: {VSCode ReAdABLE for mycodesnippets}
+        .text: {[vscode.mycodesnippets](./vscode.mycodesnippets)
         }
     ]
 ]
