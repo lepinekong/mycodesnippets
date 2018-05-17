@@ -15,11 +15,11 @@ with local variables without creating a more heavier function, object or file wh
 
 ```
 
-do bind body make object! collect [
+    do bind body make object! collect [
     forall locals [keep to set-word! locals/1]
     keep none
 ]
-        
+
 ```
 
 

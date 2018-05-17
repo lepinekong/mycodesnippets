@@ -16,7 +16,7 @@ Article: [
     use: [
 
         .title: {use}
-        .text: {.use allows to create light section for structuring your code
+        .text: {>.use allows to create light section for structuring your code
             with local variables without creating a more heavier function, object or file which breaks linearity and makes harder to read and understand your code.}
         .code: {
             do bind body make object! collect [
