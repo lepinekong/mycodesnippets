@@ -4,25 +4,24 @@
 
 ### Html
 
-[Code Snippets for Html](./html/)
-
+- [Code Snippets for Html](./html/)
+                        
 
 ### Jekyll
 
-[Code Snippets for Jekyll](./jekyll/)
-
+- [Code Snippets for Jekyll](./jekyll/)
+                        
 
 ### ReAdABLE
 
-[Some usefull VSCode snippets for ReAdABLE Human Format ](./readable/)
-
+- [Some usefull VSCode snippets for ReAdABLE Human Format](./readable/)
+                        
 
 ### Redlang
 
-[Some usefull Redlang snippets](./redlang/)
-
+- [Some usefull Redlang snippets](./redlang/)
+                        
 
 ### VSCode
 
-[A samples of general VSCode Snippets](./vscode/)
-
+- [A samples of general VSCode Snippets](./vscode/)
