@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {VSCode Code Snippets Variables}
+    Title: {VSCode Snippets Predefined Variables}
 
     Source: [
         .title: {ReAdABLE Source}

@@ -1,5 +1,5 @@
 
-# VSCode Code Snippets Variables
+# VSCode Snippets Predefined Variables
 
 
 ### ReAdABLE Source
