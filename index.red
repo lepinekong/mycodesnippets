@@ -8,32 +8,37 @@ Article: [
 
     Html: [
         .title: {Html}
-        .text: {[Code Snippets for Html](./html/)
-        }        
+        .links: [
+            "Code Snippets for Html" %./html/
+        ]
     ]
 
     Jekyll: [
         .title: {Jekyll}
-        .text: {[Code Snippets for Jekyll](./jekyll/)
-        }        
+        .links: [
+            "Code Snippets for Jekyll" %./jekyll/
+        ]      
     ]
 
     ReAdABLE: [
         .title: {ReAdABLE}
-        .text: {[Some usefull VSCode snippets for ReAdABLE Human Format ](./readable/)
-        }        
+        .links: [
+            "Some usefull VSCode snippets for ReAdABLE Human Format" %./readable/
+        ]
     ] 
 
     Redlang: [
         .title: {Redlang}
-        .text: {[Some usefull Redlang snippets](./redlang/)
-        }        
+        .links: [
+            "Some usefull Redlang snippets" %./redlang/
+        ]    
     ]     
 
     VSCode: [
         .title: {VSCode}
-        .text: {[A samples of general VSCode Snippets](./vscode/)
-        }        
+        .links: [
+            "A samples of general VSCode Snippets" %./vscode/
+        ]       
     ]       
 ]
 
