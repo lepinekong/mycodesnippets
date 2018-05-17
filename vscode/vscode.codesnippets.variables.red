@@ -35,6 +35,7 @@ Article: [
             ] %ReAdABLE.Human.Format.lib.red            
         }        
         .text: {Reference Guide: }
+        
         .link: [
             https://code.visualstudio.com/docs/editor/userdefinedsnippets
             "Creating your own snippets | code.visualstudio.com"

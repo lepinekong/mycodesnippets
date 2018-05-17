@@ -39,6 +39,7 @@ do-trace 757 [
 ```
 
 
-Reference Guide: 
+Reference Guide:
+ 
 - [Creating your own snippets | code.visualstudio.com](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
                         
