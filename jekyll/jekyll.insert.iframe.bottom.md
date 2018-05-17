@@ -14,9 +14,9 @@ Put the iframe below content placer holder
 
 ```
 
-            <!doctype html>
-            <html lang="{{ site.lang | default: "en-US" }}">
-            <head>
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -81,8 +81,8 @@ Put the iframe below content placer holder
     ga('send', 'pageview');
 </script>
 {% endif %}
-            </body>
-            </html>
+</body>
+</html>
 
         
 ```
