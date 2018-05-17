@@ -6,6 +6,13 @@ Article: [
 
     Title: {Index of MyCodeSnippets.Space}
 
+    Bootstrap: [
+        .title: {Bootstrap}
+        .links: [
+            "Code Snippets for Bootstrap" %./bootstrap/
+        ]
+    ]    
+
     Html: [
         .title: {Html}
         .links: [

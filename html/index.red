@@ -4,16 +4,21 @@ Red [
 
 Article: [
 
-    Title: {Index of Html code snippets}
+    Title: {Index of html code snippets}
+
+    Source: [
+        .title: {ReAdABLE Source}
+        .text: {[http://mycodesnippets.space/html/index.red](https://github.com/lepinekong/mycodesnippets/blob/master/html/index.red)
+        }
+        .Published-Url: http://mycodesnippets.space/html/index
+    ]    
 
     html5: [
-        .title: {Html5 Blank Snippet}
+        .title: {Html5 Snippet}
         .links: [
-            "html5" %./html5
+            "Html5 Blank Snippet" %./html5
         ]      
     ]
 
 ]
 
-do read http://readablehumanformat.com/lib.red
-markdown-gen
