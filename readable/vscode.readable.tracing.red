@@ -20,20 +20,27 @@ Article: [
             "do-trace": {
                 "prefix": "do-trace",
                 "body": [
-                    "            do-trace ${TM_LINE_INDEX:default} [\r",
-                    "                ?? ",
-                    "            ] %${TM_FILENAME:default}"
+                    "do-trace ${TM_LINE_NUMBER:default} [\r",
+                    "    ;ask \"line ${TM_LINE_NUMBER:default}\"\r",
+                    "    ?? ${1:var-to-trace}\r",
+                    "] %${TM_FILENAME:default}"
                 ],
                 "description": "do-trace"
-            }                            
+            }                           
         }
-
         .text: {Example output:       
         }
         .code: {
-            do-trace 39 [
-                ?? myvarname
-            ] %vscode.readable.tracing.red             
+            do-trace 757 [
+                ask "line 757"
+            ] %ReAdABLE.Human.Format.lib.red            
+        }
+        .text: {to recreate with Easy Snippet, use this:}
+        .code: {
+            do-trace {TM_LINE_NUMBER:default} [
+                ;ask "line {TM_LINE_NUMBER:default}"
+                ?? {1:var-to-trace}
+            ] %{TM_FILENAME:default}           
         }
 
     ]

@@ -27,6 +27,13 @@ Article: [
                 "description": "do-trace"
             }	            
         }
+        .text: {Example output:       
+        }
+        .code: {
+            do-trace 757 [
+                ask "line 757"
+            ] %ReAdABLE.Human.Format.lib.red            
+        }        
         .text: {Reference Guide: }
         .link: [
             https://code.visualstudio.com/docs/editor/userdefinedsnippets
@@ -35,3 +42,5 @@ Article: [
     ]
 ]
 
+do read http://readablehumanformat.com/lib.red
+markdown-gen
