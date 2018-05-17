@@ -33,7 +33,7 @@ Example output:
 ```
 
 do-trace 757 [
-    ask "line 757"
+    ??
 ] %ReAdABLE.Human.Format.lib.red            
         
 ```
