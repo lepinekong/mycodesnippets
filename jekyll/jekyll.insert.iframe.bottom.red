@@ -15,9 +15,8 @@ Article: [
     
     jekyll.leap-day.iframe.at.bottom: [
 
-        .title: {How to insert an iframe at the bottom of _layout/default.html.
-        Example with jekyll leap-day theme:}
-        .text: {Put the iframe below {{content}}}
+        .title: {How to insert an iframe at the bottom of _layout/default.html.}
+        .text: {Put the iframe below content placer holder}
         .code: {
             <!doctype html>
             <html lang="{{ site.lang | default: "en-US" }}">

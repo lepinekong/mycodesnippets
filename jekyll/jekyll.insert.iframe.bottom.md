@@ -8,9 +8,8 @@
 
 
 ### How to insert an iframe at the bottom of _layout/default.html.
-Example with jekyll leap-day theme:
 
-Put the iframe below {{content}}
+Put the iframe below content placer holder
 
 
 ```
