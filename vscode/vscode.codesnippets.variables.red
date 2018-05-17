@@ -15,7 +15,7 @@ Article: [
     
     Variables-Usage: [
 
-        .title: {TM_FILENAME:default and TM_LINE_INDEX:default}
+        .title: {Example with TM_FILENAME:default and TM_LINE_INDEX:default}
         .code: {
             "do-trace": {
                 "prefix": "do-trace",

@@ -7,7 +7,7 @@
 [http://mycodesnippets.space/vscode.codesnippets.variables.red](https://github.com/lepinekong/mycodesnippets/blob/master/vscode.codesnippets.variables.red)
 
 
-### TM_FILENAME:default and TM_LINE_INDEX:default
+### Example with TM_FILENAME:default and TM_LINE_INDEX:default
 
 
 
@@ -21,7 +21,7 @@
     "            ] %${TM_FILENAME:default}"
 ],
 "description": "do-trace"
-            }	            
+}	            
         
 ```
 
