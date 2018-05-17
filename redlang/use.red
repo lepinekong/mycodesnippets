@@ -8,9 +8,9 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source}
-        .text: {[http://mycodesnippets.space/use.red](https://github.com/lepinekong/mycodesnippets/blob/master/use.red)
+        .text: {[http://mycodesnippets.space/redlang/use.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/use.red)
         }
-        .Published-Url: http://mycodesnippets.space/use
+        .Published-Url: http://mycodesnippets.space/redlang/use
     ]    
     
     use: [

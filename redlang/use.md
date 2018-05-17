@@ -4,7 +4,7 @@
 
 ### ReAdABLE Source
 
-[http://mycodesnippets.space/use.red](https://github.com/lepinekong/mycodesnippets/blob/master/use.red)
+[http://mycodesnippets.space/redlang/use.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/use.red)
 
 
 ### use
@@ -19,7 +19,7 @@ do bind body make object! collect [
     forall locals [keep to set-word! locals/1]
     keep none
 ]
-
+        
 ```
 
 
