@@ -24,6 +24,12 @@ Article: [
         }        
     ] 
 
+    Redlang: [
+        .title: {Redlang}
+        .text: {[Some usefull Redlang snippets](./redlang/)
+        }        
+    ]     
+
     VSCode: [
         .title: {VSCode}
         .text: {[A samples of general VSCode Snippets](./vscode/)

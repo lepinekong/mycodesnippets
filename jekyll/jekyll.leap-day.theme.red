@@ -16,10 +16,15 @@ Article: [
     jekyll.leap-day.theme: [
 
         .title: {jekyll.leap-day.theme}
+        .text: {put the code below in _config.yml:}
         .code: {
             theme: jekyll-theme-leap-day
             title: Welcome to 
             description:                            
+        }
+        .text: {put this code in _layout\default.html:}
+        .code: {
+            
         }
     ]
 ]

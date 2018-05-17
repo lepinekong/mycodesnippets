@@ -12,29 +12,38 @@ Article: [
         }
     ]
 
-    vscode.markdown-gen: [
-        .title: {VSCode Snippet for markdown-gen}
-        .text: {[vscode.markdown-gen](./vscode.markdown-gen)
-        }        
-    ]
-
-    vscode.markdown-index: [
-        .title: {vscode snippet for ReAdABLE index skeleton}
-        .text: {[vscode.markdown-index](./vscode.markdown-index)
-        }
+    vscode.readable.rendering: [
+        .title: "Rendering Markdown"
+        .text: {VSCode Snippets for rendering ReAdABLE Human Format in Markdown (and other formats in the future):}
+        .links: [
+            "markdown-gen" %./vscode.markdown-gen
+        ]
     ]    
 
-    vscode.readable.tracing: [
-        .title: {VSCode Snippet  for do-trace}
-        .text: {[vscode.readable.tracing](./vscode.readable.tracing)
-        }        
+    vscode.readable.page.index: [
+        .title: "Page Index Generator"
+        .text: {VSCode Snippets for generating a page index in ReAdABLE Human Format:}
+        .links: [
+            "markdown-index" %./vscode.markdown-index
+        ]
     ]
 
     vscode.mycodesnippets: [
-        .title: {VSCode Snippet for mycodesnippets}
-        .text: {[vscode.mycodesnippets](./vscode.mycodesnippets)
-        }
+        .title: "KMS Content Skeleton"
+        .text: {VSCode Snippet to create content skeleton for Knowledge Management System Blog:}
+        .links: [
+            "myMementos" %./vscode.mymementos
+            "myCodeSnippets" %./vscode.mycodesnippets
+        ]
     ]
+
+    vscode.readable.tracing: [
+        .title: "Debugging Utility"
+        .text: {VSCode Snippet for developers who can use do-trace for debugging}
+        .links: [
+            "do-trace" %./vscode.readable.tracing
+        ]      
+    ]    
 ]
 
 ; files: read %.
@@ -46,5 +55,9 @@ Article: [
 ;     ]
 ; ]
 
-do read http://readablehumanformat.com/lib.red
+; do read http://readablehumanformat.com/lib.red
+; markdown-gen
+
+do to-red-file
+{C:\rebol\.system.user\.data\.activities\MyProjects\ReAdable.Format\lib\ReAdABLE.Human.Format.lib.red}
 markdown-gen

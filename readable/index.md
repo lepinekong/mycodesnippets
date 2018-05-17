@@ -5,22 +5,28 @@
 [ReAdABLE Human Format](http://readablehumanformat.com) is an easy format to generate markdown with better semantics and more automation capability.
 
 
-### VSCode Snippet for markdown-gen
+### Rendering Markdown
 
-[vscode.markdown-gen](./vscode.markdown-gen)
+VSCode Snippets for rendering ReAdABLE Human Format in Markdown (and other formats in the future):
+- [markdown-gen](./vscode.markdown-gen)
+                        
 
+### Page Index Generator
 
-### vscode snippet for ReAdABLE index skeleton
+VSCode Snippets for generating a page index in ReAdABLE Human Format:
+- [markdown-index](./vscode.markdown-index)
+                        
 
-[vscode.markdown-index](./vscode.markdown-index)
+### KMS Content Skeleton
 
+VSCode Snippet to create content skeleton for Knowledge Management System Blog:
+- [myMementos](./vscode.mymementos)
+                        
+- [myCodeSnippets](./vscode.mycodesnippets)
+                        
 
-### VSCode Snippet  for do-trace
+### Debugging Utility
 
-[vscode.readable.tracing](./vscode.readable.tracing)
-
-
-### VSCode Snippet for mycodesnippets
-
-[vscode.mycodesnippets](./vscode.mycodesnippets)
-
+VSCode Snippet for developers who can use do-trace for debugging
+- [do-trace](./vscode.readable.tracing)
+                        

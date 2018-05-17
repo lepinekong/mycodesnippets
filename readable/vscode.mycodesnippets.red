@@ -50,13 +50,14 @@ Article: [
         }
         .text: {Note: generate it with Easy Snippet and below code: }
         .code: {
+
             Red [
-                Title: ""
+                Title: "{TM_FILENAME:default}"
             ]
 
             Article: [
 
-                Title: {}
+                Title: {{TM_FILENAME_BASE:default}}
 
                 Source: [
                     .title: {ReAdABLE Source}
@@ -67,15 +68,20 @@ Article: [
                 
                 {TM_FILENAME_BASE:default}: [
 
-                    .title: {}
+                    .title: {{TM_FILENAME_BASE:default}}
                     .code: {
-                                        
+
                     }
                 ]
-            ]            
+            ]
+
+            do read http://readablehumanformat.com/lib.red
+            markdown-gen            
+
         }
     ]
 ]
 
 do read http://readablehumanformat.com/lib.red
 markdown-gen
+
