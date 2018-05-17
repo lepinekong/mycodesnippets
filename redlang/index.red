@@ -8,7 +8,10 @@ Article: [
 
     utilities: [
         .title: {general utility functions}
-        .text: {[use function](./use)}       
+        .links: [
+            "use function" %./use
+        ]
+
     ]
 
 ]

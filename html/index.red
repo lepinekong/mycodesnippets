@@ -8,7 +8,9 @@ Article: [
 
     html5: [
         .title: {Html5 Blank Snippet}
-        .text: {[html5](./html5)}       
+        .links: [
+            "html5" %./html5
+        ]      
     ]
 
 ]

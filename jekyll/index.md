@@ -4,4 +4,5 @@
 
 ### Jekyll Themes
 
-[leap-day theme](./jekyll.leap-day.theme)
+- [leap-day theme](./jekyll.leap-day.theme)
+                        

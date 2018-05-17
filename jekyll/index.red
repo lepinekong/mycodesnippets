@@ -8,7 +8,9 @@ Article: [
 
     Jekyll-Themes: [
         .title: {Jekyll Themes}
-        .text: {[leap-day theme](./jekyll.leap-day.theme)}       
+        .links: [
+            "leap-day theme" %./jekyll.leap-day.theme
+        ]     
     ]
 
 ]
