@@ -27,6 +27,13 @@ Article: [
         ]      
     ]
 
+    Python: [
+        .title: {Python}
+        .links: [
+            "Code Snippets for Python" %./python/
+        ]      
+    ]    
+
     ReAdABLE: [
         .title: {ReAdABLE}
         .links: [

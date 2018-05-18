@@ -17,6 +17,11 @@
 - [Code Snippets for Jekyll](./jekyll/)
                         
 
+### Python
+
+- [Code Snippets for Python](./python/)
+                        
+
 ### ReAdABLE
 
 - [Some usefull VSCode snippets for ReAdABLE Human Format](./readable/)
