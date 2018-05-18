@@ -6,3 +6,6 @@
 
 [http://mycodesnippets.space/python/index.red](https://github.com/lepinekong/mycodesnippets/blob/master/python/index.red)
 
+
+### Python
+

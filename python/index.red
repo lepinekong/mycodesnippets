@@ -12,17 +12,16 @@ Article: [
         }
         .Published-Url: http://mycodesnippets.space/python/index
     ]    
-    
-    index: [
 
-        category-1: [
-            .title: {Python}
-            .links: [
-                {Tweet image in Python} #./python.tweet.image
-            ]      
-        ]
+    Tweeter-API: [
+        .title: {Python}
+        .link: [
+            {Tweet image in Python} #./python.tweet.image
+        ]      
     ]
+    
 ]
 
-do read http://readablehumanformat.com/lib.red
+do to-red-file
+{C:\rebol\.system.user\.data\.activities\MyProjects\ReAdable.Format\lib\ReAdABLE.Human.Format.lib.red}
 markdown-gen

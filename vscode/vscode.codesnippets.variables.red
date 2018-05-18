@@ -33,13 +33,20 @@ Article: [
             do-trace 757 [
                 ??
             ] %ReAdABLE.Human.Format.lib.red            
-        }        
+        }    
+
+        .text: {Other usefull variables for date:}
+        .code: {
+            ${CURRENT_YEAR_SHORT:default}.${CURRENT_MONTH:default}.${CURRENT_DATE:default}
+        }    
         .text: {Reference Guide: }
 
         .link: [
             https://code.visualstudio.com/docs/editor/userdefinedsnippets
             "Creating your own snippets - code.visualstudio.com"
         ]
+
+
     ]
 ]
 
