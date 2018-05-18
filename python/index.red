@@ -16,7 +16,7 @@ Article: [
     Tweeter-API: [
         .title: {Python}
         .link: [
-            {Tweet image in Python} #./python.tweet.image
+            {Tweet image in Python} %./python.tweet.image
         ]      
     ]
     
