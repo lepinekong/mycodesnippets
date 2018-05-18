@@ -9,5 +9,5 @@
 
 ### Python
 
-- [Tweet image in Python . python.tweet.image](Tweet image in Python . python.tweet.image)
+- [Tweet image in Python](./python.tweet.image)
                         
