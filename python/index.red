@@ -22,6 +22,5 @@ Article: [
     
 ]
 
-do to-red-file
-{C:\rebol\.system.user\.data\.activities\MyProjects\ReAdable.Format\lib\ReAdABLE.Human.Format.lib.red}
+do read http://readablehumanformat.com/lib.red
 markdown-gen
