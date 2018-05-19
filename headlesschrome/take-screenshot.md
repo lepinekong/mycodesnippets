@@ -10,8 +10,9 @@
 [http://mycodesnippets.space/headlesschrome/take-screenshot.red](https://github.com/lepinekong/mycodesnippets/blob/master/headlesschrome/take-screenshot.red)
 
 
-### In command line type for example:
+### using --screenshot=somepath
 
+In command line type for example:
 
 
 ```
@@ -21,15 +22,23 @@
 ```
 
 
-to specify size use --window-size=width,height:
+
+### with --window-size=width,height:
+
+type for example --window-size=1280,1696:
 
 
 ```
 
-            chrome --headless --disable-gpu --screenshot="C:\test\screen.png" --window-size=1280,1696 "http://mycodesnippets.space/"
+            chrome --window-size=1280,1696 --screenshot="C:\test\screen.png" --headless --disable-gpu "http://mycodesnippets.space/"
         
 ```
 
 
 ![https://i.imgur.com/GKVgUSR.png](https://i.imgur.com/GKVgUSR.png)
                     
+
+### References:
+
+- [developers.google.com](https://developers.google.com/web/updates/2017/04/headless-chrome)
+                        

@@ -16,17 +16,30 @@ Article: [
     
     take-screenshot: [
 
-        .title: {In command line type for example:}
+        .title: {using --screenshot=somepath}
+        .text: {In command line type for example:}
         .code: {
             chrome --headless --disable-gpu --screenshot="C:\test\screen.png" "http://mycodesnippets.space/"
         }
         .note: {Don't forget to specify a path or it may not work.}
-        .text: {to specify size use --window-size=width,height:}
+    ]
+
+    take-screenshot: [
+
+        .title: {with --window-size=width,height:}
+        .text: {type for example --window-size=1280,1696:}
         .code: {
-            chrome --headless --disable-gpu --screenshot="C:\test\screen.png" --window-size=1280,1696 "http://mycodesnippets.space/"
+            chrome --window-size=1280,1696 --screenshot="C:\test\screen.png" --headless --disable-gpu "http://mycodesnippets.space/"
         }
         .image: https://i.imgur.com/GKVgUSR.png
-    ]
+    ] 
+
+    References: [
+        .title: {References:}
+        .links: [
+            "developers.google.com" https://developers.google.com/web/updates/2017/04/headless-chrome
+        ]
+    ]   
 ]
 
 do read http://readablehumanformat.com/lib.red
