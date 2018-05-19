@@ -32,8 +32,10 @@ Article: [
         .title: "KMS Content Skeleton"
         .text: {VSCode Snippet to create content skeleton for Knowledge Management System Blog:}
         .links: [
+            "myCodeSnippets" %./vscode.mycodesnippets 
+            "myBookmarks" %./vscode.mybookmarks              
             "myMementos" %./vscode.mymementos
-            "myCodeSnippets" %./vscode.mycodesnippets
+
         ]
     ]
 

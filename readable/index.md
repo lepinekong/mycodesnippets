@@ -20,9 +20,11 @@ VSCode Snippets for generating a page index in ReAdABLE Human Format:
 ### KMS Content Skeleton
 
 VSCode Snippet to create content skeleton for Knowledge Management System Blog:
-- [myMementos](./vscode.mymementos)
-                        
 - [myCodeSnippets](./vscode.mycodesnippets)
+                        
+- [myBookmarks](./vscode.mybookmarks)
+                        
+- [myMementos](./vscode.mymementos)
                         
 
 ### Debugging Utility
