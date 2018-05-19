@@ -4,5 +4,5 @@
 
 ### Take Screenshot with Headless Chrome
 
-- [Basic Screenshot (troubleshootings)](./take.screenshot)
+- [Basic Screenshot (troubleshootings)](./take-screenshot)
                         

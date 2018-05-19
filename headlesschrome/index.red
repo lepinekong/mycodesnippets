@@ -16,7 +16,7 @@ Index: [
     Screenshots: [
         .title: {Take Screenshot with Headless Chrome}
         .links: [
-            {Basic Screenshot (troubleshootings)} %./take.screenshot
+            {Basic Screenshot (troubleshootings)} %./take-screenshot
         ]    
     ]
 
