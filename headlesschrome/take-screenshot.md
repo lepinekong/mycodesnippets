@@ -27,7 +27,7 @@ type for example --window-size=1280,1696:
 
 ```
 
-chrome --window-size=1280,1696 --screenshot="C:\test\screen.png" --headless --disable-gpu "http://mycodesnippets.space/"
+chrome --window-size=1280,1696 --screenshot="C:\test\screen.png" "http://mybookmarks.space/" --headless --disable-gpu 
         
 ```
 

@@ -28,7 +28,7 @@ chrome --headless --disable-gpu --screenshot="C:\test\screen.png" "http://mycode
         .title: {with --window-size=width,height:}
         .text: {type for example --window-size=1280,1696:}
         .code: {
-chrome --window-size=1280,1696 --screenshot="C:\test\screen.png" --headless --disable-gpu "http://mycodesnippets.space/"
+chrome --window-size=1280,1696 --screenshot="C:\test\screen.png" "http://mybookmarks.space/" --headless --disable-gpu 
         }
         .image: https://i.imgur.com/GKVgUSR.png
     ] 
