@@ -3,16 +3,16 @@ Red [
     Title: "vscode.mycodesnippets"
 ]
 
+Source: [
+    .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
+    .text: {[http://readablehumanformat.com/{TM_FILENAME:default}](https://github.com/lepinekong/readablehumanformat/blob/master/{TM_FILENAME:default})
+    }
+    .Published-Url: http://readablehumanformat.com/{TM_FILENAME_BASE:default}
+]
+
 Article: [
 
-    Title: {vscode.mycodesnippets}
-
-    Source: [
-        .title: {ReAdABLE Source}
-        .text: {[http://mycodesnippets.space/vscode.mycodesnippets.red](https://github.com/lepinekong/mycodesnippets/blob/master/vscode.mycodesnippets.red)
-        }
-        .Published-Url: http://mycodesnippets.space/vscode.mycodesnippets
-    ]    
+    Title: {vscode.mycodesnippets}  
     
     vscode.mycodesnippets: [
 
@@ -22,7 +22,7 @@ Article: [
                 "prefix": "mycodesnippets",
                 "body": [
                     "Red [\r",
-                    "    Title: \"${TM_FILENAME_BASE:default}\"\r",
+                    "    Title: \"${TM_FILENAME:default}\"\r",
                     "]\r",
                     "\r",
                     "Article: [\r",
@@ -30,25 +30,32 @@ Article: [
                     "    Title: {${TM_FILENAME_BASE:default}}\r",
                     "\r",
                     "    Source: [\r",
-                    "        .title: {ReAdABLE Source}\r",
-                    "        .text: {[http://mycodesnippets.space/${TM_FILENAME:default}](https://github.com/lepinekong/mycodesnippets/blob/master/${TM_FILENAME:default})\r",
+                    "        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}\r",
+                    "        .text: {[http://mycodesnippets.space/${1:category}/${TM_FILENAME:default}](https://github.com/lepinekong/mycodesnippets/blob/master/${1:category}/${TM_FILENAME:default})\r",
                     "        }\r",
-                    "        .Published-Url: http://mycodesnippets.space/${TM_FILENAME_BASE:default}\r",
+                    "        .Published-Url: http://mycodesnippets.space/${1:category}/${TM_FILENAME_BASE:default}\r",
                     "    ]    \r",
                     "    \r",
                     "    ${TM_FILENAME_BASE:default}: [\r",
                     "\r",
-                    "        .title: {${TM_FILENAME_BASE:default}}\r",
+                    "        .title: {Paste this snippet in red User.Snippets (don’t forget the “,” separator):}\r",
                     "        .code: {\r",
-                    "            \t            \r",
+                    "\r",
+                    "        }\r",
+                    "        .title: {If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):}\r",
+                    "        .code: {\r",
+                    "            \r",
                     "        }\r",
                     "    ]\r",
-                    "]"
+                    "]\r",
+                    "\r",
+                    "do read http://readablehumanformat.com/lib.red\r",
+                    "markdown-gen "
                 ],
                 "description": "mycodesnippets"
-            }                            
+            }                           
         }
-        .text: {Note: generate it with Easy Snippet and below code: }
+        .text: {If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):}
         .code: {
 
             Red [
@@ -60,15 +67,19 @@ Article: [
                 Title: {{TM_FILENAME_BASE:default}}
 
                 Source: [
-                    .title: {ReAdABLE Source}
-                    .text: {[http://mycodesnippets.space/{TM_FILENAME:default}](https://github.com/lepinekong/mycodesnippets/blob/master/{TM_FILENAME:default})
+                    .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
+                    .text: {[http://mycodesnippets.space/{1:category}/{TM_FILENAME:default}](https://github.com/lepinekong/mycodesnippets/blob/master/{1:category}/{TM_FILENAME:default})
                     }
-                    .Published-Url: http://mycodesnippets.space/{TM_FILENAME_BASE:default}
+                    .Published-Url: http://mycodesnippets.space/{1:category}/{TM_FILENAME_BASE:default}
                 ]    
                 
                 {TM_FILENAME_BASE:default}: [
 
-                    .title: {{TM_FILENAME_BASE:default}}
+                    .title: {Paste this snippet in red User.Snippets (don’t forget the “,” separator):}
+                    .code: {
+
+                    }
+                    .title: {If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):}
                     .code: {
 
                     }
@@ -84,4 +95,6 @@ Article: [
 
 do read http://readablehumanformat.com/lib.red
 markdown-gen
+
+
 
