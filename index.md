@@ -7,6 +7,11 @@
 - [Code Snippets for Bootstrap](./bootstrap/)
                         
 
+### Headless Chrome
+
+- [Code Snippets for Headless Chrome](./headlesschrome/)
+                        
+
 ### Html
 
 - [Code Snippets for Html](./html/)

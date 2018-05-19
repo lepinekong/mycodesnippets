@@ -79,7 +79,7 @@ Article: [
                     .code: {
 
                     }
-                    .title: {If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):}
+                    .title: {If you need to recreate it with [Easy Snippet](), start with this snippet (don’t forget to add $ in front of variables):}
                     .code: {
 
                     }

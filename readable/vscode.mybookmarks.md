@@ -26,7 +26,7 @@
 ```
 
             Red [
-Title: "{TM_FILENAME:default}"
+Title: "{1:Title}"
             ]
 
             Bookmarks: [
@@ -45,7 +45,7 @@ Source: [
     .title: {{3:Sub-Category-1}} 
     ; remove /no-embed-youtube to embed youtube videos
     .links/no-embed-youtube: [
-        Google http://google.com
+        {4:Google} {5:http://google.com}
         {The amazing story of Modern Japan} https://www.youtube.com/watch?v=GHvnIm9UEoQ
     ] 
 ]

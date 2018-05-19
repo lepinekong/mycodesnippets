@@ -11,7 +11,14 @@ Article: [
         .links: [
             "Code Snippets for Bootstrap" %./bootstrap/
         ]
-    ]    
+    ]  
+
+    Headless-Chrome: [
+        .title: {Headless Chrome}
+        .links: [
+            "Code Snippets for Headless Chrome" %./headlesschrome/
+        ]
+    ]      
 
     Html: [
         .title: {Html}
