@@ -9,7 +9,7 @@
 
 ### vscode.markdown-index
 
-Copy and paste this snippet in red.json (don't forget the "," separator):
+Paste this snippet in red User.Snippets (don't forget the "," separator):
 
 
 ```
@@ -18,23 +18,31 @@ Copy and paste this snippet in red.json (don't forget the "," separator):
 "prefix": "markdown-index",
 "body": [
     "Red [\r",
-    "    Title: \"index.red\"\r",
+    "    Title: \"${TM_DIRECTORY:default}\"\r",
+    "]\r",
+    "\r",
+    "Source: [\r",
+    "    .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}\r",
+    "    .text: {[http://${1:domainname-wo-extension}.${2:domainname-extension}/${TM_FILENAME:default}](https://github.com/lepinekong/${1:domainname-wo-extension}/blob/master/${TM_FILENAME:default})\r",
+    "    }\r",
+    "    .Published-Url: http://${1:domainname-wo-extension}.${2:domainname-extension}/${TM_FILENAME_BASE:default}\r",
     "]\r",
     "\r",
     "Article: [\r",
     "\r",
-    "    Title: {}\r",
+    "    Title: {Index of ${TM_DIRECTORY:default}}\r",
     "\r",
-    "    Category-1: [\r",
-    "        .title: {}\r",
-    "        .text: {[](./)}       \r",
+    "    {2:caption}: [\r",
+    "        .title: {${3:title}}\r",
+    "        .text: {[${4:caption}](./${5:filenamewithoutextension})}   \r",
+    "        ; remove /no-embed-youtube to embed youtube videos\r",
+    "        .links/no-embed-youtube: [\r",
+    "            Google http://google.com\r",
+    "            {The amazing story of Modern Japan} https://www.youtube.com/watch?v=GHvnIm9UEoQ\r",
+    "        ]    \r",
     "    ]\r",
     "\r",
-    "]\r",
-    "\r",
-    "\r",
-    "do read http://readablehumanformat.com/lib.red\r",
-    "markdown-gen"
+    "]  "
 ],
 "description": "markdown-index"
 }            
@@ -42,22 +50,35 @@ Copy and paste this snippet in red.json (don't forget the "," separator):
 ```
 
 
-If you need to recreate it with Easy Snippet, start with this snippet: 
+If you need to recreate it with Easy Snippet, start with this snippet 
+(don't forget to add $ in front of variables): 
 
 
 ```
 
 Red [
 Title: "{TM_DIRECTORY:default}"
-]
+            ]
 
-Article: [
+            Source: [
+.title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
+.text: {[http://{1:domainname-wo-extension}.{2:domainname-extension}/{TM_FILENAME:default}](https://github.com/lepinekong/{1:domainname-wo-extension}/blob/master/{TM_FILENAME:default})
+}
+.Published-Url: http://{1:domainname-wo-extension}.{2:domainname-extension}/{TM_FILENAME_BASE:default}
+            ]
+            
+            Article: [
 
-Title: {Index of {TM_DIRECTORY:default} code snippets}
+Title: {Index of {TM_DIRECTORY:default}}
 
 {2:caption}: [
-    .title: {{1:title}}
-    .text: {[{2:caption}](./{3:filenamewithoutextension})}       
+    .title: {{3:title}}
+    .text: {[{4:caption}](./{5:filenamewithoutextension})}   
+    ; remove /no-embed-youtube to embed youtube videos
+    .links/no-embed-youtube: [
+        Google http://google.com
+        {The amazing story of Modern Japan} https://www.youtube.com/watch?v=GHvnIm9UEoQ
+    ]    
 ]
 
 ]
