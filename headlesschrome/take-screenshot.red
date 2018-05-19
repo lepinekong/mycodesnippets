@@ -18,10 +18,14 @@ Article: [
 
         .title: {In command line type for example:}
         .code: {
-            chrome --headless --disable-gpu --screenshot="C:\rebol\.system\mybookmarks.png" "http://mybookmarks.space/"
+            chrome --headless --disable-gpu --screenshot="C:\test\screen.png" "http://mycodesnippets.space/"
         }
         .note: {Don't forget to specify a path or it may not work.}
-
+        .text: {to specify size use --window-size=width,height:}
+        .code: {
+            chrome --headless --disable-gpu --screenshot="C:\test\screen.png" --window-size=1280,1696 "http://mycodesnippets.space/"
+        }
+        .image: https://i.imgur.com/GKVgUSR.png
     ]
 ]
 

@@ -1,5 +1,5 @@
 Red [
-    Title: "c:\rebol\.system.user\.data\.activities\myCodeSnippets\headlesschrome"
+    Title: "headlesschrome"
 ]
 
 Source: [
