@@ -9,14 +9,14 @@
 
 ### jekyll.leap-day.theme
 
-put the code below in _config.yml:
+put the code below in _config.yml (be carefull no tabs):
 
 
 ```
 
-            theme: jekyll-theme-leap-day
-            title: Welcome to 
-            description:            
+theme: jekyll-theme-leap-day
+title: Welcome to 
+description:            
         
 ```
 
@@ -30,11 +30,11 @@ To automate this update, you can use this _config.red script:
 Title: "_config.red"
             ]
 
-            ; customize for your own blog:
-            blog-properties: {
-            title: Welcome to My Bookmarks
-            description: MyBookmarks.Space
-            }
+            ; customize for your own blog (do not add tabs):
+blog-properties: {
+title: Welcome to My Bookmarks
+description: MyBookmarks.Space
+}
 
             ;instead of these two lines of code
             ;config-file: %_config.yml
