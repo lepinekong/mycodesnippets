@@ -30,6 +30,7 @@ chrome --headless --disable-gpu --screenshot="C:\test\screen.png" "http://mycode
         .code: {
 chrome --window-size=1280,1696 --screenshot="C:\test\screen.png" "http://mybookmarks.space/" --headless --disable-gpu 
         }
+        .text: {output:}
         .image: https://i.imgur.com/GKVgUSR.png
     ] 
 

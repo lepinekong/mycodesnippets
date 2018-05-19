@@ -32,6 +32,7 @@ chrome --window-size=1280,1696 --screenshot="C:\test\screen.png" "http://mybookm
 ```
 
 
+output:
 ![https://i.imgur.com/GKVgUSR.png](https://i.imgur.com/GKVgUSR.png)
                     
 
