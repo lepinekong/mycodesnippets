@@ -26,8 +26,10 @@ Article: [
         }
         .title: {Examples:}
         .code: {
-            [1 2 3] | 'rejoin ; -> 123
-            "ABC" | 'lowercase ; abc            
+            ["A" "B" "C"] | 'rejoin ; "ABC"
+            "ABC" | 'lowercase ; "abc"
+
+            ["A" "B" "C"] | 'rejoin | 'lowercase ; "abc"           
         }
         .title: {References}
         .link: [
