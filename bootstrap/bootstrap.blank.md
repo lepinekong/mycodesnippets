@@ -4,7 +4,7 @@
 
 ### ReAdABLE Source
 
-[http://mycodesnippets.space/bootstrap.blank.red](https://github.com/lepinekong/mycodesnippets/blob/master/bootstrap.blank.red)
+[http://mycodesnippets.space/bootstrap/bootstrap.blank.red](https://github.com/lepinekong/mycodesnippets/blob/master/bootstrap/bootstrap.blank.red)
 
 
 ### bootstrap.blank

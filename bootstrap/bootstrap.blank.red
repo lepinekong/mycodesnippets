@@ -8,9 +8,9 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source}
-        .text: {[http://mycodesnippets.space/bootstrap.blank.red](https://github.com/lepinekong/mycodesnippets/blob/master/bootstrap.blank.red)
+        .text: {[http://mycodesnippets.space/bootstrap/bootstrap.blank.red](https://github.com/lepinekong/mycodesnippets/blob/master/bootstrap/bootstrap.blank.red)
         }
-        .Published-Url: http://mycodesnippets.space/bootstrap.blank
+        .Published-Url: http://mycodesnippets.space/bootstrap/bootstrap.blank
     ]    
     
     bootstrap.blank: [
