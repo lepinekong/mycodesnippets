@@ -26,6 +26,8 @@ VSCode Snippet to create content skeleton for Knowledge Management System Blog:
                         
 - [myMementos](./vscode.mymementos)
                         
+- [myItIssues bug](./vscode.myitissues.bug)
+                        
 
 ### Debugging Utility
 

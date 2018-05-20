@@ -35,7 +35,7 @@ Article: [
             "myCodeSnippets" %./vscode.mycodesnippets 
             "myBookmarks" %./vscode.mybookmarks              
             "myMementos" %./vscode.mymementos
-
+            "myItIssues bug" %./vscode.myitissues.bug
         ]
     ]
 
