@@ -14,11 +14,11 @@
 ```
 
 
-            pipe: function [x 'y] [
-value: get y value x
-            ] 
+pipe: function [x 'y] [
+    value: get y value x
+] 
 
-            |: make op! :pipe
+|: make op! :pipe
         
 ```
 
@@ -30,10 +30,10 @@ value: get y value x
 
 ```
 
-            ["A" "B" "C"] | 'rejoin ; "ABC"
-            "ABC" | 'lowercase ; "abc"
+["A" "B" "C"] | 'rejoin ; "ABC"
+"ABC" | 'lowercase ; "abc"
 
-            ["A" "B" "C"] | 'rejoin | 'lowercase ; "abc"           
+["A" "B" "C"] | 'rejoin | 'lowercase ; "abc"           
         
 ```
 
