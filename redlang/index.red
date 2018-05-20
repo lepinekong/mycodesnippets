@@ -6,13 +6,6 @@ Article: [
 
     Title: {Index of redlang code snippets}
 
-    functions: [
-        .title: {Tips}
-        .links: [
-            "creating operator" %./operator
-        ]        
-    ]
-
     utilities: [
         .title: {general utility functions}
         .links: [
@@ -20,6 +13,13 @@ Article: [
         ]
 
     ]
+
+    Tips: [
+        .title: {Tips}
+        .links: [
+            "creating operator" %./operator
+        ]        
+    ]    
 
 ]
 
