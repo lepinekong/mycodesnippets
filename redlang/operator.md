@@ -1,5 +1,5 @@
 
-# Creating an operator
+# Creating an operator in Redlang: pipe example
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
@@ -14,11 +14,11 @@
 ```
 
 
-pipe: function [x 'y] [
-    value: get y value x
-] 
+            pipe: function [x 'y] [
+value: get y value x
+            ] 
 
-|: make op! :pipe
+            |: make op! :pipe
         
 ```
 
@@ -30,10 +30,10 @@ pipe: function [x 'y] [
 
 ```
 
-["A" "B" "C"] | 'rejoin ; "ABC"
-"ABC" | 'lowercase ; "abc"
+            ["A" "B" "C"] | 'rejoin ; "ABC"
+            "ABC" | 'lowercase ; "abc"
 
-["A" "B" "C"] | 'rejoin | 'lowercase ; "abc"           
+            ["A" "B" "C"] | 'rejoin | 'lowercase ; "abc"           
         
 ```
 
