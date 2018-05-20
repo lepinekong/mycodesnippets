@@ -27,6 +27,13 @@ Article: [
         ]
     ]
 
+    Javascript: [
+        .title: {Javascript}
+        .links: [
+            "Code Snippets for Javascript" %./javascript/
+        ]
+    ]    
+
     Jekyll: [
         .title: {Jekyll}
         .links: [

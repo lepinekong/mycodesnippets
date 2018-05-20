@@ -17,6 +17,11 @@
 - [Code Snippets for Html](./html/)
                         
 
+### Javascript
+
+- [Code Snippets for Javascript](./javascript/)
+                        
+
 ### Jekyll
 
 - [Code Snippets for Jekyll](./jekyll/)
