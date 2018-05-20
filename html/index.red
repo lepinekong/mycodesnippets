@@ -14,10 +14,17 @@ Article: [
     ]    
 
     html5: [
-        .title: {Html5 Snippet}
+        .title: {Html5 Scaffolding}
         .links: [
             "Html5 Blank Snippet" %./html5
         ]      
+    ]
+
+    html-code-snippets: [
+        .title: {Html code snippets}
+        .links: [
+            {html star rating} %./star-rating
+        ]
     ]
 
 ]
