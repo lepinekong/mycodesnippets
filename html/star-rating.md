@@ -16,7 +16,7 @@
 "html-star-rating": {
     "prefix": "html-star-rating",
     "body": [
-        "<span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>"
+        "&middot; <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>"
     ],
     "description": "html-star-rating"
 }
@@ -31,7 +31,7 @@
 
 ```
 
-<span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>            
+&middot;<span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>            
         
 ```
 

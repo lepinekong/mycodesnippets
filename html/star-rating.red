@@ -20,14 +20,14 @@ Article: [
 "html-star-rating": {
     "prefix": "html-star-rating",
     "body": [
-        "<span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>"
+        "&middot; <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>"
     ],
     "description": "html-star-rating"
 }
         }
         .title: {If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):}
         .code: {
-<span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>            
+&middot;<span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>            
         }
     ]
 ]
