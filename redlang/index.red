@@ -19,7 +19,14 @@ Article: [
         .links: [
             "creating operator" %./operator
         ]        
-    ]    
+    ] 
+
+    Code-Generation: [
+        .title: {Code generation}
+        .links: [
+            "Reduce Insert idiom" %./reduce.insert
+        ]        
+    ]        
 
 ]
 

@@ -11,3 +11,8 @@
 
 - [creating operator](./operator)
                         
+
+### Code generation
+
+- [Reduce Insert idiom](./reduce.insert)
+                        
