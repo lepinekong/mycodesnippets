@@ -12,6 +12,23 @@ Article: [
         }
         .Published-Url: http://mycodesnippets.space/vscode.codesnippets.variables
     ]    
+
+    Variables-List: [
+        .title: {Most usefull variables I use: }
+        .code: {
+            - ${TM_FILENAME:default} (The filename of the current document)
+            - ${TM_FILENAME_BASE:default} (same as TM_FILENAME without extension)
+            - ${CURRENT_YEAR_SHORT:default} (The current year's last two digits)
+            - ${CURRENT_MONTH:default} (The month as two digits)
+            - ${CURRENT_DATE:default} (The day of the month)
+            - ${CURRENT_HOUR:default} (The current hour in 24-hour clock format)
+            - ${CURRENT_MINUTE:default} (The current minute)
+            - ${CURRENT_SECOND:default} (The current second)
+            - ${TM_LINE_NUMBER:default} (line number)
+        }
+        .text: {Full List below:}
+        .image: https://i.imgur.com/oinTKKP.png
+    ]
     
     Variables-Usage: [
 

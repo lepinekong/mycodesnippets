@@ -62,5 +62,4 @@ VSCode.Snippets: [
         }
         .description: {Html 5, you can choose the html lang: fr or en}
     ]
-
 ]
