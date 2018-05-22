@@ -13,6 +13,13 @@ Article: [
         ]
     ]  
 
+    Csharp: [
+        .title: {Csharp}
+        .links: [
+            "csharp" %./csharp/
+        ]
+    ]     
+
     Headless-Chrome: [
         .title: {Headless Chrome}
         .links: [
