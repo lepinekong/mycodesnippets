@@ -4,7 +4,7 @@
 
 ### Command-Lines
 
-- [Compile Csharp by Command-Line](./compile/)
+- [Compile Csharp by Command-Line](./compile)
                         
 
 ### Files-and-Categories

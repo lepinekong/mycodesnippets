@@ -33,6 +33,7 @@ Article: [
         .text: {VSCode Snippet to create content skeleton for Knowledge Management System Blog:}
         .links: [
             "myCodeSnippets" %./vscode.mycodesnippets 
+            "myCodeSnippets-Index" %./vscode.mycodesnippets-index
             "myBookmarks" %./vscode.mybookmarks              
             "myMementos" %./vscode.mymementos
             "myItIssues bug" %./vscode.myitissues.bug
@@ -60,6 +61,5 @@ Article: [
 ; do read http://readablehumanformat.com/lib.red
 ; markdown-gen
 
-do to-red-file
-{C:\rebol\.system.user\.data\.activities\MyProjects\ReAdable.Format\lib\ReAdABLE.Human.Format.lib.red}
+do read http://readablehumanformat.com/lib.red
 markdown-gen

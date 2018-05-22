@@ -16,7 +16,7 @@ Article: [
     Command-Lines: [
         .title: {Command-Lines}
         .links: [
-            "Compile Csharp by Command-Line" %./compile/
+            "Compile Csharp by Command-Line" %./compile
         ]
     ] 
 

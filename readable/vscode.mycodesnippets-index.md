@@ -1,22 +1,18 @@
-Red [
-    Title: "vscode.mycodesnippets-index.red"
-]
 
-Article: [
+# vscode.mycodesnippets-index
 
-    Title: {vscode.mycodesnippets-index}
 
-    Source: [
-        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/readable/vscode.mycodesnippets-index.red](https://github.com/lepinekong/mycodesnippets/blob/master/readable/vscode.mycodesnippets-index.red)
-        }
-        .Published-Url: http://mycodesnippets.space/readable/vscode.mycodesnippets-index
-    ]    
-    
-    vscode.mycodesnippets-index: [
+### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-        .title: {Paste this snippet in red User.Snippets (don’t forget the “,” separator):}
-        .code: {
+[http://mycodesnippets.space/readable/vscode.mycodesnippets-index.red](https://github.com/lepinekong/mycodesnippets/blob/master/readable/vscode.mycodesnippets-index.red)
+
+
+### Paste this snippet in red User.Snippets (don’t forget the “,” separator):
+
+
+
+```
+
     "mycodesnippets-index": {
         "prefix": "mycodesnippets-index",
         "body": [
@@ -50,9 +46,17 @@ Article: [
         ],
         "description": "mycodesnippets-index"
     }   
-        }
-        .title: {If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):}
-        .code: {
+        
+```
+
+
+
+### If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):
+
+
+
+```
+
 Red [
 Title: "{TM_DIRECTORY:default} Index"
             ]
@@ -80,9 +84,7 @@ Article: [
         
 do read http://readablehumanformat.com/lib.red
 markdown-gen            
-        }
-    ]
-]
+        
+```
 
-do read http://readablehumanformat.com/lib.red
-markdown-gen 
+
