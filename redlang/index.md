@@ -14,7 +14,7 @@
 
 ### GUI
 
-- [Barchart](./barchart.red)
+- [Barchart](./barchart)
                         
 
 ### Code generation

@@ -24,7 +24,7 @@ Article: [
     GUI: [
         .title: {GUI}
         .links: [
-            "Barchart" %./barchart.red
+            "Barchart" %./barchart
         ]
     ]
 
