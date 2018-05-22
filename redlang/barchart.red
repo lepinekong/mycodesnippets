@@ -36,7 +36,6 @@ Article: [
                 view win    
             ]
             barchart
-                
         }
     ]
 

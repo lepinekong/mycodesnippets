@@ -7,7 +7,7 @@
 [http://mycodesnippets.space/redlang/barchart.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/barchart.red)
 
 
-### Code
+### Code Snippet
 
 ![https://i.imgur.com/muwJRSS.png](https://i.imgur.com/muwJRSS.png)
                     
