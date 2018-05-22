@@ -7,7 +7,7 @@ Source: [
 .text: {[http://mycodesnippets.space/index.red](https://github.com/lepinekong/mycodesnippets/blob/master/index.red)
 }
 .Published-Url: http://mycodesnippets.space/index
-            ]
+]
             
 Article: [
 
@@ -24,7 +24,6 @@ Article: [
         .title: {Files-and-Categories} 
         .links: [
             {copy.files} %./copy.files
-
         ]    
     ]
 
