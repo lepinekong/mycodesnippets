@@ -58,14 +58,14 @@ Article: [
     Redlang: [
         .title: {Redlang}
         .links: [
-            "Some usefull Redlang snippets" %./redlang/
+            "Code Snippets for Redlang" %./redlang/
         ]    
     ]     
 
     VSCode: [
         .title: {VSCode}
         .links: [
-            "A samples of general VSCode Snippets" %./vscode/
+            "A sample of general VSCode Snippets" %./vscode/
         ]       
     ]       
 ]

@@ -39,10 +39,10 @@
 
 ### Redlang
 
-- [Some usefull Redlang snippets](./redlang/)
+- [Code Snippets for Redlang](./redlang/)
                         
 
 ### VSCode
 
-- [A samples of general VSCode Snippets](./vscode/)
+- [A sample of general VSCode Snippets](./vscode/)
                         
