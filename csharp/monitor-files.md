@@ -87,11 +87,7 @@ public class Watcher
 
 
 
-
-```
-VSCode Snippet
-```
-
+### VSCode Snippet
 
 Paste this snippet in red User.Snippets (don’t forget the “,” separator):
 

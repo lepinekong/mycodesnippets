@@ -89,7 +89,7 @@ public class Watcher
     ]
     
     monitor-file-creation: [
-        .code: {VSCode Snippet}
+        .title: {VSCode Snippet}
         .text: {Paste this snippet in red User.Snippets (don’t forget the “,” separator):}
         .code: {
 {
