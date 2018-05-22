@@ -28,7 +28,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:exefilename.exe Sou
     "csharp-compile": {
         "prefix": "csharp-compile",
         "body": [
-            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe /out:${1:exefilename}.exe ${2:SourceFilename}.cs Program.cs\r",
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe /out:${1:classname}.exe ${1:classname}.cs Program.cs\r",
             ""
         ],
         "description": "csharp-compile"
@@ -42,7 +42,7 @@ If you need to recreate it with Easy Snippet, start with this snippet (don’t f
 
 ```
 
-C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe /out:{1:exefilename}.exe {2:SourceFilename}.cs Program.cs   
+C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe /out:${1:classname}.exe ${1:classname}.cs Program.cs   
         
 ```
 
