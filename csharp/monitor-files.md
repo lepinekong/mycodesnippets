@@ -86,6 +86,16 @@ public class Watcher
 ```
 
 
+To compile:
+
+
+```bat
+
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:monitor-files.exe monitor-files.cs            
+        
+```
+
+
 
 ### VSCode Snippet
 
@@ -94,7 +104,7 @@ Paste this snippet in red User.Snippets (don’t forget the “,” separator):
 
 ```
 
-{
+
     "monitor-files": {
         "prefix": "monitor-files",
         "body": [
@@ -171,7 +181,7 @@ Paste this snippet in red User.Snippets (don’t forget the “,” separator):
         ],
         "description": "monitor-files"
     }
-}
+
         
 ```
 
