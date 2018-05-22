@@ -13,6 +13,13 @@ Article: [
 
     Title: {Index of csharp}
 
+        Command-Lines: [
+            .title: {Command-Lines}
+            .links: [
+                "Compile Csharp by Command-Line" %./compile/
+            ]
+        ] 
+
     Files-and-Categories: [
         .title: {Files-and-Categories} 
         .links: [
