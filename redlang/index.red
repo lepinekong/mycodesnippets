@@ -21,6 +21,13 @@ Article: [
         ]        
     ] 
 
+    GUI: [
+        .title: {GUI}
+        .links: [
+            "Barchart" %.barchart.red
+        ]
+    ]
+
     Code-Generation: [
         .title: {Code generation}
         .links: [

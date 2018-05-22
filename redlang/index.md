@@ -12,6 +12,11 @@
 - [creating operator](./operator)
                         
 
+### GUI
+
+- [Barchart](.barchart.red)
+                        
+
 ### Code generation
 
 - [Reduce Insert idiom](./reduce.insert)
