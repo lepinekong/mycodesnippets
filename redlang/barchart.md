@@ -1,5 +1,5 @@
 
-# Barchart in Red-lang
+# Barchart in [red-lang.org](http://red-lang.org)
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
@@ -7,7 +7,7 @@
 [http://mycodesnippets.space/redlang/barchart.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/barchart.red)
 
 
-### Quick barchart in [red-lang.org](http://red-lang.org)
+### Code
 
 ![https://i.imgur.com/muwJRSS.png](https://i.imgur.com/muwJRSS.png)
                     
@@ -15,7 +15,7 @@
 
 ```
 
-barchart: does [
+            barchart: does [
 data: copy []
 repeat i 12 [
     append data random 100
@@ -31,21 +31,21 @@ repeat i length? data [
     ]
 ]
 view win    
-]
-barchart
+            ]
+            barchart
 
         
 ```
 
 
 
-### Paste this snippet in red User.Snippets (don’t forget the “,” separator):
+### VSCode Snippet
 
 
 
 ```
 
-"barchart": {
+            "barchart": {
 "prefix": "barchart",
 "body": [
     "barchart: does [\r",
@@ -68,7 +68,7 @@ barchart
     "barchart"
 ],
 "description": "barchart"
-}
+            }
         
 ```
 

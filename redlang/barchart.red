@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {Barchart in Red-lang}
+    Title: {Barchart in [red-lang.org](http://red-lang.org)}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
@@ -15,7 +15,7 @@ Article: [
     
     barchart-redlang: [
 
-        .title: {Quick barchart in [red-lang.org](http://red-lang.org)}
+        .title: {Code}
         .image: https://i.imgur.com/muwJRSS.png
         .code: {
             barchart: does [
@@ -41,7 +41,7 @@ Article: [
     ]
 
     barchart-vscode: [
-        .title: {Paste this snippet in red User.Snippets (don’t forget the “,” separator):}
+        .title: {VSCode Snippet}
         .code: {
             "barchart": {
                 "prefix": "barchart",
