@@ -23,7 +23,8 @@ Article: [
     Files-and-Categories: [
         .title: {Files-and-Categories} 
         .links: [
-            {copy.files} %./copy.files
+            {Copy files} %./copy-files
+            {Monitor files} %./monitor-files
         ]    
     ]
 

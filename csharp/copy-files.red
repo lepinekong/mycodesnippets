@@ -1,18 +1,23 @@
+Red [
+    Title: "copy-files.red"
+    Categories: [Files-and-directories]
+]
 
-# copy.files
+Article: [
 
+    Title: {Copy files}
 
-### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
+    Source: [
+        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
+        .text: {[http://mycodesnippets.space/csharp/copy.files.red](https://github.com/lepinekong/mycodesnippets/blob/master/csharp/copy.files.red)
+        }
+        .Published-Url: http://mycodesnippets.space/csharp/copy.files
+    ]    
+    
+    Csharp-Code: [
 
-[http://mycodesnippets.space/csharp/copy.files.red](https://github.com/lepinekong/mycodesnippets/blob/master/csharp/copy.files.red)
-
-
-### Csharp code
-
-
-
-```csharp
-
+        .title: {Csharp code}
+        .code/csharp: {
 using System;
 using System.IO;
 
@@ -43,8 +48,8 @@ class DirectoryCopyExample
         if (!dir.Exists)
         {
             throw new DirectoryNotFoundException(
-"Source directory does not exist or could not be found: "
-+ sourceDirName);
+                "Source directory does not exist or could not be found: "
+                + sourceDirName);
         }
 
         DirectoryInfo[] dirs = dir.GetDirectories();
@@ -67,8 +72,8 @@ class DirectoryCopyExample
         {
             foreach (DirectoryInfo subdir in dirs)
             {
-string temppath = Path.Combine(destDirName, subdir.Name);
-DirectoryCopy(subdir.FullName, temppath, copySubDirs);
+                string temppath = Path.Combine(destDirName, subdir.Name);
+                DirectoryCopy(subdir.FullName, temppath, copySubDirs);
             }
 
         }
@@ -77,17 +82,13 @@ DirectoryCopy(subdir.FullName, temppath, copySubDirs);
 
     }
 }            
-        
-```
+        }
 
+    ]
 
-
-### VSCode Snippet
-
-
-
-```
-
+    VSCode-Snippet: [
+        .title: {VSCode Snippet}
+        .code: {
     "copy.files": {
         "prefix": "copy.files",
         "body": [
@@ -121,8 +122,8 @@ DirectoryCopy(subdir.FullName, temppath, copySubDirs);
             "        if (!dir.Exists)\r",
             "        {\r",
             "            throw new DirectoryNotFoundException(\r",
-            "\"Source directory does not exist or could not be found: \"\r",
-            "+ sourceDirName);\r",
+            "                \"Source directory does not exist or could not be found: \"\r",
+            "                + sourceDirName);\r",
             "        }\r",
             "\r",
             "        DirectoryInfo[] dirs = dir.GetDirectories();\r",
@@ -145,8 +146,8 @@ DirectoryCopy(subdir.FullName, temppath, copySubDirs);
             "        {\r",
             "            foreach (DirectoryInfo subdir in dirs)\r",
             "            {\r",
-            "string temppath = Path.Combine(destDirName, subdir.Name);\r",
-            "DirectoryCopy(subdir.FullName, temppath, copySubDirs);\r",
+            "                string temppath = Path.Combine(destDirName, subdir.Name);\r",
+            "                DirectoryCopy(subdir.FullName, temppath, copySubDirs);\r",
             "            }\r",
             "\r",
             "        }\r",
@@ -158,15 +159,10 @@ DirectoryCopy(subdir.FullName, temppath, copySubDirs);
         ],
         "description": "copy.files"
     }            
-        
-```
+        }
 
-
-made with Easy Snippet from:
-
-
-```
-
+        .text: {made with Easy Snippet from:}
+        .code: {
 using System;
 using System.IO;
 
@@ -197,8 +193,8 @@ class DirectoryCopyExample
         if (!dir.Exists)
         {
             throw new DirectoryNotFoundException(
-"Source directory does not exist or could not be found: "
-+ sourceDirName);
+                "Source directory does not exist or could not be found: "
+                + sourceDirName);
         }
 
         DirectoryInfo[] dirs = dir.GetDirectories();
@@ -221,8 +217,8 @@ class DirectoryCopyExample
         {
             foreach (DirectoryInfo subdir in dirs)
             {
-string temppath = Path.Combine(destDirName, subdir.Name);
-DirectoryCopy(subdir.FullName, temppath, copySubDirs);
+                string temppath = Path.Combine(destDirName, subdir.Name);
+                DirectoryCopy(subdir.FullName, temppath, copySubDirs);
             }
 
         }
@@ -230,8 +226,12 @@ DirectoryCopy(subdir.FullName, temppath, copySubDirs);
         Console.WriteLine("Files copied.");
 
     }
-}
-        
-```
+}                
+        }
+    ]
 
+]
+
+do read http://readablehumanformat.com/lib.red
+markdown-gen 
 
