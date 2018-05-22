@@ -17,7 +17,7 @@ Article: [
 
         .title: {Code}
         .image: https://i.imgur.com/muwJRSS.png
-        .code: {
+        .code/redcode: {
             barchart: does [
                 data: copy []
                 repeat i 12 [

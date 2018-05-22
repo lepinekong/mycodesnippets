@@ -55,7 +55,7 @@ Article: [
 
         .text: {If you need to recreate it with Easy Snippet, start with this snippet 
         (don't forget to add $ in front of variables): }
-        .code: {
+        .code/redcode: {
             Red [
                 Title: "{TM_DIRECTORY:default}"
             ]

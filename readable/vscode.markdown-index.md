@@ -14,7 +14,7 @@ Paste this snippet in red User.Snippets (don't forget the "," separator):
 
 ```
 
-"markdown-index": {
+            "markdown-index": {
 "prefix": "markdown-index",
 "body": [
     "Red [\r",
@@ -45,7 +45,7 @@ Paste this snippet in red User.Snippets (don't forget the "," separator):
     "]  "
 ],
 "description": "markdown-index"
-}            
+            }            
         
 ```
 
@@ -54,9 +54,9 @@ If you need to recreate it with Easy Snippet, start with this snippet
 (don't forget to add $ in front of variables): 
 
 
-```
+```redcode
 
-Red [
+            Red [
 Title: "{TM_DIRECTORY:default}"
             ]
 
@@ -81,7 +81,7 @@ Title: {Index of {TM_DIRECTORY:default}}
     ]    
 ]
 
-]
+            ]
         
 ```
 
