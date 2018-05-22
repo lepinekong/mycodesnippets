@@ -9,5 +9,7 @@
 
 ### Files-and-Categories
 
-- [copy.files](./copy.files)
+- [Copy files](./copy-files)
+                        
+- [Monitor files](./monitor-files)
                         
