@@ -48,6 +48,13 @@ Article: [
         ]      
     ]
 
+    Markdown: [
+        .title: {Markdown}
+        .links: [
+            "Code Snippets for Markdown" %./markdown/
+        ]      
+    ]
+
     Python: [
         .title: {Python}
         .links: [
