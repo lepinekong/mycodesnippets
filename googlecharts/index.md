@@ -1,5 +1,5 @@
 
-# Index of c:\rebol\.system.user\.data\.activities\myCodeSnippets\.github\googlecharts
+# Index of Google Charts
 
 
 ### XY-Charts

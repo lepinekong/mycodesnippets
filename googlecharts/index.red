@@ -1,5 +1,5 @@
 Red [
-Title: "c:\rebol\.system.user\.data\.activities\myCodeSnippets\.github\googlecharts"
+Title: "googlecharts"
             ]
 
 Source: [
@@ -11,7 +11,7 @@ Source: [
             
 Article: [
 
-    Title: {Index of c:\rebol\.system.user\.data\.activities\myCodeSnippets\.github\googlecharts}
+    Title: {Index of Google Charts}
 
     XY-Charts: [
         .title: {XY-Charts} 
