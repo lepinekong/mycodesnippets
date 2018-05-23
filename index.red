@@ -20,6 +20,13 @@ Article: [
         ]
     ]     
 
+    Google-Charts: [
+        .title: {Google-Charts}
+        .links: [
+            "googlecharts" %./googlecharts
+        ]
+    ] 
+
     Headless-Chrome: [
         .title: {Headless Chrome}
         .links: [
