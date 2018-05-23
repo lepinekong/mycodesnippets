@@ -83,9 +83,3 @@ do-trace: :.do-trace
 
 do read http://readablehumanformat.com/lib.red
 markdown-gen 
-
-test: "test"
-do read http://redlang.red/do-trace
-do-trace 88 [
-    ?? test
-] %do-trace.red

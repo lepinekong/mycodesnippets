@@ -6,6 +6,8 @@
 
 - [use function](./use)
                         
+- [do-trace](./do-trace)
+                        
 
 ### Tips
 
