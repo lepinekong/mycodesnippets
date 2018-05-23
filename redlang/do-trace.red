@@ -15,7 +15,7 @@ Article: [
     
     do-trace: [
 
-        .title: {Source Code:}
+        .title: {Source Code}
         .code: {
 .do-trace: function [.line-number [integer!] '.block [word! block! unset!] .file [file! url! string!]
 /filter that-contains [string! file! url!]
@@ -81,5 +81,5 @@ do-trace: :.do-trace
     ]
 ]
 
-do read http://readablehumanformat.com/lib.red
+do read http://redlang.red/readable
 markdown-gen 
