@@ -82,36 +82,29 @@ analyze-code: :.analyze-code
         }
         .title: {VSCode Snippet to use it:}
         .code: {
-"list-funcs": {
-    "prefix": "list-funcs",
-    "body": [
-        "do read %../do-trace.red\r",
-        "do read %../code.analyze.red\r",
-        ".list-funcs {1:red-file-path-or-url} "
-    ],
-    "description": "list-funcs"
-}          
+{
+    "code-analyze": {
+        "prefix": "code-analyze",
+        "body": [
+            "do read %../do-trace.red\r",
+            "do read %../code.analyze.red\r",
+            "list-funcs ${1:red-file-path-or-url}  \r",
+            "get-func-body ${2:func-name} {1:red-file-path-or-url}  "
+        ],
+        "description": "code-analyze"
+    }
+}         
         }
         .text: {to recreate it with Easy Snippet:}
         .code: {
 do read %../do-trace.red
 do read %../code.analyze.red
-.list-funcs {1:red-file-path-or-url}             
+list-funcs {1:red-file-path-or-url}  
+get-func-body {2:func-name} {1:red-file-path-or-url}          
         }
     ]
 ]
 
+
 do read http://readablehumanformat.com/lib.red
 markdown-gen 
-
-{
-    "list-funcs": {
-        "prefix": "list-funcs",
-        "body": [
-            "do read %../do-trace.red\r",
-            "do read %../code.analyze.red\r",
-            ".list-funcs {1:red-file-path-or-url} "
-        ],
-        "description": "list-funcs"
-    }
-}
