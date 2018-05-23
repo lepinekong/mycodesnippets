@@ -28,6 +28,13 @@ Article: [
         ]
     ]
 
+    Code-Documentation: [
+        .title: {Code Documentation}
+        .links: [
+            "Code Analyze" %./code.analyze
+        ]        
+    ]     
+
     Code-Generation: [
         .title: {Code generation}
         .links: [

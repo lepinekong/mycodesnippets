@@ -17,6 +17,11 @@
 - [Barchart](./barchart)
                         
 
+### Code Documentation
+
+- [Code Analyze](./code.analyze)
+                        
+
 ### Code generation
 
 - [Reduce Insert idiom](./reduce.insert)

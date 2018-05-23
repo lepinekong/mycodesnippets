@@ -4,5 +4,7 @@
         "screenshot",
         "somepath",
         "yu"
-    ]
+    ],
+    "favorites.sortDirection": "ASC",
+    "favorites.groupsFirst": true
 }
