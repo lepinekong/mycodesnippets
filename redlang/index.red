@@ -10,6 +10,7 @@ Article: [
         .title: {general utility functions}
         .links: [
             "use function" %./use
+            "do-trace" %./do-trace
         ]
 
     ]
