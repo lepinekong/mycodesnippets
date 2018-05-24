@@ -1,21 +1,18 @@
-Red [
-    Title: "code.split.red"
-]
 
-Article: [
+# code.split
 
-    Title: {code.split}
 
-    Source: [
-        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/redlang/code.split.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/code.split.red)
-        }
-        .Published-Url: http://mycodesnippets.space/redlang/code.split
-    ]    
+### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-    code: [
-        .title: {Code}
-.code: {
+[http://mycodesnippets.space/redlang/code.split.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/code.split.red)
+
+
+### Code
+
+
+
+```
+
 
 Red [
     Title: ".system.coder.apps.redlang.red"
@@ -95,26 +92,26 @@ Redlang.Get-Meta: :.Redlang.Get-Meta
 
             line: src-block/1
             parse line [
-                some [
-                    thru "[" (count: count + 1) 
-                    |
-                    thru "]" (count: count - 1)
-                ]
+some [
+    thru "[" (count: count + 1) 
+    |
+    thru "]" (count: count - 1)
+]
             ]  
 
             either (count > 0) [
-                ;?? count
-                append src-block-extract line
-                previous-count: count
+;?? count
+append src-block-extract line
+previous-count: count
             ][
-                ;?? count
-                ;?? previous-count
-                if (previous-count > 0) [
-                    append src-block-extract line
-                    probe line
-                    ask "pause"
-                    break
-                ]
+;?? count
+;?? previous-count
+if (previous-count > 0) [
+    append src-block-extract line
+    probe line
+    ask "pause"
+    break
+]
             ]
         ]
 
@@ -140,9 +137,9 @@ Redlang.Get-Program: :.Redlang.Get-Program
     switch/default type?/word get/any '.file [
         unset! [
             print {
-                to calculate SHA256 for red script syntax possible syntax is:
-                Redlang.SHA256 c:\path-without-space\test.red
-                Redlang.SHA256 "c:\path with space\test.red"
+to calculate SHA256 for red script syntax possible syntax is:
+Redlang.SHA256 c:\path-without-space\test.red
+Redlang.SHA256 "c:\path with space\test.red"
             }
         ]   
 
@@ -152,14 +149,14 @@ Redlang.Get-Program: :.Redlang.Get-Program
             src: read file 
 
             rule-meta: [
-                copy meta to "Red ["
+copy meta to "Red ["
             ]   
 
             parse src rule-meta  
 
             if find meta "SHA256: " [
-                parse meta [thru "SHA256: " copy SHA256 thru "^}"]
-                print rejoin["Previous: " SHA256] 
+parse meta [thru "SHA256: " copy SHA256 thru "}"]
+print rejoin["Previous: " SHA256] 
             ]
 
             program: Redlang.get-program src
@@ -176,25 +173,31 @@ Redlang.Get-Program: :.Redlang.Get-Program
     
 ]
 Redlang.SHA256: :.Redlang.SHA256
-}
+
+```
 
 
 
+### Paste this snippet in red User.Snippets (don’t forget the “,” separator):
 
-    ]
-    
-    code.split: [
 
-        .title: {Paste this snippet in red User.Snippets (don’t forget the “,” separator):}
-        .code: {
 
-        }
-        .title: {If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):}
-        .code: {
+```
+
+
+        
+```
+
+
+
+### If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):
+
+
+
+```
+
             
-        }
-    ]
-]
+        
+```
 
-do read http://readablehumanformat.com/lib.red
-markdown-gen
+
