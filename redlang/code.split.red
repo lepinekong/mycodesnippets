@@ -179,8 +179,6 @@ Redlang.SHA256: :.Redlang.SHA256
 }
 
 
-
-
     ]
     
     code.split: [
@@ -191,7 +189,7 @@ Redlang.SHA256: :.Redlang.SHA256
         }
         .title: {If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):}
         .code: {
-            
+            do http://redlang.red/code.split.red
         }
     ]
 ]

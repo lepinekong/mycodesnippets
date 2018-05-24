@@ -1,8 +1,4 @@
-Red [
-    Title: "test code in string"
-]
-
-code: {
+.code: {
 
 Red [
     Title: ".system.coder.apps.redlang.red"
