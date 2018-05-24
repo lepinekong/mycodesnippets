@@ -29,8 +29,15 @@ Article: [
         ]
     ]
 
-    Code-Documentation: [
-        .title: {Code Documentation}
+    Code-Operations: [
+        .title: {Code Operations}
+        .links: [
+            "code.split" %./code.split
+        ]
+    ]
+
+    Code-Analyzer: [
+        .title: {Code Analyzer}
         .links: [
             "Code Analyze" %./code.analyze
         ]        
