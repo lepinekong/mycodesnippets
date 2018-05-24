@@ -1,7 +1,7 @@
 //+--------------------------------------------------------+
 //|      adapted for FILE_SHARE_READ from BP-Ticks-1.0.mq4 |
 //+--------------------------------------------------------+
-
+// see https://gist.github.com/lepinekong/9a53459b05ac5ed999883eb4a3cb6488
 // File identificator
 int file;
 uint startTick;
