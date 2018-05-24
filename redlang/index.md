@@ -19,7 +19,12 @@
 - [Barchart](./barchart)
                         
 
-### Code Documentation
+### Code Operations
+
+- [code.split](./code.split)
+                        
+
+### Code Analyzer
 
 - [Code Analyze](./code.analyze)
                         
