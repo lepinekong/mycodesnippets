@@ -9,7 +9,12 @@
 - [do-trace](./do-trace)
                         
 
-### Tips
+### Parse datas
+
+- [Parse text data (from excel,...)](./parse-text-data)
+                        
+
+### Functions
 
 - [creating operator](./operator)
                         

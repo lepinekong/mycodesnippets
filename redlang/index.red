@@ -15,8 +15,15 @@ Article: [
 
     ]
 
-    Tips: [
-        .title: {Tips}
+    Parse-Datas: [
+        .title: {Parse datas}
+        .links: [
+            "Parse text data (from excel,...)" %./parse-text-data
+        ]
+    ]
+
+    Functions: [
+        .title: {Functions}
         .links: [
             "creating operator" %./operator
         ]        
