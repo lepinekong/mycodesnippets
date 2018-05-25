@@ -13,13 +13,13 @@
 
 ```
 
-            do read http://redlang.red/parse-text-data.red
-            parse-text-data {
-Adsense Revenue	300
-Sponsors	500
-Gifts	50
-Others	58  
-            }            
+do read http://redlang.red/parse-text-data.red
+parse-text-data {
+    Adsense Revenue	300
+    Sponsors	500
+    Gifts	50
+    Others	58  
+}            
         
 ```
 
@@ -114,10 +114,10 @@ To recreate the snippet, use:
 
 ```
 
-            do read http://redlang.red/parse-text-data.red
-            parse-text-data {
-{1:label-number-pairs}
-            }
+do read http://redlang.red/parse-text-data.red
+parse-text-data {
+    {1:label-number-pairs}
+}
         
 ```
 
