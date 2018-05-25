@@ -1,5 +1,5 @@
 
-# parse.text.data
+# parse text data
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)

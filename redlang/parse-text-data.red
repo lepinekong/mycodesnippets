@@ -5,7 +5,7 @@ Red [
 
 Article: [
 
-    Title: {parse.text.data}
+    Title: {parse text data}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
