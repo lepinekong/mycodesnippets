@@ -6,24 +6,16 @@
 int file;
 uint startTick;
 uint tickTime;
-
 datetime theTime;
 string strTickDate;
 string strTickSecond;
-
 string separator = ",";
-
-// Tick count for flushing each 1024 ticks
-
 int flushCount = 0;
-int flushCountLimit = 32; // you can experiment with 1024
+int flushCountLimit = 32; // Tick count for flushing each 32 ticks to enhance performance (you can try 1024 for huge files) 
 
 int init() {
-
     startTick=GetTickCount();
-    file = FileOpen(Symbol() + "-Ticks.csv",
-        FILE_WRITE | FILE_READ | FILE_CSV | FILE_SHARE_READ, separator);   
-
+    file = FileOpen(Symbol() + "-Ticks.csv", FILE_WRITE | FILE_READ | FILE_CSV | FILE_SHARE_READ, separator);   
     return(0);
 }
 
@@ -33,10 +25,7 @@ int deinit() {
 }
 
 int start() {
-    //    - Date & time with seconds info
-    //    - Bid
-    //    - Ask
-    //    - Volume indicator for the selected timeframe
+    //    - Date & time, Bid, Ask, Volume indicator for the selected timeframe
     tickTime=GetTickCount()- startTick;
     theTime=TimeCurrent();
     strTickDate=TimeToStr(theTime,TIME_DATE);
@@ -49,8 +38,6 @@ int start() {
             iVolume(Symbol(), NULL, 0));
     flushCount++;
 
-    // Flush file buffer each 1024 ticks to enhance performance
-    //    when writing huge files
     if (flushCount == flushCountLimit) {
         FileFlush(file);
         flushCount = 0;
