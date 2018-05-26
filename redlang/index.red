@@ -32,6 +32,7 @@ Article: [
     GUI: [
         .title: {GUI}
         .links: [
+            "GUI Panels" %./gui-panels
             "Barchart" %./barchart
         ]
     ]
