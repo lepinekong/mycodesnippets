@@ -1,5 +1,5 @@
 
-# parse text data
+# parse-text-data function
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
@@ -147,10 +147,10 @@ To recreate the snippet, use:
 
 ```
 
-do read http://redlang.red/parse-text-data.red
-parse-text-data {
-    {1:label-number-pairs}
-}
+            do read http://redlang.red/parse-text-data.red
+            parse-text-data {
+{1:label-number-pairs}
+            }
         
 ```
 

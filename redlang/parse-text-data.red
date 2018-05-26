@@ -1,10 +1,6 @@
 Red [
     Title: "parse-text-data.red"
     Build: 1.0.0.1
-    History: [
-        1.0.0: {Initial version}
-        1.0.1: {Process quoted label like {"Adsense revenu" 300}}
-    ]
 ]
 
 Article: [
@@ -145,8 +141,13 @@ do read http://readablehumanformat.com/lib.red
 markdown-gen 
 
 ;=====================================================================
-; IMPLEMENTATION AND TESTING
+; IMPLEMENTATION
 ;=====================================================================
+
+Red [
+    Title: "parse-text-data.red"
+    Build: 1.0.0.1   
+]
 
 .parse-text-data: function[.data /clipboard][
 
@@ -211,6 +212,10 @@ markdown-gen
 ]
 
 parse-text-data: :.parse-text-data
+
+;=====================================================================
+; TESTING
+;=====================================================================
 
 data-block: parse-text-data {
     Adsense Revenue	300
