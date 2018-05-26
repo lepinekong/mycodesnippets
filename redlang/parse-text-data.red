@@ -1,17 +1,23 @@
 Red [
     Title: "parse-text-data.red"
+    Build: 1.0.0.1
+    History: [
+        1.0.0: {Initial version}
+        1.0.1: {Process quoted label like {"Adsense revenu" 300}}
+    ]
 ]
 
 
 Article: [
 
-    Title: {parse text data}
+    Title: {parse-text-data function}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
         .text: {[http://mycodesnippets.space/redlang/parse.text.data.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/parse.text.data.red)
         }
         .Published-Url: http://mycodesnippets.space/redlang/parse.text.data
+        .lib-url: http://redlang.red/parse-text-data.red
     ]    
 
     parse.text.data: [
