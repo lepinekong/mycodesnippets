@@ -7,7 +7,6 @@ Red [
     ]
 ]
 
-
 Article: [
 
     Title: {parse-text-data function}
