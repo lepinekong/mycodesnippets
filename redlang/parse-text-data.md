@@ -9,6 +9,7 @@
 
 ### Usage
 
+example 1:
 
 
 ```
@@ -24,6 +25,22 @@ parse-text-data {
 ```
 
 
+example 2:
+
+
+```
+
+do read http://redlang.red/parse-text-data.red
+parse-text-data {
+    "Adsense Revenue"	300
+    "Sponsors"	500
+    "Gifts"	50
+    "Others"	58  
+}            
+        
+```
+
+
 
 ### Source code
 
@@ -33,22 +50,39 @@ parse-text-data {
 
 ```
 
-.parse-text-data: function[.data][
+
+.parse-text-data: function[.data /clipboard][
 
     comment {
         ; data can be pasted from excel https://office.live.com/start/Excel.aspx
-        ; example:
-        data: parse-text-data {
-            Adsense Revenue	300
-            Sponsors	500
-            Gifts	50
-            Others	58  
-        }
-        ?? data
+
+        ; example 1:
+        ; do read http://redlang.red/parse-text-data.red
+        ; data-block: parse-text-data {
+        ;     Adsense Revenue	300
+        ;     Sponsors	500
+        ;     Gifts	50
+        ;     Others	58  
+        ; } 
+        ; ?? data-block
+
+        ; example 2:
+        ; do read http://redlang.red/parse-text-data.red
+        ; data-block: parse-text-data {
+        ;     "Adsense Revenue"	300
+        ;     "Sponsors"	500
+        ;     "Gifts"	50
+        ;     "Others"	58  
+        ; } 
+        ; ?? data-block        
     }
 
-    data: .data
-
+    either clipboard [
+        data: parse-text-data read-clipboard 
+    ][
+        data: .data
+    ]
+    
     delimiters: charset "
 	
 " ; see http://www.rebol.com/r3/docs/datatypes/char.html
@@ -63,8 +97,14 @@ parse-text-data {
     forall data-block0 [
         data: data-block0/1
         if not (data = "") [
-            try [
-data: to-float data
+
+            if error? try [
+                data: to-float data
+            ][
+                if (((first data) = #""") and ((last data) = #""")) [ ; example: "Adsense revenu"
+                    remove data
+                    remove back tail data
+                ]
             ]
             append data-block data
         ] 
@@ -77,13 +117,6 @@ data: to-float data
 
 parse-text-data: :.parse-text-data
 
-data: parse-text-data {
-    Adsense Revenue	300
-    Sponsors	500
-    Gifts	50
-    Others	58  
-}
-?? data
         
 ```
 
