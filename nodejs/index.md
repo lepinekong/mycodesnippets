@@ -2,11 +2,11 @@
 # Index of nodejs
 
 
-### category
+### Basics
 
 - [nodejs hello](./nodejs.hello)
                         
-- [nodejs server](./nodejs.server)
+- [nodejs server with simple routing](./nodejs.server)
                         
-- [nodejs routing](./nodejs.routing)
+- [nodejs module](./nodejs.module)
                         

@@ -14,11 +14,11 @@ Article: [
     Title: {Index of nodejs}
 
     category: [
-        .title: {category} 
+        .title: {Basics} 
         .links: [
             {nodejs hello} %./nodejs.hello
-            {nodejs server} %./nodejs.server
-            {nodejs routing} %./nodejs.routing            
+            {nodejs server with simple routing} %./nodejs.server
+            {nodejs module} %./nodejs.module              
         ]    
     ]
 
