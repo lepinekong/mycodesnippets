@@ -30,7 +30,7 @@ exports.now = function() {
 
     nodejs.module.usage: [
 
-        .title: {Module Creation}
+        .title: {Module Usage}
         .code/javascript: {
 var utils = require("./utils.js");
 now = utils.now;
