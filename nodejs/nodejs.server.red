@@ -15,7 +15,7 @@ Article: [
     
     nodejs.server: [
 
-        .title: {Simplest Server}
+        .title: {Simplest Http Server}
         .code/javascript: {
 var sysHttp = require("http");
 var requestHandler = function(req,res) {
@@ -28,6 +28,23 @@ var server = sysHttp.createServer(requestHandler);
 server.listen(1337,"127.0.0.1");
         }
     ]
+
+    nodejs.server.hoisting: [
+        .title: {Simplest Http Server with hoisting}
+        .code/javascript: {
+var sysHttp = require("http");
+
+var server = sysHttp.createServer(requestHandler);
+server.listen(1337,"127.0.0.1");
+
+function requestHandler(req,res) {
+    var greetings = "hello from requestHandler";
+    console.log(greetings);
+    res.writeHead(200,{'Content-Type':  'text/plain'});
+    res.end(greetings + "\n");
+}; 
+        }
+    ] 
 ]
 
 do read http://readablehumanformat.com/lib.red

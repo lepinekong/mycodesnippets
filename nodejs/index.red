@@ -18,6 +18,7 @@ Article: [
         .links: [
             {nodejs hello} %./nodejs.hello
             {nodejs server} %./nodejs.server
+            {nodejs routing} %./nodejs.routing            
         ]    
     ]
 

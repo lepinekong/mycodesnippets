@@ -7,7 +7,7 @@
 [http://mycodesnippets.space/nodejs/nodejs.server.red](https://github.com/lepinekong/mycodesnippets/blob/master/nodejs/nodejs.server.red)
 
 
-### Simplest Server
+### Simplest Http Server
 
 
 
@@ -22,6 +22,28 @@ var requestHandler = function(req,res) {
 };
 var server = sysHttp.createServer(requestHandler);
 server.listen(1337,"127.0.0.1");
+        
+```
+
+
+
+### Simplest Http Server with hoisting
+
+
+
+```javascript
+
+var sysHttp = require("http");
+
+var server = sysHttp.createServer(requestHandler);
+server.listen(1337,"127.0.0.1");
+
+function requestHandler(req,res) {
+    var greetings = "hello from requestHandler";
+    console.log(greetings);
+    res.writeHead(200,{'Content-Type':  'text/plain'});
+    res.end(greetings + "\n");
+}; 
         
 ```
 
