@@ -11,7 +11,7 @@
 
 
 
-```red-lang
+```javascript
 
 Red [
     File: "ReAdABLE.HumanFormat.deploy.red"

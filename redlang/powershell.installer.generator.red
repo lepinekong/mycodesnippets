@@ -16,7 +16,7 @@ Article: [
     powershell.installer.generator: [
 
         .title: {Powershell Installer Generator (example):}
-        .code/red-lang: {
+        .code/javascript: {
 Red [
     File: "ReAdABLE.HumanFormat.deploy.red"
     Title: "Powershell Deployment script generator"
