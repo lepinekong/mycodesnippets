@@ -11,7 +11,7 @@
 
 
 
-```redlang
+```red-lang
 
 Red [
     File: "ReAdABLE.HumanFormat.deploy.red"
