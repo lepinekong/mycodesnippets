@@ -11,7 +11,7 @@
 
 
 
-```bat
+```shell
 
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:exefilename.exe SourceFilename.cs Program.cs
         
@@ -23,7 +23,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:exefilename.exe Sou
 
 
 
-```shell
+```
 
     "csharp-compile": {
         "prefix": "csharp-compile",
@@ -40,7 +40,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:exefilename.exe Sou
 If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):
 
 
-```shell
+```
 
 C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe /out:${1:classname}.exe ${1:classname}.cs Program.cs   
         
