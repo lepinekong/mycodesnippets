@@ -74,7 +74,14 @@ Article: [
         .links: [
             "NodeJs" %./nodejs/
         ]      
-    ]        
+    ]  
+
+    Powershell: [
+        .title: {Powershell}
+        .links: [
+            "Powershell" %./powershell/
+        ]      
+    ]           
 
     Python: [
         .title: {Python}

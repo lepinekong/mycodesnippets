@@ -52,6 +52,11 @@
 - [NodeJs](./nodejs/)
                         
 
+### Powershell
+
+- [Powershell](./powershell/)
+                        
+
 ### Python
 
 - [Code Snippets for Python](./python/)
