@@ -13,10 +13,10 @@ Article: [
         .Published-Url: http://mycodesnippets.space/mql4/tick.export
     ]   
 
-    Code/mql4: [
+    MQL4: [
         .title: {Code}
         .image: https://i.imgur.com/UuWqkZf.png
-        .code: {
+        .code/c: {
 //+--------------------------------------------------------+
 //|      adapted for FILE_SHARE_READ from BP-Ticks-1.0.mq4 |
 //+--------------------------------------------------------+
@@ -79,6 +79,8 @@ int start() {
 }            
         }
     ] 
+
+
     
 ]
 
