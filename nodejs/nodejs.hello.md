@@ -11,7 +11,7 @@
 
 
 
-```
+```javascript
 
 console.log('hello');
 var greetings = 'hello';

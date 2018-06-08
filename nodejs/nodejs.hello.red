@@ -16,7 +16,7 @@ Article: [
     nodejs.hello: [
 
         .title: {output a string variable content to log:}
-        .code: {
+        .code/javascript: {
 console.log('hello');
 var greetings = 'hello';
 console.log(greetings);
