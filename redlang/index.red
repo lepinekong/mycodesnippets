@@ -55,6 +55,7 @@ Article: [
         .title: {Code generation}
         .links: [
             "Reduce Insert idiom" %./reduce.insert
+            "Powershell Installer Generator" %./powershell.installer.generator
         ]        
     ]        
 

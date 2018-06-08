@@ -21,6 +21,8 @@
 
 ### GUI
 
+- [GUI Panels](./gui-panels)
+                        
 - [Barchart](./barchart)
                         
 
@@ -37,4 +39,6 @@
 ### Code generation
 
 - [Reduce Insert idiom](./reduce.insert)
+                        
+- [Powershell Installer Generator](./powershell.installer.generator)
                         
