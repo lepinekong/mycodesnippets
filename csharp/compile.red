@@ -24,7 +24,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:exefilename.exe Sou
     VSCode-Snippet: [
 
         .title: {VSCode Snippet}
-        .code: {
+        .code/shell: {
     "csharp-compile": {
         "prefix": "csharp-compile",
         "body": [
@@ -35,7 +35,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /out:exefilename.exe Sou
     }
         }
         .text: {If you need to recreate it with Easy Snippet, start with this snippet (don’t forget to add $ in front of variables):}
-        .code: {
+        .code/shell: {
 C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe /out:${1:classname}.exe ${1:classname}.cs Program.cs   
         }
         
