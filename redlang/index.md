@@ -2,7 +2,7 @@
 # Index of redlang code snippets
 
 
-### Parse datas
+### CSV datas
 
 - [Parse text data (from excel,...)](./parse-text-data)
                         

@@ -8,7 +8,7 @@ Article: [
 
 
     CSV: [
-        .title: {Parse datas}
+        .title: {CSV datas}
         .links: [
             "Parse text data (from excel,...)" %./parse-text-data
             "CRUD CSV" %./crud-csv
