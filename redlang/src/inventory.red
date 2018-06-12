@@ -1,32 +1,4 @@
 Red [
-    Title: "data-binding.red"
-]
-
-Article: [
-
-    Title: {data-binding}
-
-    Source: [
-        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/redlang/data-binding.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/data-binding.red)
-        }
-        .Published-Url: http://mycodesnippets.space/redlang/data-binding
-    ]    
-    
-    data-binding: [
-
-        .title: {Data binding csv file}
-        .text: {for demo type in red console:}
-        .code: {
-do read http://mycodesnippets.red/redlang/inventory.red            
-        }
-        .image: https://i.imgur.com/AQ2tNw4.png
-        .text: {CSV file example: }
-        .image: https://i.imgur.com/C1nyVBj.png
-        .text: {Source code:}
-        .image: https://i.imgur.com/tATBCUy.png
-        .code: {
-Red [
     Title: "inventory.red"
 ]
 
@@ -147,12 +119,3 @@ win: layout compose [
 ]
 
 view win
-
-
-        }
-
-    ]
-]
-
-do read http://readablehumanformat.com/lib.red
-markdown-gen 
