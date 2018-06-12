@@ -16,8 +16,9 @@ Article: [
     category: [
         .title: {Installer} 
         .links: [
+            {Date & Time} %./datetime  
+            {files} %./files            
             {installer} %./installer
-
         ]    
     ]
 

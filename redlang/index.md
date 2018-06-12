@@ -25,6 +25,8 @@
                         
 - [Barchart](./barchart)
                         
+- [Data-Binding](./data-binding)
+                        
 
 ### Code Operations
 

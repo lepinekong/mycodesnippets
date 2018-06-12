@@ -34,6 +34,7 @@ Article: [
         .links: [
             "GUI Panels" %./gui-panels
             "Barchart" %./barchart
+            "Data-Binding" %./data-binding
         ]
     ]
 
