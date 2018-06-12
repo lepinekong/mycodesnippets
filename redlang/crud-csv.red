@@ -16,10 +16,10 @@ Article: [
     crud-csv: [
 
         .title: {Source Code}
-        .image: https://i.imgur.com/vr1ZhAG.png
         .links: [
             "Github url" https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/crud-csv.red
         ]
+        .image: https://i.imgur.com/vr1ZhAG.png        
         .code: {
 Red [
     Title: "crud-csv.red"
