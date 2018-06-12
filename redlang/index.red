@@ -6,19 +6,12 @@ Article: [
 
     Title: {Index of redlang code snippets}
 
-    utilities: [
-        .title: {general utility functions}
-        .links: [
-            "use function" %./use
-            "do-trace" %./do-trace
-        ]
 
-    ]
-
-    Parse-Datas: [
+    CSV: [
         .title: {Parse datas}
         .links: [
             "Parse text data (from excel,...)" %./parse-text-data
+            "CRUD CSV" %./crud-csv
         ]
     ]
 
@@ -38,19 +31,19 @@ Article: [
         ]
     ]
 
-    Code-Operations: [
-        .title: {Code Operations}
-        .links: [
-            "code.split" %./code.split
-        ]
-    ]
-
     Code-Analyzer: [
         .title: {Code Analyzer}
         .links: [
             "Code Analyze" %./code.analyze
         ]        
-    ]     
+    ]        
+
+    Code-Operations: [
+        .title: {Code Operations}
+        .links: [
+            "code.split" %./code.split
+        ]
+    ] 
 
     Code-Generation: [
         .title: {Code generation}
@@ -58,7 +51,17 @@ Article: [
             "Reduce Insert idiom" %./reduce.insert
             "Powershell Installer Generator" %./powershell.installer.generator
         ]        
-    ]        
+    ]
+
+
+    Utilities: [
+        .title: {general utility functions}
+        .links: [
+            "use function" %./use
+            "do-trace" %./do-trace
+        ]
+
+    ]            
 
 ]
 
