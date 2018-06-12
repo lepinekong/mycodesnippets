@@ -1,10 +1,10 @@
 
-# data-binding
+# data binding
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://mycodesnippets.space/redlang/data-binding.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/data-binding.red)
+[http://mycodesnippets.space/redlang/databinding.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/databinding.red)
 
 
 ### Data binding csv file

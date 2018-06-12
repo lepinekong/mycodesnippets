@@ -1,16 +1,16 @@
 Red [
-    Title: "data-binding.red"
+    Title: "databinding.red"
 ]
 
 Article: [
 
-    Title: {data-binding}
+    Title: {data binding}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/redlang/data-binding.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/data-binding.red)
+        .text: {[http://mycodesnippets.space/redlang/databinding.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/databinding.red)
         }
-        .Published-Url: http://mycodesnippets.space/redlang/data-binding
+        .Published-Url: http://mycodesnippets.space/redlang/databinding
     ]    
     
     data-binding: [
