@@ -14,7 +14,7 @@ for demo type in red console:
 
 ```
 
-do read http://mycodesnippets.red/redlang/src/inventory.red            
+do read http://mycodesnippets.space/redlang/src/inventory.red            
         
 ```
 

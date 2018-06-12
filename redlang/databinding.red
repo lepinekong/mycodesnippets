@@ -18,7 +18,7 @@ Article: [
         .title: {Data binding csv file}
         .text: {for demo type in red console:}
         .code: {
-do read http://mycodesnippets.red/redlang/src/inventory.red            
+do read http://mycodesnippets.space/redlang/src/inventory.red            
         }
         .image: https://i.imgur.com/AQ2tNw4.png
         .text: {CSV file example: }
