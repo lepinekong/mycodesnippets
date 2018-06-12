@@ -24,7 +24,9 @@ do read http://mycodesnippets.space/redlang/src/inventory.red
 CSV file example: 
 ![https://i.imgur.com/C1nyVBj.png](https://i.imgur.com/C1nyVBj.png)
                     
-Source code:
+Source code
+- [Github url](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/inventory.red)
+                        
 ![https://i.imgur.com/hMCmB5p.png](https://i.imgur.com/hMCmB5p.png)
                     
 

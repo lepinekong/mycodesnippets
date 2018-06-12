@@ -18,7 +18,7 @@ Article: [
         .title: {Source Code}
         .image: https://i.imgur.com/vr1ZhAG.png
         .links: [
-            "Source url" 
+            "Github url" https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/crud-csv.red
         ]
         .code: {
 Red [
