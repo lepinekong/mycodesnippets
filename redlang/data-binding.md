@@ -14,7 +14,7 @@ for demo type in red console:
 
 ```
 
-do read http://miniapps.red/inventory.red            
+do read http://mycodesnippets.red/redlang/src/inventory.red            
         
 ```
 
@@ -37,7 +37,7 @@ Red [
 
 if not exists? data-file: %db/inventory.csv [
     make-dir %db
-    write data-file read http://miniapps.red/db/inventory.csv
+    write data-file read http://mycodesnippets.red/redlang/inventory.csv
     print rejoin ["Created " clean-path data-file]
 ]
 
@@ -71,6 +71,7 @@ record: make reactor! [
 header: [
         panel [
         ;text "Description:" field 250x24 data records/1/3
+        ;data-binding using react keyword
         text "Description:" field 250x24 react [face/data: record/description]
         return
         text "Type:" field 250x24 react [face/data: record/type]
@@ -151,6 +152,7 @@ win: layout compose [
 ]
 
 view win
+
 
         
 ```
