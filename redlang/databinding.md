@@ -19,7 +19,7 @@ do read http://mycodesnippets.space/redlang/src/inventory.red
 ```
 
 
-![https://i.imgur.com/AQ2tNw4.png](https://i.imgur.com/AQ2tNw4.png)
+![https://i.imgur.com/uqTXv1o.png](https://i.imgur.com/uqTXv1o.png)
                     
 CSV file example: 
 ![https://i.imgur.com/C1nyVBj.png](https://i.imgur.com/C1nyVBj.png)

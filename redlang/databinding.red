@@ -20,7 +20,7 @@ Article: [
         .code: {
 do read http://mycodesnippets.space/redlang/src/inventory.red            
         }
-        .image: https://i.imgur.com/AQ2tNw4.png
+        .image: https://i.imgur.com/uqTXv1o.png
         .text: {CSV file example: }
         .image: https://i.imgur.com/C1nyVBj.png
         .text: {Source code:}
