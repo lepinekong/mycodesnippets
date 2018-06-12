@@ -24,7 +24,7 @@ do read http://mycodesnippets.space/redlang/src/inventory.red
         .text: {CSV file example: }
         .image: https://i.imgur.com/C1nyVBj.png
         .text: {Source code:}
-        .image: https://i.imgur.com/LlN0m0q.png
+        .image: https://i.imgur.com/hMCmB5p.png
         .code: {
 
 Red [
