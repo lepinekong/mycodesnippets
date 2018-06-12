@@ -25,11 +25,12 @@ CSV file example:
 ![https://i.imgur.com/C1nyVBj.png](https://i.imgur.com/C1nyVBj.png)
                     
 Source code:
-![https://i.imgur.com/tATBCUy.png](https://i.imgur.com/tATBCUy.png)
+![https://i.imgur.com/LlN0m0q.png](https://i.imgur.com/LlN0m0q.png)
                     
 
 
 ```
+
 
 Red [
     Title: "inventory.red"
@@ -41,7 +42,7 @@ if not exists? data-file: %db/inventory.csv [
     print rejoin ["Created " clean-path data-file]
 ]
 
-lines: skip Read/lines data-file 1
+lines: skip Read/lines data-file 1 ; skip first csv header line 
 records: copy []
 
 forall lines [
@@ -152,6 +153,7 @@ win: layout compose [
 ]
 
 view win
+
 
         
 ```

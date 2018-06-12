@@ -8,7 +8,7 @@ if not exists? data-file: %db/inventory.csv [
     print rejoin ["Created " clean-path data-file]
 ]
 
-lines: skip Read/lines data-file 1
+lines: skip Read/lines data-file 1 ; skip first csv header line 
 records: copy []
 
 forall lines [

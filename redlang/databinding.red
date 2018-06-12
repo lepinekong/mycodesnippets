@@ -24,8 +24,9 @@ do read http://mycodesnippets.space/redlang/src/inventory.red
         .text: {CSV file example: }
         .image: https://i.imgur.com/C1nyVBj.png
         .text: {Source code:}
-        .image: https://i.imgur.com/tATBCUy.png
+        .image: https://i.imgur.com/LlN0m0q.png
         .code: {
+
 Red [
     Title: "inventory.red"
 ]
@@ -36,7 +37,7 @@ if not exists? data-file: %db/inventory.csv [
     print rejoin ["Created " clean-path data-file]
 ]
 
-lines: skip Read/lines data-file 1
+lines: skip Read/lines data-file 1 ; skip first csv header line 
 records: copy []
 
 forall lines [
@@ -147,6 +148,7 @@ win: layout compose [
 ]
 
 view win
+
 
         }
 
