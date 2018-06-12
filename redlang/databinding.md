@@ -37,7 +37,7 @@ Red [
 
 if not exists? data-file: %db/inventory.csv [
     make-dir %db
-    write data-file read http://mycodesnippets.red/redlang/inventory.csv
+    write data-file read http://mycodesnippets.space/redlang/src/db/inventory.csv
     print rejoin ["Created " clean-path data-file]
 ]
 
@@ -152,7 +152,6 @@ win: layout compose [
 ]
 
 view win
-
 
         
 ```
