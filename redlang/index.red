@@ -53,6 +53,12 @@ Article: [
         ]        
     ]
 
+    OOP: [
+        .title: {OOP}
+        .links: [
+            "OOP" %./oop
+        ]        
+    ]
 
     Utilities: [
         .title: {general utility functions}
