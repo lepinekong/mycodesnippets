@@ -18,11 +18,16 @@ Article: [
         .title: {Source Code}
         .links: [
             "Github url" https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/crud-csv.red
+            "Library" http://redlang.red/crud-csv
         ]
         .image: https://i.imgur.com/vr1ZhAG.png        
-        .code: {
-Red [
+        .code: {Red [
     Title: "crud-csv.red"
+    Version: 1.0.0
+    Build: 1.0.0.1
+    History: [
+        1.0.0.1 {save-csv update + update-csv creation}
+    ]
 ]
 
 do read http://redlang.red/do-trace
@@ -51,8 +56,14 @@ read-csv: function[data-file][
 ]
 
 
-save-csv: function[records data-file][
-    write/lines file-path lines
+save-csv: function[records data-file /header .header][
+
+    whole-records: copy []
+    if header [
+        append whole-records .header
+    ]
+    append whole-records records
+    write/lines data-file whole-records
 ]
 
 add-csv: function[records record][
@@ -107,6 +118,19 @@ do-trace 82 [
 ] %crud-csv.red
 
 
+update-csv: function[records record-number record][
+
+    if (record-number > 1) [
+        repeat i (record-number - 1) [
+            records: next records
+        ]
+    ]
+    change/only records record
+    records: head records
+    return records
+]
+
+
 delete-csv: function[records record-number-or-search-string][
 
     record-number: record-number-or-search-string
@@ -122,7 +146,7 @@ delete-csv: function[records record-number-or-search-string][
         ]
     ]
 
-    do-trace 102 [
+    do-trace 126 [
         record: records/1
         ?? record
     ] %crud-csv.red
@@ -135,7 +159,7 @@ delete-csv: function[records record-number-or-search-string][
 
 records: delete-csv records "SURFACE PRO I7 256GB"
 
-do-trace 115 [
+do-trace 139 [
     ?? records
 ] %crud-csv.red
 
