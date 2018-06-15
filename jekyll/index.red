@@ -17,8 +17,8 @@ Article: [
 
         .title: {Jekyll Themes}
         .links: [
-            "How to customize leap-day theme" %./jekyll.leap-day.theme
-            "How to insert iframe"  %./jekyll.insert.iframe.bottom
+            "leap-day theme code snippets" %./leap-day.theme
+            "insert iframe"  %./jekyll.insert.iframe.bottom
         ]     
         
     ]
