@@ -27,9 +27,9 @@
 - [Code Snippets for Html](./html/)
                         
 
-### Javascript
+### Jasmine
 
-- [Code Snippets for Javascript](./javascript/)
+- [Code Snippets for Jasmine](./jasmine/)
                         
 
 ### Jekyll

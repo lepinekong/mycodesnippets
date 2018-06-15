@@ -41,6 +41,13 @@ Article: [
         ]
     ]
 
+    Jasmine: [
+        .title: {Jasmine}
+        .links: [
+            "Code Snippets for Jasmine" %./jasmine/
+        ]      
+    ]    
+
     Jekyll: [
         .title: {Jekyll}
         .links: [

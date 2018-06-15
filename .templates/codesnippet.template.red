@@ -15,7 +15,7 @@ Article: [
     
     code-snippet: [
 
-        .title: {}
+        .title: {Code Snippet}
         .code/<%language%>: {
 
         }
