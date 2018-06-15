@@ -51,7 +51,7 @@ unless find config "title" [
             
 }
         .text: {To make header clickable to return to home and have no-cache, put this code in _layouts\default.html (not _layout):}
-        .code: {
+        .code/html: {
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
