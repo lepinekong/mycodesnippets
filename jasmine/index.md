@@ -9,5 +9,5 @@
 
 ### Jasmine Tips
 
-- [Jasmine in iframe](./jasmine-iframe)
+- [Jasmine in iframe](./iframe)
                         

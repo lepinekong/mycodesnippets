@@ -16,7 +16,7 @@ Article: [
     Tips: [
         .title: {Jasmine Tips}
         .links: [
-            {Jasmine in iframe} %./jasmine-iframe
+            {Jasmine in iframe} %./iframe
         ]      
     ]
 

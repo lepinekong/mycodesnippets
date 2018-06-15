@@ -1,5 +1,5 @@
 
-# jasmine iframe
+# jasmine tips: jasmine in iframe with javascript closure
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
@@ -9,7 +9,7 @@
 
 ### index.html
 
-must refence myFrame.html snippet
+must reference myFrame.html snippet
 
 
 ```html
@@ -17,9 +17,9 @@ must refence myFrame.html snippet
         <html>
         <iframe id="myIframe"  src="myFrame.html" width=100% height=600></iframe>
         <script>
-          function iframeRef(frameRef) {
-            return frameRef.contentWindow;
-          }
+            function iframeRef(frameRef) {
+return frameRef.contentWindow;
+            }
         </script>
         <script>
         function domUtils(context_document) {
@@ -28,9 +28,9 @@ must refence myFrame.html snippet
             // use closure
             var document;
             if (context_document == undefined) {
-              document = window.document;
+document = window.document;
             } else {
-              document = context_document
+document = context_document
             }
 
             this.getElementById = function(id) {

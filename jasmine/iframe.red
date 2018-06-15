@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {jasmine iframe}
+    Title: {jasmine tips: jasmine in iframe with javascript closure}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
@@ -15,14 +15,14 @@ Article: [
 
     index.html: [
         .title: {index.html}
-        .text: {must refence myFrame.html snippet}
+        .text: {must reference myFrame.html snippet}
         .code/html: {
         <html>
         <iframe id="myIframe"  src="myFrame.html" width=100% height=600></iframe>
         <script>
-          function iframeRef(frameRef) {
-            return frameRef.contentWindow;
-          }
+            function iframeRef(frameRef) {
+                return frameRef.contentWindow;
+            }
         </script>
         <script>
         function domUtils(context_document) {
@@ -31,9 +31,9 @@ Article: [
             // use closure
             var document;
             if (context_document == undefined) {
-              document = window.document;
+                document = window.document;
             } else {
-              document = context_document
+                document = context_document
             }
 
             this.getElementById = function(id) {
