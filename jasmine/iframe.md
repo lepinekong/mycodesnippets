@@ -1,5 +1,5 @@
 
-# jasmine tips: jasmine in iframe with javascript closure
+# Tips: jasmine in iframe with javascript closure
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)

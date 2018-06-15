@@ -130,7 +130,7 @@ To make header clickable to return to home and have no-cache, put this code in _
       </script>
     {% endif %}
   </body>
-</html> 
+</html>
         
 ```
 

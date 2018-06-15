@@ -122,7 +122,7 @@ unless find config "title" [
       </script>
     {% endif %}
   </body>
-</html> 
+</html>
         }
     ]
 ]
