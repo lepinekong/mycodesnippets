@@ -9,7 +9,7 @@
 
 ### Jekyll Themes
 
-- [How to customize leap-day theme](./jekyll.leap-day.theme)
+- [leap-day theme code snippets](./leap-day.theme)
                         
-- [How to insert iframe](./jekyll.insert.iframe.bottom)
+- [insert iframe](./jekyll.insert.iframe.bottom)
                         
