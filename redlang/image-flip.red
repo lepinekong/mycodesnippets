@@ -12,6 +12,13 @@ Article: [
         }
         .Published-Url: http://mycodesnippets.space/red/image-flip
     ]    
+
+    demo: [
+        .title: {Demo}
+        .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
+        .quote: {do read http://mycodesnippets.space/redlang/src/image-flip.red}
+        .image: https://i.imgur.com/9SBAsof.png
+    ]
     
     code-snippet: [
 

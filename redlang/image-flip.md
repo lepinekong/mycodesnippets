@@ -7,6 +7,14 @@
 [http://mycodesnippets.space/red/image-flip.red](https://github.com/lepinekong/mycodesnippets/blob/master/red/image-flip.red)
 
 
+### Demo
+
+Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
+>do read http://mycodesnippets.space/redlang/src/image-flip.red
+
+![https://i.imgur.com/9SBAsof.png](https://i.imgur.com/9SBAsof.png)
+                    
+
 ### Code Snippet
 
 ![https://i.imgur.com/35mJBVj.png](https://i.imgur.com/35mJBVj.png)
