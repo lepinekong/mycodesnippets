@@ -16,6 +16,8 @@
 
 ### GUI
 
+- [image flip](./image-flip)
+                        
 - [GUI Panels](./gui-panels)
                         
 - [Barchart](./barchart)

@@ -18,7 +18,8 @@ Article: [
         .title: {Code Snippet}
         .image: https://i.imgur.com/35mJBVj.png
         .links: [
-            {View source} 
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/image-flip.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/image-flip.red
         ]
         .code/red: {
 Red [

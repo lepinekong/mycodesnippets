@@ -25,6 +25,7 @@ Article: [
     GUI: [
         .title: {GUI}
         .links: [
+            "image flip" %./image-flip
             "GUI Panels" %./gui-panels
             "Barchart" %./barchart
             "Data Binding" %./databinding
