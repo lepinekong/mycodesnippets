@@ -4,4 +4,4 @@ Red [
 
 do read http://redlang.red/templating
 
-render-template %index.template.red
+render %res/index.template.red

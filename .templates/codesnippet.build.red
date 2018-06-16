@@ -1,7 +1,7 @@
 Red [
-    Title: "subject.build.red"
+    Title: "codesnippet.build.red"
 ]
 
-do read http://redlang.red/build-markup.red
+do read http://redlang.red/templating
 
-render-template %codesnippet.template.red
+render %res/codesnippet.template.red
