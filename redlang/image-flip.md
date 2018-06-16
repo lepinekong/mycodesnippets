@@ -12,7 +12,7 @@
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
 >do read http://mycodesnippets.space/redlang/src/image-flip.red
 
-![https://i.imgur.com/9SBAsof.png](https://i.imgur.com/9SBAsof.png)
+![https://i.imgur.com/vPw7RuI.png](https://i.imgur.com/vPw7RuI.png)
                     
 
 ### Code Snippet

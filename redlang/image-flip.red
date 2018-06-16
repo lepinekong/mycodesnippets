@@ -17,7 +17,7 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/src/image-flip.red}
-        .image: https://i.imgur.com/9SBAsof.png
+        .image: https://i.imgur.com/vPw7RuI.png
     ]
     
     code-snippet: [
