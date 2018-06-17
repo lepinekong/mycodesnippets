@@ -64,6 +64,7 @@ Article: [
     Utilities: [
         .title: {general utility functions}
         .links: [
+            "autoload" %./autoload
             "use function" %./use
             "do-trace" %./do-trace
             "Console prompt" %./console-prompt
