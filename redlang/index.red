@@ -66,6 +66,7 @@ Article: [
         .links: [
             "use function" %./use
             "do-trace" %./do-trace
+            "Console prompt" %./console-prompt
         ]
 
     ]            

@@ -53,3 +53,5 @@
                         
 - [do-trace](./do-trace)
                         
+- [Console prompt](./console-prompt)
+                        
