@@ -14,6 +14,13 @@
 - [creating operator](./operator)
                         
 
+### Red idioms
+
+- [Reduce / Insert idiom](./reduce.insert)
+                        
+- [Collect / Keep idiom](./collect)
+                        
+
 ### GUI
 
 - [image flip](./image-flip)
@@ -25,21 +32,22 @@
 - [Data Binding](./databinding)
                         
 
-### Code Analyzer
+### general utility functions
 
+- [Console prompt](./console-prompt)
+                        
+
+### Code utility functions
+
+- [autoload](./autoload)
+                        
+- [use function](./use)
+                        
+- [do-trace](./do-trace)
+                        
+- [Code split](./code.split)
+                        
 - [Code Analyze](./code.analyze)
-                        
-
-### Code Operations
-
-- [code.split](./code.split)
-                        
-
-### Code generation
-
-- [Reduce Insert idiom](./reduce.insert)
-                        
-- [Powershell Installer Generator](./powershell.installer.generator)
                         
 
 ### OOP
@@ -47,11 +55,9 @@
 - [OOP](./oop)
                         
 
-### general utility functions
+### Code generation
 
-- [use function](./use)
+- [Reduce Insert idiom](./reduce.insert)
                         
-- [do-trace](./do-trace)
-                        
-- [Console prompt](./console-prompt)
+- [Powershell Installer Generator](./powershell.installer.generator)
                         

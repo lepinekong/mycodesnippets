@@ -6,7 +6,6 @@ Article: [
 
     Title: {Index of redlang code snippets}
 
-
     CSV: [
         .title: {CSV datas}
         .links: [
@@ -22,6 +21,14 @@ Article: [
         ]        
     ] 
 
+    Idioms: [
+        .title: {Red idioms}
+        .links: [
+            "Reduce / Insert idiom" %./reduce.insert            
+            "Collect / Keep idiom" %./collect
+        ]        
+    ]     
+
     GUI: [
         .title: {GUI}
         .links: [
@@ -32,19 +39,31 @@ Article: [
         ]
     ]
 
-    Code-Analyzer: [
-        .title: {Code Analyzer}
+    Utilities: [
+        .title: {general utility functions}
         .links: [
-            "Code Analyze" %./code.analyze
-        ]        
-    ]        
-
-    Code-Operations: [
-        .title: {Code Operations}
-        .links: [
-            "code.split" %./code.split
+            "Console prompt" %./console-prompt           
         ]
-    ] 
+    ]     
+
+    Code-Utilities: [
+        .title: {Code utility functions}
+        .links: [
+            "autoload" %./autoload
+            "use function" %./use            
+            "do-trace" %./do-trace
+            "Code split" %./code.split
+            "Code Analyze" %./code.analyze            
+        ]
+
+    ]       
+
+    OOP: [
+        .title: {OOP}
+        .links: [
+            "OOP" %./oop
+        ]        
+    ]
 
     Code-Generation: [
         .title: {Code generation}
@@ -54,23 +73,6 @@ Article: [
         ]        
     ]
 
-    OOP: [
-        .title: {OOP}
-        .links: [
-            "OOP" %./oop
-        ]        
-    ]
-
-    Utilities: [
-        .title: {general utility functions}
-        .links: [
-            "autoload" %./autoload
-            "use function" %./use
-            "do-trace" %./do-trace
-            "Console prompt" %./console-prompt
-        ]
-
-    ]            
 
 ]
 
