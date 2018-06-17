@@ -18,13 +18,15 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/src/console-prompt.red}
-        .image: 
+        .image: https://i.imgur.com/UwpyYEs.png
+        .image: https://i.imgur.com/dP1AGMH.png
+        .image: https://i.imgur.com/f45frTN.png
     ]      
     
     code-snippet: [
 
         .title: {Code Snippet}
-        .image: 
+        .image: https://i.imgur.com/VSMS0ax.png
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/console-prompt.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/console-prompt.red
