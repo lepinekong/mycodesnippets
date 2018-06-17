@@ -9,7 +9,6 @@
 
 ### Demo
 
-Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
 - [http://mycodesnippets.space/jasmine/src/iframe/index.html](http://mycodesnippets.space/jasmine/src/iframe/index.html)
                         
 ![https://i.imgur.com/ZY426wO.png](https://i.imgur.com/ZY426wO.png)

@@ -15,7 +15,6 @@ Article: [
 
     demo: [
         .title: {Demo}
-        .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .links: [
             http://mycodesnippets.space/jasmine/src/iframe/index.html
         ]
