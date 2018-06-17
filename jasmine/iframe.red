@@ -19,7 +19,7 @@ Article: [
         .links: [
             http://mycodesnippets.space/jasmine/src/iframe/index.html
         ]
-        .image: 
+        .image: https://i.imgur.com/ZY426wO.png
     ]         
 
     index.html: [
