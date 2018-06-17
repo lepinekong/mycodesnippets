@@ -8,16 +8,16 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/<%language%>/<%short-filename%>.red](https://github.com/lepinekong/mycodesnippets/blob/master/<%language%>/<%short-filename%>.red)
+        .text: {[http://mycodesnippets.space/<%sub-folder%>/<%short-filename%>.red](https://github.com/lepinekong/mycodesnippets/blob/master/<%sub-folder%>/<%short-filename%>.red)
         }
-        .Published-Url: http://mycodesnippets.space/<%language%>/<%short-filename%>
+        .Published-Url: http://mycodesnippets.space/<%sub-folder%>/<%short-filename%>
     ]  
 
 
     demo: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
-        .quote: {do read http://mycodesnippets.space/redlang/src/<%short-filename%>.red}
+        .quote: {do read http://mycodesnippets.space/<%sub-folder%>/src/<%short-filename%>.red}
         .image: 
     ]      
     

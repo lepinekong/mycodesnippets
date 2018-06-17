@@ -17,7 +17,7 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .links: [
-            http://mycodesnippets.space/redlang/src/iframe/index.html
+            http://mycodesnippets.space/jasmine/src/iframe/index.html
         ]
         .image: 
     ]         
