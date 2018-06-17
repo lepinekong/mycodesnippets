@@ -11,7 +11,16 @@ Article: [
         .text: {[http://mycodesnippets.space/html/iframe.red](https://github.com/lepinekong/mycodesnippets/blob/master/html/iframe.red)
         }
         .Published-Url: http://mycodesnippets.space/html/iframe
-    ]    
+    ] 
+
+    demo: [
+        .title: {Demo}
+        .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
+        .links: [
+            http://mycodesnippets.space/redlang/src/iframe/index.html
+        ]
+        .image: 
+    ]         
 
     index.html: [
         .title: {index.html}

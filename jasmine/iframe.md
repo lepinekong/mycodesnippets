@@ -7,6 +7,12 @@
 [http://mycodesnippets.space/html/iframe.red](https://github.com/lepinekong/mycodesnippets/blob/master/html/iframe.red)
 
 
+### Demo
+
+Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
+- [http://mycodesnippets.space/redlang/src/iframe/index.html](http://mycodesnippets.space/redlang/src/iframe/index.html)
+                        
+
 ### index.html
 
 must reference myFrame.html snippet
