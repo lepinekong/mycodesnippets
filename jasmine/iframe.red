@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {Tips: jasmine in iframe with javascript closure}
+    Title: {Tips: jasmine in iframe - demo of using javascript closure}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
