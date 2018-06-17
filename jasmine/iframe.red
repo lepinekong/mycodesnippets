@@ -20,7 +20,55 @@ Article: [
             http://mycodesnippets.space/jasmine/src/iframe/index.html
         ]
         .image: https://i.imgur.com/ZY426wO.png
-    ]         
+    ]
+
+    
+    myFrame.html: [
+
+        .title: {myFrame.html}
+        .text: {embedded in index.html}
+        .links: [
+            "view source" https://github.com/lepinekong/mycodesnippets/blob/master/jasmine/src/iframe/myFrame.html
+            "raw source" https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/jasmine/src/iframe/myFrame.html
+        ]        
+        .code/html: {
+<html>
+<head>
+    <title>myFrame</title>
+</head>
+<script>
+function domUtils(document) {
+
+    this.document = document;
+    alert(this.document.getElementById("test"));
+
+    this.getElementById = function(id) {
+
+        var _id = id;
+        var _domElement = this.document.getElementById(_id);
+        if (_domElement == null) {
+            alert("dom element name=" + _id + " does not exist in getElementById");
+        }
+        return this.document.getElementById(_id);
+    }
+}
+</script>
+
+<body>
+    <form action="">
+        <input type="text" id="test" value="hello">
+        <input type="text" id="test2" value="hello2">        
+    </form>
+    <script>
+    //var _domUtils = new domUtils(document);
+    //var test = _domUtils.getElementById("test");
+    //alert(test.value);
+    </script>
+</body>
+</html>
+        }
+
+    ]             
 
     index.html: [
         .title: {index.html}
@@ -113,53 +161,7 @@ Article: [
 </html>           
         }
     ]
-    
-    myFrame.html: [
 
-        .title: {myFrame.html}
-        .text: {to be referenced in index.html}
-        .links: [
-            "view source" https://github.com/lepinekong/mycodesnippets/blob/master/jasmine/src/iframe/myFrame.html
-            "raw source" https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/jasmine/src/iframe/myFrame.html
-        ]        
-        .code/html: {
-<html>
-<head>
-    <title>myFrame</title>
-</head>
-<script>
-function domUtils(document) {
-
-    this.document = document;
-    alert(this.document.getElementById("test"));
-
-    this.getElementById = function(id) {
-
-        var _id = id;
-        var _domElement = this.document.getElementById(_id);
-        if (_domElement == null) {
-            alert("dom element name=" + _id + " does not exist in getElementById");
-        }
-        return this.document.getElementById(_id);
-    }
-}
-</script>
-
-<body>
-    <form action="">
-        <input type="text" id="test" value="hello">
-        <input type="text" id="test2" value="hello2">        
-    </form>
-    <script>
-    //var _domUtils = new domUtils(document);
-    //var test = _domUtils.getElementById("test");
-    //alert(test.value);
-    </script>
-</body>
-</html>
-        }
-
-    ]
 ]
 
 do read http://readablehumanformat.com/lib.red
