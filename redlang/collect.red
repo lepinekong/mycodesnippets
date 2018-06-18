@@ -44,7 +44,11 @@ collect [repeat i 16 [keep i]] ; == [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
     Range-Function: [
         .title: {Range function}
         .text: {range function is available on redlang.red:}
-        .quote: {do read http://redlang.red/range}
+        .quote: {do read http://redlang.red/range
+ascii-numbers: range 65 90   
+?? asciis ; -> asciis: [65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90] 
+        }
+        .image: https://i.imgur.com/GZhl7bw.png
         .text: {It uses collect/keep:}
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/range.red
