@@ -13,7 +13,7 @@ Type in [red-lang](https://www.red-lang.org/p/download.html) console:
 >do read http://mycodesnippets.space/redlang/src/collect.red
 
 
-### Code Snippet
+### Basic collect
 
 ![https://i.imgur.com/8ISzG3G.png](https://i.imgur.com/8ISzG3G.png)
                     
@@ -32,6 +32,28 @@ repeat i 16 [append block i] ; == [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
 
 ;you can use collect with keep:
 collect [repeat i 16 [keep i]] ; == [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
+        
+```
+
+
+
+### Range function
+
+range function is available on redlang.red:
+>do read http://redlang.red/range
+
+It uses collect/keep:
+
+
+```red
+
+.range: function[>min >max][
+    min: >min
+    max: >max
+    block: collect [repeat i (>max - min + 1) [keep (i + min - 1)]]    
+    return block
+]
+range: :.range          
         
 ```
 

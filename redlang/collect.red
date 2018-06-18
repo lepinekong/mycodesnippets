@@ -21,9 +21,9 @@ Article: [
         .image: 
     ]      
     
-    code-snippet: [
+    Basics: [
 
-        .title: {Code Snippet}
+        .title: {Basic collect}
         .image: https://i.imgur.com/8ISzG3G.png
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/collect.red
@@ -39,6 +39,22 @@ repeat i 16 [append block i] ; == [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
 collect [repeat i 16 [keep i]] ; == [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
         }
 
+    ]
+
+    Range-Function: [
+        .title: {Range function}
+        .text: {range function is available on redlang.red:}
+        .quote: {do read http://redlang.red/range}
+        .text: {It uses collect/keep:}
+        .code/red: {
+.range: function[>min >max][
+    min: >min
+    max: >max
+    block: collect [repeat i (>max - min + 1) [keep (i + min - 1)]]    
+    return block
+]
+range: :.range          
+        }
     ]
 ]
 
