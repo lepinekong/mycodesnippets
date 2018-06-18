@@ -17,6 +17,7 @@ Visit:
 
 ### Source Code
 
+The html skeleton was initially create with Mobirise before customizing with angularjs code:
 ![https://i.imgur.com/qtw74SE.png](https://i.imgur.com/qtw74SE.png)
                     
 - [View index.html source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/video-gallery/index.html)

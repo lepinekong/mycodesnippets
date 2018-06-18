@@ -26,6 +26,7 @@ Article: [
     code-snippet: [
 
         .title: {Source Code}
+        .text: {The html skeleton was initially create with Mobirise before customizing with angularjs code:}
         .image: https://i.imgur.com/qtw74SE.png
         .links: [
             {View index.html source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/video-gallery/index.html
