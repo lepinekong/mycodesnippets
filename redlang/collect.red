@@ -46,6 +46,10 @@ collect [repeat i 16 [keep i]] ; == [1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]
         .text: {range function is available on redlang.red:}
         .quote: {do read http://redlang.red/range}
         .text: {It uses collect/keep:}
+        .links: [
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/range.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/range.red            
+        ]
         .code/red: {
 .range: function[>min >max][
     min: >min

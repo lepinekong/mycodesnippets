@@ -43,6 +43,10 @@ range function is available on redlang.red:
 >do read http://redlang.red/range
 
 It uses collect/keep:
+- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/range.red)
+                        
+- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/range.red)
+                        
 
 
 ```red
