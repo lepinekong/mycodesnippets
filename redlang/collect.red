@@ -50,6 +50,7 @@ ascii-numbers: range 65 90
         }
         .image: https://i.imgur.com/GZhl7bw.png
         .text: {It uses collect/keep:}
+        .image: https://i.imgur.com/iXpLj3L.png
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/range.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/range.red            

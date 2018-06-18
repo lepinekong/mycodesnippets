@@ -48,6 +48,8 @@ ascii-numbers: range 65 90
 ![https://i.imgur.com/GZhl7bw.png](https://i.imgur.com/GZhl7bw.png)
                     
 It uses collect/keep:
+![https://i.imgur.com/iXpLj3L.png](https://i.imgur.com/iXpLj3L.png)
+                    
 - [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/range.red)
                         
 - [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/range.red)
