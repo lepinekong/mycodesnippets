@@ -66,5 +66,5 @@
 
 - [Basics](./preprocessor/basics)
                         
-- [Basics](./preprocessor/red-in-french)
+- [Code Red in French!](./preprocessor/red-in-french)
                         
