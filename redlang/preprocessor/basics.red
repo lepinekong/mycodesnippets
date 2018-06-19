@@ -23,8 +23,7 @@ Article: [
     ] 
 
     Demo: [
-        .title: {Basic Demo}
-        .text: {Replace "," by " "}
+        .title: {Demo}
         .text: {For demo type in Red Console}
         .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/basics.red}
         .text: {then type:}

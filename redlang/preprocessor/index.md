@@ -14,7 +14,7 @@ The Red preprocessor transforms code during, after the LOADing phase. Transforma
 - [Official documentation](https://doc.red-lang.org/en/preprocessor.html)
                         
 
-### Example 1:
+### Basics
 
 Replace "," by " "
 For demo type in Red Console
@@ -53,9 +53,8 @@ do {
 
 
 
-### Example 2: 
+### Code in french
 
-Code in french
 For demo type in Red Console
 >do read http://mycodesnippets.space/redlang/preprocessor/src/red-in-french.red
 
