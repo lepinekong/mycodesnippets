@@ -26,13 +26,13 @@ Article: [
         .title: {Basic Demo}
         .text: {Replace "," by " "}
         .text: {For demo type in Red Console}
-        .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/example1.red}
+        .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/basics.red}
         .text: {then type:}
         .quote: {[1,2,3,abd,"hello"]}
         .text: {You should get this:}
         .image: https://i.imgur.com/wpGH6G1.png 
     ]
-    
+
     Source: [
         .title: {Source code}    
 

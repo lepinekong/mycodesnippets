@@ -15,7 +15,7 @@ Article: [
     Demo: [
         .title: {Code in french}
         .text: {For demo type in Red Console}
-        .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/example2.red}
+        .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/red-in-french.red}
         .text: {then type:}
         .quote: {i: 10 while [i > 0][si even? i [print i] i: i - 1]}
         .text: {You should get:}

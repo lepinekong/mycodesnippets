@@ -26,7 +26,7 @@ Article: [
         .title: {Example 1:}
         .text: {Replace "," by " "}
         .text: {For demo type in Red Console}
-        .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/example1.red}
+        .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/basics.red}
         .text: {then type:}
         .quote: {[1,2,3,abd,"hello"]}
         .text: {You should get this:}
@@ -56,7 +56,7 @@ do {
         .title: {Example 2: }
         .text: {Code in french}
         .text: {For demo type in Red Console}
-        .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/example2.red}
+        .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/red-in-french.red}
         .text: {then type:}
         .quote: {i: 10 while [i > 0][si even? i [print i] i: i - 1]}
         .text: {You should get:}

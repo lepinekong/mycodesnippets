@@ -14,11 +14,11 @@ The Red preprocessor transforms code during, after the LOADing phase. Transforma
 - [Official documentation](https://doc.red-lang.org/en/preprocessor.html)
                         
 
-### Basic Example
+### Basic Demo
 
 Replace "," by " "
 For demo type in Red Console
->do read http://mycodesnippets.space/redlang/preprocessor/src/example1.red
+>do read http://mycodesnippets.space/redlang/preprocessor/src/basics.red
 
 then type:
 >[1,2,3,abd,"hello"]
@@ -26,7 +26,9 @@ then type:
 You should get this:
 ![https://i.imgur.com/wpGH6G1.png](https://i.imgur.com/wpGH6G1.png)
                     
-Source code: 
+
+### Source code
+
 ![https://i.imgur.com/NYKUJlk.png](https://i.imgur.com/NYKUJlk.png)
                     
 - [View source](https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/example1.red)

@@ -10,7 +10,7 @@
 ### Code in french
 
 For demo type in Red Console
->do read http://mycodesnippets.space/redlang/preprocessor/src/example2.red
+>do read http://mycodesnippets.space/redlang/preprocessor/src/red-in-french.red
 
 then type:
 >i: 10 while [i > 0][si even? i [print i] i: i - 1]

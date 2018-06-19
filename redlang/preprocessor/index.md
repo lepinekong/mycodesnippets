@@ -18,7 +18,7 @@ The Red preprocessor transforms code during, after the LOADing phase. Transforma
 
 Replace "," by " "
 For demo type in Red Console
->do read http://mycodesnippets.space/redlang/preprocessor/src/example1.red
+>do read http://mycodesnippets.space/redlang/preprocessor/src/basics.red
 
 then type:
 >[1,2,3,abd,"hello"]
@@ -57,7 +57,7 @@ do {
 
 Code in french
 For demo type in Red Console
->do read http://mycodesnippets.space/redlang/preprocessor/src/example2.red
+>do read http://mycodesnippets.space/redlang/preprocessor/src/red-in-french.red
 
 then type:
 >i: 10 while [i > 0][si even? i [print i] i: i - 1]
