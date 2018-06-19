@@ -29,9 +29,9 @@ check that it also works:
 
 ![https://i.imgur.com/NYKUJlk.png](https://i.imgur.com/NYKUJlk.png)
                     
-- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/example2.red)
+- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/red-in-french.red)
                         
-- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/preprocessor/src/example2.red)
+- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/preprocessor/src/red-in-french.red)
                         
 
 

@@ -29,8 +29,8 @@ Article: [
         .title: {Source code}  
         .image: https://i.imgur.com/NYKUJlk.png  
         .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/example2.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/preprocessor/src/example2.red
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/red-in-french.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/preprocessor/src/red-in-french.red
         ]          
         .code: {
 system/lexer/pre-load: function [src part][
