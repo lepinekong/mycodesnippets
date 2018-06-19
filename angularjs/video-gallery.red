@@ -27,6 +27,9 @@ Article: [
 
         .title: {Source Code}
         .text: {The html skeleton was initially create with Mobirise before customizing with angularjs code:}
+        .text: {Json Data and AngularJs Controller : }
+        .image: https://i.imgur.com/fLkUV9u.png
+        .text: {Html and AngularJs ng-repeat}
         .image: https://i.imgur.com/qtw74SE.png
         .links: [
             {View index.html source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/video-gallery/index.html
