@@ -24,7 +24,7 @@ Article: [
 
     Demo: [
         .title: {Demo}
-        .text: {For demo type in Red Console}
+        .text: {For demo type in Red Console:}
         .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/basics.red}
         .text: {then type:}
         .quote: {[1,2,3,abd,"hello"]}

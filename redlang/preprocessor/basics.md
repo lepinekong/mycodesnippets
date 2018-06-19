@@ -16,7 +16,7 @@ The Red preprocessor transforms code during, after the LOADing phase. Transforma
 
 ### Demo
 
-For demo type in Red Console
+For demo type in Red Console:
 >do read http://mycodesnippets.space/redlang/preprocessor/src/basics.red
 
 then type:
