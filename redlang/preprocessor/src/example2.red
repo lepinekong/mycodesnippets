@@ -16,3 +16,6 @@ system/lexer/pre-load: function [src part][
         ]
     ]
 ]
+
+print {i: 10 tant que [i > 0][si impair? i [affiche i] i: i - 1]}  
+do {i: 10 tant que [i > 0][si impair? i [affiche i] i: i - 1]}  
