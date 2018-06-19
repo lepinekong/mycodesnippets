@@ -58,14 +58,18 @@ do {
         .text: {For demo type in Red Console}
         .quote: {do read http://mycodesnippets.space/redlang/preprocessor/src/example2.red}
         .text: {then type:}
-        .quote: {[1,2,3,abd,"hello"]}
-        .text: {You should get this:}
-        .image: https://i.imgur.com/wpGH6G1.png     
+        .quote: {i: 10 while [i > 0][si even? i [print i] i: i - 1]}
+        .text: {You should get:}
+        .image: https://i.imgur.com/GW41yg9.png
+        .text: {Then type the instruction in french}
+        .quote: {i: 10 tant que [i > 0][si impair? i [affiche i] i: i - 1]}
+        .text: {check that it also works:}
+        .image: https://i.imgur.com/JtgfwaZ.png    
         .text: {Source code: }  
         .image: https://i.imgur.com/NYKUJlk.png  
         .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/example1.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/preprocessor/src/example1.red
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/example2.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/preprocessor/src/example2.red
         ]          
         .code: {
 system/lexer/pre-load: function [src part][
