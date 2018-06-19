@@ -1,5 +1,5 @@
 Red [
-    Title: "example1.red"
+    Title: "Redlang Pre-processor example 1"
 ]
 
 system/lexer/pre-load: func [src part][
