@@ -27,7 +27,7 @@ check that it also works:
 
 ### Source code
 
-![https://i.imgur.com/NYKUJlk.png](https://i.imgur.com/NYKUJlk.png)
+![https://i.imgur.com/cNmpbyu.png](https://i.imgur.com/cNmpbyu.png)
                     
 - [View source](https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/red-in-french.red)
                         

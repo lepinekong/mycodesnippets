@@ -27,7 +27,7 @@ Article: [
     ]
     Source: [  
         .title: {Source code}  
-        .image: https://i.imgur.com/NYKUJlk.png  
+        .image: https://i.imgur.com/cNmpbyu.png  
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/red-in-french.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/preprocessor/src/red-in-french.red
