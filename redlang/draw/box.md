@@ -19,9 +19,9 @@ Type in [red-lang](https://www.red-lang.org/p/download.html) console:
 
 ![https://i.imgur.com/ajVg7Mz.png](https://i.imgur.com/ajVg7Mz.png)
                     
-- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/box.red)
+- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/box.red)
                         
-- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/box.red)
+- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/draw/src/box.red)
                         
 
 
