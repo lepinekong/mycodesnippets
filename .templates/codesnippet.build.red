@@ -2,6 +2,6 @@ Red [
     Title: "codesnippet.build.red"
 ]
 
-do read http://redlang.red/templating
+do read %templating.red
 
 render %res/codesnippet.template.red
