@@ -25,6 +25,8 @@ win: compose/deep [
 
     title (title)
 
+    origin 0x0 space 0x0
+
     base (bigRect-pos2)
     draw [
 
@@ -34,6 +36,7 @@ win: compose/deep [
         fill-pen (light-blue)
         box (smallRect-pos1) (smallRect-pos2)
 
+        pen off
         fill-pen (light-magenta)
         box (microRect-pos1) (microRect-pos2)        
     ]
