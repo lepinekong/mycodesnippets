@@ -18,7 +18,7 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/draw/src/box.red}
-        .image: https://i.imgur.com/VtH3BDz.png
+        .image: https://i.imgur.com/wXg9X45.png
     ]      
     
     code-snippet: [
@@ -30,14 +30,6 @@ Article: [
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/draw/src/box.red
         ]        
         .code/red: {
-Red [
-    Title: "box.red"
-    Needs: 'View
-    Colors-inspiration: [
-        https://twitter.com/Jamal7x7Jamal/status/1008269417124331520
-    ]
-]
-
 title: "How to draw colored boxes"
 dark-blue: 1.23.64
 light-blue: 104.172.248
@@ -57,8 +49,12 @@ win: compose/deep [
 
     title (title)
 
+    origin 0x0 space 0x0
+
     base (bigRect-pos2)
     draw [
+
+        pen off ; will remove black border for shapes
 
         fill-pen (dark-blue) 
         box (bigRect-pos1) (bigRect-pos2)

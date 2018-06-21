@@ -30,13 +30,14 @@ win: compose/deep [
     base (bigRect-pos2)
     draw [
 
+        pen off ; will remove black border for shapes
+
         fill-pen (dark-blue) 
         box (bigRect-pos1) (bigRect-pos2)
 
         fill-pen (light-blue)
         box (smallRect-pos1) (smallRect-pos2)
 
-        pen off
         fill-pen (light-magenta)
         box (microRect-pos1) (microRect-pos2)        
     ]
