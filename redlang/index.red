@@ -36,6 +36,7 @@ Article: [
             "GUI Panels" %./gui-panels
             "Barchart" %./barchart
             "Data Binding" %./databinding
+            "Draw colored boxes" %./draw/box
         ]
     ]
 
