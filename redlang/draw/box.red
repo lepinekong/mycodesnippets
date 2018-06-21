@@ -24,7 +24,7 @@ Article: [
     code-snippet: [
 
         .title: {Code Snippet}
-        .image: https://i.imgur.com/ajVg7Mz.png
+        .image: https://i.imgur.com/OuKkujW.png
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/box.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/draw/src/box.red

@@ -12,12 +12,12 @@
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
 >do read http://mycodesnippets.space/redlang/draw/src/box.red
 
-![https://i.imgur.com/VtH3BDz.png](https://i.imgur.com/VtH3BDz.png)
+![https://i.imgur.com/wXg9X45.png](https://i.imgur.com/wXg9X45.png)
                     
 
 ### Code Snippet
 
-![https://i.imgur.com/ajVg7Mz.png](https://i.imgur.com/ajVg7Mz.png)
+![https://i.imgur.com/OuKkujW.png](https://i.imgur.com/OuKkujW.png)
                     
 - [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/box.red)
                         
@@ -26,14 +26,6 @@ Type in [red-lang](https://www.red-lang.org/p/download.html) console:
 
 
 ```red
-
-Red [
-    Title: "box.red"
-    Needs: 'View
-    Colors-inspiration: [
-        https://twitter.com/Jamal7x7Jamal/status/1008269417124331520
-    ]
-]
 
 title: "How to draw colored boxes"
 dark-blue: 1.23.64
@@ -54,8 +46,12 @@ win: compose/deep [
 
     title (title)
 
+    origin 0x0 space 0x0
+
     base (bigRect-pos2)
     draw [
+
+        pen off ; will remove black border for shapes
 
         fill-pen (dark-blue) 
         box (bigRect-pos1) (bigRect-pos2)
