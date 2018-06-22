@@ -1,0 +1,774 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                width="556" height="1740">
+                
+            <g>
+                <rect x="50" y="80"
+            width="190.4" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="80" x2="60" y2="110"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="230.4" y1="80" x2="230.4" y2="110"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>function Finance()</title>
+            <text x="75" y="100"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="100">function Finance()</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="50" y="128.5"
+            width="463.4" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="128.5" x2="60" y2="158.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="503.4" y1="128.5" x2="503.4" y2="158.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>Finance.CalcMonthlyPayment = function(a, monthlyInterestRate, duration)</title>
+            <text x="75" y="148.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="148.5">Finance.CalcMonthlyPayment = function(a, monthlyIn...</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="177"
+            width="271.79999999999995" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var Q = 1 + monthlyInterestRate</title>
+            <text x="102" y="197"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="197">var Q = 1 + monthlyInterestRate</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="225.5"
+            width="154.8" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var n = duration</title>
+            <text x="102" y="245.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="245.5">var n = duration</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="274"
+            width="443.4" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var monthlyPayment = a * Math.pow(Q, n) * (1 - Q) / (1 - Math.pow(Q, n))</title>
+            <text x="102" y="294"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="294">var monthlyPayment = a * Math.pow(Q, n) * (1 - Q) ...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="322.5"
+            width="193.79999999999998" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                
+                <line x1="280.79999999999995" y1="332.5" x2="285.79999999999995" y2="332.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                
+                <line x1="280.79999999999995" y1="342.5" x2="285.79999999999995" y2="342.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+
+                <path d="M285.79999999999995, 326.5 L301.79999999999995, 337.5 L285.79999999999995, 348.5 Z" 
+        fill="#a5d6a7" stroke="#444" stroke-width="1" />
+                             
+                <title>return monthlyPayment</title>
+            <text x="102" y="342.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="342.5">return monthlyPayment</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="50" y="386"
+            width="432.2" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="386" x2="60" y2="416"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="472.2" y1="386" x2="472.2" y2="416"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>Finance.CalcEquivalentRate = function(annualRate)</title>
+            <text x="75" y="406"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="406">Finance.CalcEquivalentRate = function(annualRate)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="434.5"
+            width="443.4" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var value = (Math.pow(annualRate + 1, 12) - 1) * 100</title>
+            <text x="102" y="454.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="454.5">var value = (Math.pow(annualRate + 1, 12) - 1) * 1...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="483"
+            width="123.6" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                
+                <line x1="210.6" y1="493" x2="215.6" y2="493"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                
+                <line x1="210.6" y1="503" x2="215.6" y2="503"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+
+                <path d="M215.6, 487 L231.6, 498 L215.6, 509 Z" 
+        fill="#a5d6a7" stroke="#444" stroke-width="1" />
+                             
+                <title>return value</title>
+            <text x="102" y="503"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="503">return value</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="50" y="546.5"
+            width="416.59999999999997" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="546.5" x2="60" y2="576.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="456.59999999999997" y1="546.5" x2="456.59999999999997" y2="576.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>Finance.NPV = function(rate, duration, FVArray)</title>
+            <text x="75" y="566.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="566.5">Finance.NPV = function(rate, duration, FVArray)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="595"
+            width="115.8" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var NPV = 0</title>
+            <text x="102" y="615"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="615">var NPV = 0</tspan>
+            </text>
+                   
+                   
+                </g><g>
+
+            <rect x="117" y="678.5"
+            width="184.8" height="30"
+            rx="3" ry="3"
+            style="fill:#b39ddb; stroke:#444; stroke-width:1" />
+            <polygon points="87,693.5 117,663.5 147,693.5 117,723.5"
+            style="fill:#b39ddb; stroke:#444; stroke-width:1" />
+                
+            <title>i &lt; duration + 1</title>
+            <text x="162" y="698.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="162" y="698.5">i &lt; duration + 1</tspan>
+            </text>
+            
+            <text x="105.3" y="698.5"
+        font-family="monospace" font-size="13" fill="#222">for</text>
+        </g>
+                <g>
+                   <rect x="137" y="733.5"
+            width="69" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>i = 0</title>
+            <text x="152" y="753.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="152" y="753.5">i = 0</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="137" y="782"
+            width="53.4" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>i++</title>
+            <text x="152" y="802"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="152" y="802">i++</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="137" y="830.5"
+            width="162.6" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>FV_i = FVArray[i]</title>
+            <text x="152" y="850.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="152" y="850.5">FV_i = FVArray[i]</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="137" y="879"
+            width="342" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>NPV = NPV + FV_i / Math.pow(1 + rate, i)</title>
+            <text x="152" y="899"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="152" y="899">NPV = NPV + FV_i / Math.pow(1 + rate, i)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="927.5"
+            width="154.8" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var result = NPV</title>
+            <text x="102" y="947.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="947.5">var result = NPV</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="976"
+            width="131.39999999999998" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                
+                <line x1="218.39999999999998" y1="986" x2="223.39999999999998" y2="986"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                
+                <line x1="218.39999999999998" y1="996" x2="223.39999999999998" y2="996"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+
+                <path d="M223.39999999999998, 980 L239.39999999999998, 991 L223.39999999999998, 1002 Z" 
+        fill="#a5d6a7" stroke="#444" stroke-width="1" />
+                             
+                <title>return result</title>
+            <text x="102" y="996"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="996">return result</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="50" y="1039.5"
+            width="463.4" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="1039.5" x2="60" y2="1069.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="503.4" y1="1039.5" x2="503.4" y2="1069.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>Finance.Interest = function(principal, rate, monthlyPayment, i)</title>
+            <text x="75" y="1059.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="1059.5">Finance.Interest = function(principal, rate, month...</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="1088"
+            width="162.6" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var p = principal</title>
+            <text x="102" y="1108"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1108">var p = principal</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1136.5"
+            width="154.8" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var Q = 1 + rate</title>
+            <text x="102" y="1156.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1156.5">var Q = 1 + rate</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1185"
+            width="201.6" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var m = monthlyPayment</title>
+            <text x="102" y="1205"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1205">var m = monthlyPayment</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1233.5"
+            width="334.2" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var GR = (1 - Math.pow(Q, i)) / (1 - Q)</title>
+            <text x="102" y="1253.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1253.5">var GR = (1 - Math.pow(Q, i)) / (1 - Q)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1282"
+            width="443.4" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var result = (p * Math.pow(Q, i) - m * GR) * (Q - 1)</title>
+            <text x="102" y="1302"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1302">var result = (p * Math.pow(Q, i) - m * GR) * (Q - ...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="1330.5"
+            width="131.39999999999998" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                
+                <line x1="218.39999999999998" y1="1340.5" x2="223.39999999999998" y2="1340.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                
+                <line x1="218.39999999999998" y1="1350.5" x2="223.39999999999998" y2="1350.5"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+
+                <path d="M223.39999999999998, 1334.5 L239.39999999999998, 1345.5 L223.39999999999998, 1356.5 Z" 
+        fill="#a5d6a7" stroke="#444" stroke-width="1" />
+                             
+                <title>return result</title>
+            <text x="102" y="1350.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1350.5">return result</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="50" y="1394"
+            width="463.4" height="30"
+            style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                    
+                <line x1="60" y1="1394" x2="60" y2="1424"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                <line x1="503.4" y1="1394" x2="503.4" y2="1424"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+             
+                <title>Finance.Owed = function(principal, rate, monthlyPayment, i)</title>
+            <text x="75" y="1414"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="1414">Finance.Owed = function(principal, rate, monthlyPa...</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="87" y="1442.5"
+            width="162.6" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var p = principal</title>
+            <text x="102" y="1462.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1462.5">var p = principal</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1491"
+            width="154.8" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var Q = 1 + rate</title>
+            <text x="102" y="1511"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1511">var Q = 1 + rate</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1539.5"
+            width="201.6" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var m = monthlyPayment</title>
+            <text x="102" y="1559.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1559.5">var m = monthlyPayment</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1588"
+            width="334.2" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var GR = (1 - Math.pow(Q, i)) / (1 - Q)</title>
+            <text x="102" y="1608"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1608">var GR = (1 - Math.pow(Q, i)) / (1 - Q)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="1636.5"
+            width="342" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                   <title>var result = p * Math.pow(Q, i) - m * GR</title>
+            <text x="102" y="1656.5"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1656.5">var result = p * Math.pow(Q, i) - m * GR</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="1685"
+            width="131.39999999999998" height="30"
+            rx="3" ry="3"
+            style="fill:#90caf9; stroke:#444; stroke-width:1" />
+                
+                <line x1="218.39999999999998" y1="1695" x2="223.39999999999998" y2="1695"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+                
+                <line x1="218.39999999999998" y1="1705" x2="223.39999999999998" y2="1705"
+                style="fill:#a5d6a7; stroke:#444; stroke-width:1" />
+
+                <path d="M223.39999999999998, 1689 L239.39999999999998, 1700 L223.39999999999998, 1711 Z" 
+        fill="#a5d6a7" stroke="#444" stroke-width="1" />
+                             
+                <title>return result</title>
+            <text x="102" y="1705"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="1705">return result</tspan>
+            </text>
+                
+            </g>
+            <g>
+               <rect x="25" y="13.75"
+            width="216.6" height="24"
+            style="fill:#fff59d; stroke:#444; stroke-width:1" />
+               <circle cx="25" cy="25" r="15"
+        style="fill:#fff59d; stroke:#444; stroke-width:1" />
+               <title>Program: source module</title>
+            <text x="55" y="30"
+                font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 91 Q25 95
+                29 95
+                L42 95 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 92 L50, 95 L42, 98 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 139.5 Q25 143.5
+                29 143.5
+                L42 143.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 140.5 L50, 143.5 L42, 146.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 188 Q68.5 192
+                72.5 192
+                L79 192 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 189 L87, 192 L79, 195 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 236.5 Q68.5 240.5
+                72.5 240.5
+                L79 240.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 237.5 L87, 240.5 L79, 243.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 285 Q68.5 289
+                72.5 289
+                L79 289 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 286 L87, 289 L79, 292 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 333.5 Q68.5 337.5
+                72.5 337.5
+                L79 337.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 334.5 L87, 337.5 L79, 340.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 397 Q25 401
+                29 401
+                L42 401 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 398 L50, 401 L42, 404 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 416 L68.5 445.5 Q68.5 449.5
+                72.5 449.5
+                L79 449.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 446.5 L87, 449.5 L79, 452.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 416 L68.5 494 Q68.5 498
+                72.5 498
+                L79 498 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 495 L87, 498 L79, 501 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 557.5 Q25 561.5
+                29 561.5
+                L42 561.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 558.5 L50, 561.5 L42, 564.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 576.5 L68.5 606 Q68.5 610
+                72.5 610
+                L79 610 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 607 L87, 610 L79, 613 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 576.5 L68.5 689.5 Q68.5 693.5
+                72.5 693.5
+                L79 693.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 690.5 L87, 693.5 L79, 696.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M117, 723.5 L117 744.5 Q117 748.5
+                121 748.5
+                L129 748.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M129, 745.5 L137, 748.5 L129, 751.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M117, 723.5 L117 793 Q117 797
+                121 797
+                L129 797 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M129, 794 L137, 797 L129, 800 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M117, 723.5 L117 841.5 Q117 845.5
+                121 845.5
+                L129 845.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M129, 842.5 L137, 845.5 L129, 848.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M117, 723.5 L117 890 Q117 894
+                121 894
+                L129 894 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M129, 891 L137, 894 L129, 897 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M479, 894 L495 894  Q499 894
+                499 890
+                L499 651.5 Q499 643.5
+                495 643.5
+                L125 643.5  Q117 643.5
+                117 647.5
+                L117 655.5"
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M114, 655.5 L117, 663.5 L120, 655.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 576.5 L68.5 938.5 Q68.5 942.5
+                72.5 942.5
+                L79 942.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 939.5 L87, 942.5 L79, 945.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 576.5 L68.5 987 Q68.5 991
+                72.5 991
+                L79 991 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 988 L87, 991 L79, 994 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 1050.5 Q25 1054.5
+                29 1054.5
+                L42 1054.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 1051.5 L50, 1054.5 L42, 1057.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1069.5 L68.5 1099 Q68.5 1103
+                72.5 1103
+                L79 1103 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1100 L87, 1103 L79, 1106 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1069.5 L68.5 1147.5 Q68.5 1151.5
+                72.5 1151.5
+                L79 1151.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1148.5 L87, 1151.5 L79, 1154.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1069.5 L68.5 1196 Q68.5 1200
+                72.5 1200
+                L79 1200 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1197 L87, 1200 L79, 1203 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1069.5 L68.5 1244.5 Q68.5 1248.5
+                72.5 1248.5
+                L79 1248.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1245.5 L87, 1248.5 L79, 1251.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1069.5 L68.5 1293 Q68.5 1297
+                72.5 1297
+                L79 1297 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1294 L87, 1297 L79, 1300 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1069.5 L68.5 1341.5 Q68.5 1345.5
+                72.5 1345.5
+                L79 1345.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1342.5 L87, 1345.5 L79, 1348.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M25, 40 L25 1405 Q25 1409
+                29 1409
+                L42 1409 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M42, 1406 L50, 1409 L42, 1412 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1424 L68.5 1453.5 Q68.5 1457.5
+                72.5 1457.5
+                L79 1457.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1454.5 L87, 1457.5 L79, 1460.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1424 L68.5 1502 Q68.5 1506
+                72.5 1506
+                L79 1506 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1503 L87, 1506 L79, 1509 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1424 L68.5 1550.5 Q68.5 1554.5
+                72.5 1554.5
+                L79 1554.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1551.5 L87, 1554.5 L79, 1557.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1424 L68.5 1599 Q68.5 1603
+                72.5 1603
+                L79 1603 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1600 L87, 1603 L79, 1606 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1424 L68.5 1647.5 Q68.5 1651.5
+                72.5 1651.5
+                L79 1651.5 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1648.5 L87, 1651.5 L79, 1654.5 Z" 
+        fill="#333" />
+            </g>
+            <g>
+               <path d="M68.5, 1424 L68.5 1696 Q68.5 1700
+                72.5 1700
+                L79 1700 "
+        style="fill:none; stroke:#444; stroke-width:1" />
+               <path d="M79, 1697 L87, 1700 L79, 1703 Z" 
+        fill="#333" />
+            </g>
+            </svg>

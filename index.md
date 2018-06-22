@@ -2,77 +2,43 @@
 # Index of MyCodeSnippets.Space
 
 
-### Bootstrap
+### Web Development
 
-- [Code Snippets for Bootstrap](./bootstrap/)
+- [Bootstrap](./bootstrap/)
                         
-
-### Csharp
-
-- [csharp](./csharp/)
+- [Css](./css/)
                         
-
-### Google-Charts
-
-- [googlecharts](./googlecharts)
+- [Google Charts](./googlecharts)
                         
-
-### Headless Chrome
-
-- [Code Snippets for Headless Chrome](./headlesschrome/)
+- [Headless Chrome](./headlesschrome/)
                         
-
-### Html
-
-- [Code Snippets for Html](./html/)
+- [Html](./html/)
                         
-
-### Jasmine
-
-- [Code Snippets for Jasmine](./jasmine/)
+- [Jasmine](./jasmine/)
                         
-
-### Jekyll
-
-- [Code Snippets for Jekyll](./jekyll/)
+- [Jekyll](./jekyll/)
                         
-
-### Markdown
-
-- [Code Snippets for Markdown](./markdown/)
+- [Markdown](./markdown/)
                         
-
-### MQL4
-
-- [MQL4](./mql4/)
-                        
-
-### NodeJs
-
 - [NodeJs](./nodejs/)
                         
+- [ReAdABLE Human Format](./readable/)
+                        
 
-### Powershell
+### Programming Languages
 
+- [Csharp](./csharp/)
+                        
+- [MQL4](./mql4/)
+                        
 - [Powershell](./powershell/)
                         
-
-### Python
-
-- [Code Snippets for Python](./python/)
+- [Python](./python/)
+                        
+- [Redlang](./redlang/)
                         
 
-### ReAdABLE
+### Tools
 
-- [Some usefull VSCode snippets for ReAdABLE Human Format](./readable/)
-                        
-
-### Redlang
-
-- [Code Snippets for Redlang](./redlang/)
-                        
-
-### VSCode
-
-- [A sample of general VSCode Snippets](./vscode/)
+- [VSCode Snippets](./vscode/)
                         

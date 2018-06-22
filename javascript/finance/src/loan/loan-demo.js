@@ -1,10 +1,10 @@
 var BusinessRules = {
 
     "netFinancedThreadhold": 250000,
-    "annualRate1": 15,
-    "annualRate2": 45,
-    
-    "getAnnualRateForNetFinanced": function(netFinanced, annualRate) {
+    "annualRate1": 5,
+    "annualRate2": 8,
+    "getAnnualRateForNetFinanced": function (netFinanced) {
+
         if (netFinanced > this.netFinancedThreadhold) {
             return this.annualRate1;
         } else {
@@ -35,7 +35,7 @@ var BusinessRules = {
         //--- Phase 1: rough estimation
         
         var step0 = 1;
-       
+
         var annualRate = annualRate_start;
         var monthlyPayment0 = this.getMonthlyPaymentWithoutFees(netFinanced, annualRate, duration);
         var diff0 = (monthlyPayment_target - monthlyPayment0);
@@ -77,7 +77,7 @@ var BusinessRules = {
 
         return annualRate;
     },
-    
+
     "getEquivalentRate": function(nominalRate) {
         
         var monthlyInterestRate = nominalRate / 100 / 12;
@@ -127,6 +127,9 @@ var BusinessRules = {
 
         return amortizationTable;
     
-    }
+    }    
     
 }
+
+
+

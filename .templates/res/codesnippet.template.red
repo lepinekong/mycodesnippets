@@ -26,8 +26,8 @@ Article: [
         .title: {Code Snippet}
         .image: 
         .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/<%short-filename%>.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/<%short-filename%>.red
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/<%sub-folder%>/src/<%short-filename%>.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/<%sub-folder%>/src/<%short-filename%>.red
         ]        
         .code/<%language%>: {
 
