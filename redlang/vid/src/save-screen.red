@@ -1,5 +1,5 @@
 Red [
-    Title: "positioning.red"
+    Title: "save-screen.red"
     Url: http://mycodesnippets.space/redlang/vid/positioning
 ]
 
@@ -40,7 +40,7 @@ win: [
     origin 0x0 space 0x0
     
     at 0x0
-    panel (bigRect) [
+    img-quote: panel (bigRect) [
         backdrop (blue-marine)
 
         at (quote-position)
@@ -54,7 +54,15 @@ win: [
         at (glyph-position)
         text (glyph-size) font (font-glyph) center {“}
     ]
+    at 0x729
+    panel [
+        button "save" [
+            img-out: to-image img-quote
+        ]
+    ]
 
 ]
 
 view layout compose/deep win
+
+save/as %quote.png img-out 'png

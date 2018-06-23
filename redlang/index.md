@@ -2,11 +2,13 @@
 # Index of redlang code snippets
 
 
-### CSV datas
+### Data processing
 
-- [Parse text data (from excel,...)](./parse-text-data)
+- [Parse text CSV data (from excel,...)](./parse-text-data)
                         
 - [CRUD CSV](./crud-csv)
+                        
+- [Get Bitcoin price from Json REST Service](./bitcoin)
                         
 
 ### Functions

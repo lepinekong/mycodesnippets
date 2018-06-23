@@ -1,3 +1,7 @@
+Red [
+    Title: "base58.red"
+]
+
 ; Warning: works only for small strings (like "Hello") because of lack of BigInteger support currently 
 ; Download Red-lang.org and copy and paste the code, see execution sample at the bottom
 
