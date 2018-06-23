@@ -44,7 +44,8 @@ Article: [
     Utilities: [
         .title: {general utility functions}
         .links: [
-            "Console prompt" %./console-prompt           
+            "Console prompt" %./console-prompt   
+            "Console type detection" %./console-detection   
         ]
     ]     
 

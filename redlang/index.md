@@ -40,6 +40,8 @@
 
 - [Console prompt](./console-prompt)
                         
+- [Console type detection](./console-detection)
+                        
 
 ### Code utility functions
 
