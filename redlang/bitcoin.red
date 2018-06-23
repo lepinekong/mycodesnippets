@@ -1,5 +1,8 @@
 Red [
     Title: "json.red"
+    References: [
+        https://itfordummies.net/2017/11/14/get-bitcoin-price-powershell/
+    ]
 ]
 
 Article: [
