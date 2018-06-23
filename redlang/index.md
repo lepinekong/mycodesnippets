@@ -33,6 +33,8 @@
                         
 - [Draw colored boxes](./draw/box)
                         
+- [Vid text positioning](./vid/positioning)
+                        
 
 ### general utility functions
 

@@ -11,8 +11,7 @@ Article: [
         .text: {[http://mycodesnippets.space/redlang/functions/unlimited-args.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/functions/unlimited-args.red)
         }
         .Published-Url: http://mycodesnippets.space/redlang/functions/unlimited-args
-    ]  
-
+    ]
 
     demo: [
         .title: {Demo}

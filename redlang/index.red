@@ -37,6 +37,7 @@ Article: [
             "Barchart" %./barchart
             "Data Binding" %./databinding
             "Draw colored boxes" %./draw/box
+            "Vid text positioning" %./vid/positioning
         ]
     ]
 
