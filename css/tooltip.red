@@ -1,5 +1,5 @@
 Red [
-    Title: "tootip.red"
+    Title: "tooltip.red"
 ]
 
 Article: [
@@ -8,16 +8,14 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/css/tootip.red](https://github.com/lepinekong/mycodesnippets/blob/master/css/tootip.red)
+        .text: {[http://mycodesnippets.space/css/tooltip.red](https://github.com/lepinekong/mycodesnippets/blob/master/css/tooltip.red)
         }
-        .Published-Url: http://mycodesnippets.space/css/tootip
+        .Published-Url: http://mycodesnippets.space/css/tooltip
     ]  
 
 
     demo: [
         .title: {Demo}
-        .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
-        .quote: {do read http://mycodesnippets.space/css/src/tootip.red}
         .links: [
             https://www.youtube.com/watch?v=gKCfUUC_LiA
         ]
@@ -26,10 +24,9 @@ Article: [
     code-snippet: [
 
         .title: {Code Snippet}
-        .image: 
         .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/css/src/tootip.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/css/src/tootip.red
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/css/src/tooltip.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/css/src/tooltip.red
         ]        
         .code/css: {
 p{
