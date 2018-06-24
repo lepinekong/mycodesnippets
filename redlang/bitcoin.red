@@ -21,12 +21,13 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/src/bitcoin.red}
-        .image: https://i.imgur.com/DVcAOqW.png
+        .image: https://i.imgur.com/aRr9Xgq.png
     ]      
     
     code-snippet: [
 
         .title: {Code Snippet}
+        .image: https://i.imgur.com/BTuW5jh.png
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/bitcoin.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/bitcoin.red
@@ -59,7 +60,6 @@ view layout [
         old-price: 0
     ]
 ]
-
         }
 
     ]

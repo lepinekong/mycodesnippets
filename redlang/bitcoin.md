@@ -12,11 +12,13 @@
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
 >do read http://mycodesnippets.space/redlang/src/bitcoin.red
 
-![https://i.imgur.com/DVcAOqW.png](https://i.imgur.com/DVcAOqW.png)
+![https://i.imgur.com/aRr9Xgq.png](https://i.imgur.com/aRr9Xgq.png)
                     
 
 ### Code Snippet
 
+![https://i.imgur.com/BTuW5jh.png](https://i.imgur.com/BTuW5jh.png)
+                    
 - [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/bitcoin.red)
                         
 - [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/bitcoin.red)
@@ -52,7 +54,6 @@ view layout [
         old-price: 0
     ]
 ]
-
         
 ```
 
