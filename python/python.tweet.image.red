@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {python.tweet.image}
+    Title: {python: tweet image}
 
     Source: [
         .title: {ReAdABLE Source}
