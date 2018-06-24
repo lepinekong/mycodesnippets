@@ -47,6 +47,7 @@ Article: [
         .links: [
             "Console prompt" %./console-prompt   
             "Console type detection" %./console-detection   
+            "Run Python command" %./python/run-python-command
         ]
     ]     
 

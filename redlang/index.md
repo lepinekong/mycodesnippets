@@ -44,6 +44,8 @@
                         
 - [Console type detection](./console-detection)
                         
+- [Run Python command](./python/run-python-command)
+                        
 
 ### Code utility functions
 
