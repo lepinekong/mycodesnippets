@@ -11,16 +11,16 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/redlang/json.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/json.red)
+        .text: {[http://mycodesnippets.space/redlang/bitcoin.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/bitcoin.red)
         }
-        .Published-Url: http://mycodesnippets.space/redlang/json
+        .Published-Url: http://mycodesnippets.space/redlang/bitcoin
     ]  
 
 
     demo: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
-        .quote: {do read http://mycodesnippets.space/redlang/src/json.red}
+        .quote: {do read http://mycodesnippets.space/redlang/src/bitcoin.red}
         .image: https://i.imgur.com/DVcAOqW.png
     ]      
     
@@ -28,8 +28,8 @@ Article: [
 
         .title: {Code Snippet}
         .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/json.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/json.red
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/bitcoin.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/bitcoin.red
         ]        
         .code/red: {
 do read http://redlang.red/json

@@ -4,22 +4,22 @@
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-[http://mycodesnippets.space/redlang/json.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/json.red)
+[http://mycodesnippets.space/redlang/bitcoin.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/bitcoin.red)
 
 
 ### Demo
 
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
->do read http://mycodesnippets.space/redlang/src/json.red
+>do read http://mycodesnippets.space/redlang/src/bitcoin.red
 
 ![https://i.imgur.com/DVcAOqW.png](https://i.imgur.com/DVcAOqW.png)
                     
 
 ### Code Snippet
 
-- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/json.red)
+- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/bitcoin.red)
                         
-- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/json.red)
+- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/bitcoin.red)
                         
 
 

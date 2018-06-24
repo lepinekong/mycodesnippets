@@ -8,7 +8,7 @@
                         
 - [CRUD CSV](./crud-csv)
                         
-- [Get Bitcoin price from Json REST Service](./bitcoin)
+- [Get Bitcoin price at interval from Json REST Service](./bitcoin)
                         
 
 ### Functions

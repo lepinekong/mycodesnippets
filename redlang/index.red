@@ -11,7 +11,7 @@ Article: [
         .links: [
             "Parse text CSV data (from excel,...)" %./parse-text-data
             "CRUD CSV" %./crud-csv
-            "Get Bitcoin price from Json REST Service" %./bitcoin
+            "Get Bitcoin price at interval from Json REST Service" %./bitcoin
         ]
     ]
 
