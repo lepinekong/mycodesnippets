@@ -22,6 +22,13 @@ Article: [
         ]    
     ]
 
+    category: [
+        .title: {Shell} 
+        .links: [
+            {Run Python command} %./python/run-python-command
+
+        ]    
+    ]
 ]
         
 do read http://readablehumanformat.com/lib.red
