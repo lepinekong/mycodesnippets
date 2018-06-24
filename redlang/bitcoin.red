@@ -56,7 +56,7 @@ view layout [
     
     ; init
     do [
-        fld-price/rate: 30
+        fld-price/rate: 2; 2 times / second refresh
         old-price: 0
     ]
 ]
