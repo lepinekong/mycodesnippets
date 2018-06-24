@@ -19,13 +19,19 @@ view layout [
     title "Bitcoin Price"
     fld-price: field right react [face/data: cryptocurrency/price] 
     on-time [
-        wait-msg/text: "+++" 
-        cryptocurrency/price: get-price
-        print "---"
-        wait-msg/text: "---"
+        cryptocurrency/price: price: get-price
+        
+        if price <> old-price [
+            print [now/time price]
+            old-price: price
+        ]
     ]
-    wait-msg: text 24x24
     
     ; init
-    do [fld-price/rate: 30]
+    do [
+        fld-price/rate: 30
+        old-price: 0
+    ]
 ]
+
+
