@@ -15,6 +15,8 @@
 
 - [creating operator](./operator)
                         
+- [dynamic call (code generation)](./codegen/dynamic-call)
+                        
 
 ### Red idioms
 

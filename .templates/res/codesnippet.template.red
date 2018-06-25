@@ -8,16 +8,16 @@ Article: [
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/<%sub-folder%>/<%short-filename%>.red](https://github.com/lepinekong/mycodesnippets/blob/master/<%sub-folder%>/<%short-filename%>.red)
+        .text: {[http://mycodesnippets.space/<%full-path%>/<%short-filename%>.red](https://github.com/lepinekong/mycodesnippets/blob/master/<%full-path%>/<%short-filename%>.red)
         }
-        .Published-Url: http://mycodesnippets.space/<%sub-folder%>/<%short-filename%>
+        .Published-Url: http://mycodesnippets.space/<%full-path%>/<%short-filename%>
     ]  
 
 
     demo: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
-        .quote: {do read http://mycodesnippets.space/<%sub-folder%>/src/<%short-filename%>.red}
+        .quote: {do read http://mycodesnippets.space/<%full-path%>/src/<%short-filename%>.red}
         .image: 
     ]      
     
@@ -26,8 +26,8 @@ Article: [
         .title: {Code Snippet}
         .image: 
         .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/<%sub-folder%>/src/<%short-filename%>.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/<%sub-folder%>/src/<%short-filename%>.red
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/<%full-path%>/src/<%short-filename%>.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/<%full-path%>/src/<%short-filename%>.red
         ]        
         .code/<%language%>: {
 

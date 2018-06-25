@@ -19,6 +19,7 @@ Article: [
         .title: {Functions}
         .links: [
             "creating operator" %./operator
+            "dynamic call (code generation)" %./codegen/dynamic-call
         ]        
     ] 
 
