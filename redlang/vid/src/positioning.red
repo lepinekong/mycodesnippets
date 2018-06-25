@@ -34,7 +34,7 @@ signature-size: make pair! compose [(bigRect/1 - (2 * signature-position/1)) 100
 font-glyph: make font! [ name: font-georgia size: 144 color: white]
 glyph-size: make pair! compose [(bigRect/1 - (2 * glyph-position/1)) 100]
 
-win: [
+win-layout: compose/deep [
 
     title {Red lang VID dialect: positioning demo}
     origin 0x0 space 0x0
@@ -57,4 +57,6 @@ win: [
 
 ]
 
-view layout compose/deep win
+
+view layout win-layout
+
