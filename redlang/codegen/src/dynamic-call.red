@@ -1,6 +1,3 @@
-
-
-
 Red [
     Title: "dynamic-call.red"
 ]
