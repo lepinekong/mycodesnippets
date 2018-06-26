@@ -19,6 +19,10 @@ Article: [
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/datetime/src/linux-time.red}
         .image: https://i.imgur.com/0XQmKXw.png
+        .text: {Reference:}
+        .links: [
+            {epochconverter.com}  https://www.epochconverter.com/
+        ]
     ]      
     
     code-snippet: [
