@@ -1,6 +1,7 @@
 Red [
-    Title: ""
+    Title: "linux-time.red"
 ]
 
-to-integer 26-Jun-2018/21:11:45
+print 26-Jun-2018/21:11:45
+print to-integer 26-Jun-2018/21:11:45
 ;== 1530047505
