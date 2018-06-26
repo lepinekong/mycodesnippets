@@ -11,6 +11,11 @@
 - [Get Bitcoin price at interval from Json REST Service](./bitcoin)
                         
 
+### Types
+
+- [Linux time](./datetime/linux-time)
+                        
+
 ### Functions
 
 - [creating operator](./operator)

@@ -15,6 +15,13 @@ Article: [
         ]
     ]
 
+    Types: [
+        .title: {Types}
+        .links: [
+            {Linux time} %./datetime/linux-time
+        ]
+    ]
+
     Functions: [
         .title: {Functions}
         .links: [
