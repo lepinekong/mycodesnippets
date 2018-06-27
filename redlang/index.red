@@ -12,6 +12,7 @@ Article: [
             "Parse text CSV data (from excel,...)" %./parse-text-data
             "CRUD CSV" %./crud-csv
             "Get Bitcoin price at interval from Json REST Service" %./bitcoin
+            "Hash 256" %./hash
         ]
     ]
 
