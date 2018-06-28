@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {Hash 256}
+    Title: {Hash 256 (Blockchain,...), CRC32,...}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}

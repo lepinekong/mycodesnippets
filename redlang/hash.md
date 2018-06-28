@@ -1,5 +1,5 @@
 
-# Hash 256
+# Hash 256 (Blockchain,...), CRC32,...
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)

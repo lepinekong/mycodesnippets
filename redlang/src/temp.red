@@ -1,119 +1,49 @@
 Red [
-    Title: "crud-csv.red"
+    Title: "hash.red"
+    Version: 0.0.0.1
+    Builds: [
+        0.0.0.1.3 {Fixed area does not update}
+    ]
 ]
 
-do read http://redlang.red/do-trace
 
 
-if not exists? data-file: %db/inventory.csv [
-    make-dir %db
-    write data-file read http://mycodesnippets.space/redlang/src/db/inventory.csv
-    print rejoin ["Created " clean-path data-file]
-]
 
-read-csv: function[data-file][
+calc-hash-list-of-strings: function [>list-strings [block! string! word!] 
+    /method-hash >method [word!]['SHA256 'MD5 'CRC32 'SHA1 'SHA384 'SHA512 'TCP 'hash]][
 
-    if not exists? data-file [
-        print rejoin [data-file " doesn't exist."]
-        return false
+    unless block? >list-strings [
+        >list-strings: form >list-strings ; 'hello -> "hello"
+        >list-strings: append copy [] >list-strings ; put it in a block: needed for rejoin doesn't allow string
     ]
 
-    lines: skip Read/lines data-file 1 ; skip first csv header line 
-    records: copy []
+    string-to-hash: rejoin >list-strings
 
-    forall lines [
-        append/only records split lines/1 ","
-    ]
-    return records
-]
-
-
-save-csv: function[records data-file][
-    write/lines file-path lines
-]
-
-add-csv: function[records record][
-    {
-        Example:
-        add-csv {05/07/2018,05/07/2020,Tablette Windows 10,Microsoft - SURFACE PRO I5 256GB,1,1376.55€,DARTY LES HALLES 907037 / 9543295,to repair}
-    }
-    if not block? record [
-        record: split record ","
+    unless method-hash [
+        >method: 'SHA256
     ]
 
-    append/only records record
-    return records
+    hash>: checksum string-to-hash >method 
+    ; #{
+    ;     95FE4554327582704CA796BCB8C33F8F4D23057EBBA8335129248B3D011E143A
+    ; }
+    parse mold hash> [thru "#{^/" copy hash> to "^/}" ] ; "95FE4554327582704CA796BCB8C33F8F4D23057EBBA8335129248B3D011E143A"
+    return hash>
 ]
 
-records: read-csv %db/inventory.csv
-?? records
+hash: :calc-hash-list-of-strings ; hash is a clone of calc-hash-list-of-strings
 
-records: add-csv records {05/07/2018,05/07/2020,Tablette Windows 10,Microsoft - SURFACE PRO I7 256GB,1,1376.55€,DARTY LES HALLES 907037 / 9543295,to repair}
+title: {SHA 256 (hash method used in Bitcoin, Blockchain,...)}
+view compose [
 
-do-trace/update 53 [
-    ?? records
-] %crud-csv.red system/options/script
+    Title (title)
 
-search-csv: function[records searched-value][
-
-    {
-        records-numbers: search-csv records "SURFACE PRO I7 256GB"
-    }
-    records-numbers: copy []
-
-    forall records [
-        record: records/1 
-        i: index? records
-
-        forall record [
-            field-value: record/1
-            if not none? find field-value searched-value [
-                append records-numbers i
-                break
-            ]
-        ]
-    ]
-    
-    return records-numbers
+    text "Block #" txt-index-0: field center "0" return
+    text "timestamp:" fld-timestamp-0: field right (to-string to-integer now) return
+    text "Data:" fld-data-0: area wrap {Genesis Block} return
+    text "prevHash:" fld-prevHash-0: field silver "0" 450x24 return
+    text "nonce:" fld-nonce-0: field right "" return
+    text "hash:" fld-hash-0: area silver react [
+        face/data: hash [txt-index-0/text fld-prevHash-0/text fld-timestamp-0/text fld-data-0/text fld-nonce-0/text]
+    ]  
 ]
-
-records-numbers: search-csv records "SURFACE PRO I7 256GB"
-
-do-trace 82 [
-    ?? records-numbers
-] %crud-csv.red
-
-
-delete-csv: function[records record-number-or-search-string][
-
-    record-number: record-number-or-search-string
-
-    if string? record-number-or-search-string [
-        records-numbers: search-csv records record-number-or-search-string
-        record-number: records-numbers/1
-    ]
-
-    if (record-number > 1) [
-        repeat i (record-number - 1) [
-            records: next records
-        ]
-    ]
-
-    do-trace 102 [
-        record: records/1
-        ?? record
-    ] %crud-csv.red
-    
-    remove records
-    records: head records
-
-    return records
-]
-
-records: delete-csv records "SURFACE PRO I7 256GB"
-
-do-trace 115 [
-    ?? records
-] %crud-csv.red
-
-
