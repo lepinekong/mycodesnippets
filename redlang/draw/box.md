@@ -12,12 +12,12 @@
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
 >do read http://mycodesnippets.space/redlang/draw/src/box.red
 
-![https://i.imgur.com/wXg9X45.png](https://i.imgur.com/wXg9X45.png)
+![https://i.imgur.com/TWmV0ud.png](https://i.imgur.com/TWmV0ud.png)
                     
 
 ### Code Snippet
 
-![https://i.imgur.com/OuKkujW.png](https://i.imgur.com/OuKkujW.png)
+![https://i.imgur.com/DI2EweT.png](https://i.imgur.com/DI2EweT.png)
                     
 - [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/box.red)
                         
@@ -27,7 +27,7 @@ Type in [red-lang](https://www.red-lang.org/p/download.html) console:
 
 ```red
 
-title: "How to draw colored boxes"
+title: "How to draw gradient colored rounded boxes (rectangles)"
 dark-blue: 1.23.64
 light-blue: 104.172.248
 light-magenta: 170.164.234
@@ -54,20 +54,30 @@ win: compose/deep [
         pen off ; will remove black border for shapes
 
         fill-pen (dark-blue) 
-        box (bigRect-pos1) (bigRect-pos2)
+        box (bigRect-pos1) (bigRect-pos2) 20
 
-        fill-pen (light-blue)
-        box (smallRect-pos1) (smallRect-pos2)
+        fill-pen linear (dark-blue) (light-blue) 0x0 800x0
+        box (smallRect-pos1) (smallRect-pos2) 20
 
-        fill-pen (light-magenta)
-        box (microRect-pos1) (microRect-pos2)        
+        fill-pen linear (red) (light-magenta) 0x0 600x0
+        box (microRect-pos1) (microRect-pos2) 20
     ]
 
 ]
 
 view layout win
 
+
         
 ```
 
 
+
+### References
+
+- [https://doc.red-lang.org/en/draw.html#_box](https://doc.red-lang.org/en/draw.html#_box)
+                        
+- [https://doc.red-lang.org/en/draw.html#_linear_gradient_pen](https://doc.red-lang.org/en/draw.html#_linear_gradient_pen)
+                        
+- [http://helpin.red/Colorgradientsandpatterns.html](http://helpin.red/Colorgradientsandpatterns.html)
+                        

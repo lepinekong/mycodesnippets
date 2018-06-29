@@ -38,7 +38,7 @@ win: compose/deep [
         fill-pen (light-blue)
         box (smallRect-pos1) (smallRect-pos2)
 
-        fill-pen (light-magenta)
+        fill-pen linear (dark-blue) (light-magenta) 0x0 600x0
         box (microRect-pos1) (microRect-pos2)        
     ]
 

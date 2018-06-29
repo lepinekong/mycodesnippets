@@ -18,19 +18,19 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/draw/src/box.red}
-        .image: https://i.imgur.com/TWmV0ud.png
+        .image: https://i.imgur.com/7YFT2mm.png
     ]      
     
     code-snippet: [
 
         .title: {Code Snippet}
-        .image: https://i.imgur.com/DI2EweT.png
+        .image: https://i.imgur.com/JMCfgIg.png
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/box.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/draw/src/box.red
         ]        
         .code/red: {
-title: "How to draw colored rounded boxes (rectangles)"
+title: "How to draw gradient colored rounded boxes (rectangles)"
 dark-blue: 1.23.64
 light-blue: 104.172.248
 light-magenta: 170.164.234
@@ -59,10 +59,10 @@ win: compose/deep [
         fill-pen (dark-blue) 
         box (bigRect-pos1) (bigRect-pos2) 20
 
-        fill-pen (light-blue)
+        fill-pen linear (dark-blue) (light-blue) 0x0 800x0
         box (smallRect-pos1) (smallRect-pos2) 20
 
-        fill-pen (light-magenta)
+        fill-pen linear (red) (light-magenta) 0x0 600x0
         box (microRect-pos1) (microRect-pos2) 20
     ]
 
@@ -73,6 +73,15 @@ view layout win
 
         }
 
+    ]
+
+    References: [
+        .title: {References}
+        .links:[
+            https://doc.red-lang.org/en/draw.html#_box
+            https://doc.red-lang.org/en/draw.html#_linear_gradient_pen
+            http://helpin.red/Colorgradientsandpatterns.html
+        ]
     ]
 ]
 

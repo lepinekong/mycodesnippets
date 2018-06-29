@@ -6,7 +6,7 @@ Red [
     ]
 ]
 
-title: "How to draw colored rounded boxes (rectangles)"
+title: "How to draw gradient colored rounded boxes (rectangles)"
 dark-blue: 1.23.64
 light-blue: 104.172.248
 light-magenta: 170.164.234
@@ -35,10 +35,10 @@ win: compose/deep [
         fill-pen (dark-blue) 
         box (bigRect-pos1) (bigRect-pos2) 20
 
-        fill-pen (light-blue)
+        fill-pen linear (dark-blue) (light-blue) 0x0 800x0
         box (smallRect-pos1) (smallRect-pos2) 20
 
-        fill-pen (light-magenta)
+        fill-pen linear (red) (light-magenta) 0x0 600x0
         box (microRect-pos1) (microRect-pos2) 20
     ]
 
