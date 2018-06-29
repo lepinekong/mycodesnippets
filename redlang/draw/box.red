@@ -18,19 +18,19 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/draw/src/box.red}
-        .image: https://i.imgur.com/wXg9X45.png
+        .image: https://i.imgur.com/TWmV0ud.png
     ]      
     
     code-snippet: [
 
         .title: {Code Snippet}
-        .image: https://i.imgur.com/OuKkujW.png
+        .image: https://i.imgur.com/DI2EweT.png
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/box.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/draw/src/box.red
         ]        
         .code/red: {
-title: "How to draw colored boxes"
+title: "How to draw colored rounded boxes (rectangles)"
 dark-blue: 1.23.64
 light-blue: 104.172.248
 light-magenta: 170.164.234
@@ -57,18 +57,19 @@ win: compose/deep [
         pen off ; will remove black border for shapes
 
         fill-pen (dark-blue) 
-        box (bigRect-pos1) (bigRect-pos2)
+        box (bigRect-pos1) (bigRect-pos2) 20
 
         fill-pen (light-blue)
-        box (smallRect-pos1) (smallRect-pos2)
+        box (smallRect-pos1) (smallRect-pos2) 20
 
         fill-pen (light-magenta)
-        box (microRect-pos1) (microRect-pos2)        
+        box (microRect-pos1) (microRect-pos2) 20
     ]
 
 ]
 
 view layout win
+
 
         }
 

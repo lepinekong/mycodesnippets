@@ -6,7 +6,7 @@ Red [
     ]
 ]
 
-title: "How to draw colored boxes"
+title: "How to draw colored rounded boxes (rectangles)"
 dark-blue: 1.23.64
 light-blue: 104.172.248
 light-magenta: 170.164.234
@@ -33,13 +33,13 @@ win: compose/deep [
         pen off ; will remove black border for shapes
 
         fill-pen (dark-blue) 
-        box (bigRect-pos1) (bigRect-pos2)
+        box (bigRect-pos1) (bigRect-pos2) 20
 
         fill-pen (light-blue)
-        box (smallRect-pos1) (smallRect-pos2)
+        box (smallRect-pos1) (smallRect-pos2) 20
 
         fill-pen (light-magenta)
-        box (microRect-pos1) (microRect-pos2)        
+        box (microRect-pos1) (microRect-pos2) 20
     ]
 
 ]
