@@ -10,6 +10,8 @@
                         
 - [Get Bitcoin price at interval from Json REST Service](./bitcoin)
                         
+- [Hash 256](./hash)
+                        
 
 ### Types
 
@@ -43,6 +45,8 @@
 - [Draw colored boxes](./draw/box)
                         
 - [Vid text positioning](./vid/positioning)
+                        
+- [Draw Sinusoid](./draw/sinusoid)
                         
 
 ### general utility functions

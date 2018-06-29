@@ -48,6 +48,7 @@ Article: [
             "Data Binding" %./databinding
             "Draw colored boxes" %./draw/box
             "Vid text positioning" %./vid/positioning
+            "Draw Sinusoid" %./draw/sinusoid
         ]
     ]
 
