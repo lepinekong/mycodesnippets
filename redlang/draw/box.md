@@ -12,12 +12,12 @@
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
 >do read http://mycodesnippets.space/redlang/draw/src/box.red
 
-![https://i.imgur.com/TWmV0ud.png](https://i.imgur.com/TWmV0ud.png)
+![https://i.imgur.com/7YFT2mm.png](https://i.imgur.com/7YFT2mm.png)
                     
 
 ### Code Snippet
 
-![https://i.imgur.com/DI2EweT.png](https://i.imgur.com/DI2EweT.png)
+![https://i.imgur.com/JMCfgIg.png](https://i.imgur.com/JMCfgIg.png)
                     
 - [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/box.red)
                         
