@@ -6,9 +6,7 @@ Red [
     ]
 ]
 
-
 img-iphone: load http://mycodesnippets.space/images/collections/mobile/iphone6.png
-
 
 background-image: img-iphone
 background-layout: [at 0x0 image (bigRect) (background-image)]
