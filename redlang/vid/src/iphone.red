@@ -8,10 +8,12 @@ Red [
 
 light-gray: 250.250.250
 img-iphone: load http://mycodesnippets.space/images/collections/mobile/iphone6/iphone6.png
+img-iphone-background: load http://mycodesnippets.space/images/collections/mobile/iphone6/iphone6-background-blue-white-split.png
 img-iphone-header: load http://mycodesnippets.space/images/collections/mobile/iphone6/iphone6-header-0-transparent.png
 
 iphone: [
     at 0x0 image (img-iphone)
+    at 50x95 image (img-iphone-background)
     at 50x95 image (img-iphone-header)
 ]
 
