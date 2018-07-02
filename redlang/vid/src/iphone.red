@@ -6,21 +6,21 @@ Red [
     ]
 ]
 
-img-iphone: load http://mycodesnippets.space/images/collections/mobile/iphone6.png
+client-area-size: 411x768
+img-iphone: load http://mycodesnippets.space/images/collections/mobile/iphone6/iphone6.png
+img-iphone-header: load http://mycodesnippets.space/images/collections/mobile/iphone6/iphone6-header-0.png
 
-background-image: img-iphone
-background-layout: [at 0x0 image (bigRect) (background-image)]
+iphone: [
+    at 0x0 image (img-iphone)
+    at 50x94 image (img-iphone-header)
+]
 
 win-layout: [
     title {Red lang VID dialect: positioning demo iphone}
     origin 0x0 space 0x0
 ]
 
-bigRect: 411x768
-
-if (value? 'background-image) [
-    append win-layout background-layout
-] 
+append win-layout iphone
 
 win: compose/deep win-layout
 view layout win
