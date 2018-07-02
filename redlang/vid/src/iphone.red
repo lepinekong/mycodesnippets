@@ -12,7 +12,7 @@ img-iphone-header: load http://mycodesnippets.space/images/collections/mobile/ip
 
 iphone: [
     at 0x0 image (img-iphone)
-    at 50x94 image (img-iphone-header)
+    at 50x95 image (img-iphone-header)
 ]
 
 win-layout: [
