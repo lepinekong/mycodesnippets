@@ -46,6 +46,8 @@
                         
 - [Vid text positioning](./vid/positioning)
                         
+- [Draw Shape](./draw/shape)
+                        
 - [Draw Sinusoid](./draw/sinusoid)
                         
 
