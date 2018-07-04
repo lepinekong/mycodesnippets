@@ -12,8 +12,8 @@ Bottom-border-height: (full-size/2 - 1515) / zoom-factor
 
 client-area-position: make pair! reduce [left-border-width Top-border-height]
 client-area-size: make pair! reduce [ 
-    Zoom-Half/1 - left-border-width - right-border-width ;
-    Zoom-Half/2 - top-border-height - bottom-border-height ;
+    Zoom-Half/1 - left-border-width - right-border-width ; 376
+    Zoom-Half/2 - top-border-height - bottom-border-height ; 647
 ]
 
 light-gray: 250.250.250
@@ -30,9 +30,9 @@ win: compose/deep/only [
             fill-pen (light-blue)
             line 
             (0x0) 
-            (376x0)
-            (376x430) 
-            (0x208)
+            (make pair! reduce [client-area-size/1 0]) ; (376x0)
+            (make pair! reduce [client-area-size/1 client-area-size/2 / 3 * 2]) ; (376x430)
+            (make pair! reduce [0 client-area-size/2 / 3]) ; (0x215)
         ]
     ]
 ]
