@@ -27,6 +27,11 @@ Type in [red-lang](https://www.red-lang.org/p/download.html) console:
 
 ```red
 
+
+Red [
+    Title: "rectangle-corners.red"
+]
+
 ;you can also call 
 ;do read https://redlang.red/rectangles
 ;instead of pasting code snippet for the functions
@@ -60,7 +65,7 @@ rectangle: function [/rounded /inverted][
 'arc (angles/3) (angle-size) (angle-size) (rect-rounded-width)  
 'vline (0 - rect-rounded-height)
 'arc (angles/4) (angle-size) (angle-size)  (rect-rounded-width) 
-'move (make pair! reduce [0 - angle-size 0]) ; no sweep for negative angle
+'move (make pair! reduce [0 - angle-size 0]) ; to adjust pen position for next shape
             ]
 
         ][
