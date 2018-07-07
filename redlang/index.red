@@ -49,6 +49,7 @@ Article: [
             "Draw colored boxes" %./draw/box
             "Vid text positioning" %./vid/positioning
             "Draw Shape" %./draw/shape
+            "Draw Rectangle corners" %./draw/rectangle-corners
             "Draw Sinusoid" %./draw/sinusoid
         ]
     ]
