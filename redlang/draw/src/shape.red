@@ -1,5 +1,6 @@
 Red [
     Title: "shape.red"
+    Description: {Draw a shape for iphone background}
 ]
 
 Full-Size: 828x1709
