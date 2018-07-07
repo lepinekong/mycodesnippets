@@ -24,16 +24,12 @@ Article: [
     code-snippet: [
 
         .title: {Code Snippet}
-        .image: https://i.imgur.com/kTmxNpW.png
+        .image: https://i.imgur.com/Eqeyxop.png
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/rectangle-corners.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/draw/src/rectangle-corners.red
         ]        
         .code/red: {
-
-Red [
-    Title: "rectangle-corners.red"
-]
 
 ;you can also call 
 ;do read https://redlang.red/rectangles
@@ -51,6 +47,8 @@ rectangle: function [/rounded /inverted][
         rect-rounded-height: 50 - (2 * angle-size) 
 
         either inverted [
+
+            ; for inverted rounded rectangle
             angles: compose [
                 (make pair! reduce [angle-size angle-size]) ; 5x5
                 (make pair! reduce [0 - angle-size angle-size]) ;-5x5
@@ -72,7 +70,7 @@ rectangle: function [/rounded /inverted][
             ]
 
         ][
-            ; for inverted rounded rectangle
+            ; for (non-inverted) rounded rectangle
             angles: compose [
                 (make pair! reduce [angle-size angle-size]) ; 5x5
                 (make pair! reduce [0 - angle-size angle-size]) ;-5x5
