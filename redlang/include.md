@@ -66,7 +66,7 @@ do %../flowchart.red
 ```red
 
 Red [
-    Title: "shapes.red"
+    Title: "%lib/shapes.red"
 ]
 
 print {in shapes.red:
