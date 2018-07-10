@@ -111,7 +111,7 @@ print "in circle."
 ```red
 
 Red [
-    Title: "rectangle.red"
+    Title: "%lib/includes/rectangle.red"
 ]
 
 print "in rectangle."

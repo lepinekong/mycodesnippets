@@ -101,7 +101,7 @@ print "in circle."
         ]        
         .code/red: {
 Red [
-    Title: "rectangle.red"
+    Title: "%lib/includes/rectangle.red"
 ]
 
 print "in rectangle."
