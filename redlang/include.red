@@ -28,12 +28,12 @@ Article: [
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/include/flowchart.red
         ]        
         .code/red: {
-            Red [
-                Title: "flowchart.red"
-            ]
+Red [
+    Title: "flowchart.red"
+]
 
-            print "in flowchart.red: do read %lib/shapes.red"
-            do read %lib/shapes.red
+print "in flowchart.red: do read %lib/shapes.red"
+do read %lib/shapes.red
         }
 
     ] 
