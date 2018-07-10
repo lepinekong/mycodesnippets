@@ -1,5 +1,5 @@
 Red [
-    Title: ""
+    Title: "circle.red"
 ]
 
 print "in circle."

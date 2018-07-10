@@ -1,5 +1,5 @@
 Red [
-    Title: ""
+    Title: "rectangle.red"
 ]
 
 print "in rectangle."
