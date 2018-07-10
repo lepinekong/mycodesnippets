@@ -32,8 +32,8 @@ Red [
     Title: "flowchart.red"
 ]
 
-print "in flowchart.red: do read %lib/shapes.red"
-do read %lib/shapes.red
+print "in flowchart.red: do %lib/shapes.red" ; don't use do read %lib/shapes.red or path won't work
+do %lib/shapes.red
         }
 
     ] 
