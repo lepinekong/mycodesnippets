@@ -48,7 +48,7 @@ do read %lib/shapes.red
         ]        
         .code/red: {
 Red [
-    Title: "test.red"
+    Title: "%test/test.red"
 ]
 
 do %../flowchart.red
