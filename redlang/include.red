@@ -17,7 +17,7 @@ Article: [
     demo: [
         .title: {Zip file}
         .links: [http://mycodesnippets.space/redlang/src/include.zip]
-        .image: https://i.imgur.com/n9EtI66.png
+        .image: https://i.imgur.com/Uviyf9H.png
     ]      
     
     flowchart.red: [

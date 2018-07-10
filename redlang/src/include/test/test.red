@@ -1,5 +1,2 @@
-Red [
-    Title: "test.red"
-]
-
+Red [Title: "test.red"]
 do %../flowchart.red
