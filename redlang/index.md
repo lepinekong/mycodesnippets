@@ -50,6 +50,8 @@
                         
 - [Draw Rectangle corners](./draw/rectangle-corners)
                         
+- [Shape Rotation](./draw/shape-rotation)
+                        
 - [Draw Sinusoid](./draw/sinusoid)
                         
 
@@ -75,9 +77,11 @@
 - [Code Analyze](./code.analyze)
                         
 
-### OOP
+### Code Structure
 
 - [OOP](./oop)
+                        
+- [include](./include)
                         
 
 ### Code generation

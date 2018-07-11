@@ -260,3 +260,8 @@ paket-files/
 __pycache__/
 *.pyc
 images/collections/mobile/iphone6/download.png
+msgbox.exe
+libRedRT.dll
+libRedRT-defs.r
+libRedRT-extras.r
+libRedRT-include.red

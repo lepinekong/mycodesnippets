@@ -50,6 +50,7 @@ Article: [
             "Vid text positioning" %./vid/positioning
             "Draw Shape" %./draw/shape
             "Draw Rectangle corners" %./draw/rectangle-corners
+            "Shape Rotation" %./draw/shape-rotation
             "Draw Sinusoid" %./draw/sinusoid
         ]
     ]
@@ -75,10 +76,11 @@ Article: [
 
     ]       
 
-    OOP: [
-        .title: {OOP}
+    Code-Structure: [
+        .title: {Code Structure}
         .links: [
             "OOP" %./oop
+            "include" %./include
         ]        
     ]
 
