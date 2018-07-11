@@ -12,7 +12,7 @@
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
 >do read http://mycodesnippets.space/redlang/draw/src/shape-rotation.red
 
-![https://i.imgur.com/undefined.png](https://i.imgur.com/undefined.png)
+![https://i.imgur.com/B3RwSiG.png](https://i.imgur.com/B3RwSiG.png)
                     
 
 ### Discussion

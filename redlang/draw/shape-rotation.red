@@ -17,7 +17,7 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/draw/src/shape-rotation.red}
-        .image: https://i.imgur.com/undefined.png
+        .image: https://i.imgur.com/B3RwSiG.png
     ]      
 
 
