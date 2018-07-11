@@ -102,6 +102,13 @@ Article: [
         ] 
     ]
 
+    Win32: [
+        .title: {Win32}
+        .links: [
+            "Powershell Win32" %./win32/powershell-win32
+        ]
+    ]
+
 ]
 
 do read http://readablehumanformat.com/lib.red

@@ -101,3 +101,8 @@
                         
 - [Code Red in French!](./preprocessor/red-in-french)
                         
+
+### Win32
+
+- [Powershell Win32](./win32/powershell-win32)
+                        
