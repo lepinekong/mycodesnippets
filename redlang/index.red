@@ -36,6 +36,7 @@ Article: [
         .links: [
             "Reduce / Insert idiom" %./reduce.insert            
             "Collect / Keep idiom" %./collect
+            "as-pair shortcut for make pair! reduce" %./as-pair
         ]        
     ]     
 
