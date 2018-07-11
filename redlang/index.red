@@ -34,9 +34,10 @@ Article: [
     Idioms: [
         .title: {Red idioms}
         .links: [
-            "Reduce / Insert idiom" %./reduce.insert            
-            "Collect / Keep idiom" %./collect
-            "as-pair shortcut for make pair! reduce" %./as-pair
+            "set reduce" %./set
+            "as-pair shortcut for make pair! reduce" %./as-pair                       
+            "collect / keep idiom" %./collect
+            "reduce / insert idiom" %./reduce.insert 
         ]        
     ]     
 

@@ -27,11 +27,13 @@
 
 ### Red idioms
 
-- [Reduce / Insert idiom](./reduce.insert)
-                        
-- [Collect / Keep idiom](./collect)
+- [set reduce](./set)
                         
 - [as-pair shortcut for make pair! reduce](./as-pair)
+                        
+- [collect / keep idiom](./collect)
+                        
+- [reduce / insert idiom](./reduce.insert)
                         
 
 ### GUI
