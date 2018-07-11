@@ -1,6 +1,8 @@
 Red/System [
-    Bookmarks: [
+    .links: [
         https://gitter.im/red/help?at=5a8c221e8f1c77ef3a2fe0e8
+        http://red.qyz.cz/red-system-from-red.html
+        https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-messagebox
     ]
 ]
 
