@@ -1,6 +1,48 @@
 Red [
     Title: "save-screen.red"
     .links: [
+        https://gitter.im/red/help?at=5b2ea3526ceffe4eba2d6447
+    ]
+]
+
+Article: [
+
+    Title: {save screen}
+
+    Source: [
+        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
+        .text: {[http://mycodesnippets.space/redlang/vid/save-screen.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/vid/save-screen.red)
+        }
+        .Published-Url: http://mycodesnippets.space/redlang/vid/save-screen
+    ]  
+
+
+    demo: [
+        .title: {Demo}
+        .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
+        .quote: {do read http://mycodesnippets.space/redlang/vid/src/save-screen.red}
+        .image: https://i.imgur.com/Zequwy7.png
+    ]   
+
+    discussion: [
+        .title: {Discussion}
+        .links: [
+            https://gitter.im/red/help?at=5b2ea3526ceffe4eba2d6447
+        ]
+    ]   
+    
+    code-snippet: [
+
+        .title: {Code Snippet}
+        .image: https://i.imgur.com/iAoWdPc.png
+        .links: [
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/vid/src/save-screen.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/vid/src/save-screen.red
+        ]        
+        .code/red: {
+Red [
+    Title: "save-screen.red"
+    .links: [
         http://mycodesnippets.space/redlang/vid/positioning
         https://gitter.im/red/help?at=5b2ea3526ceffe4eba2d6447
     ]
@@ -72,5 +114,10 @@ if value? 'img-out [
     save/as %quote.png img-out 'png
     print ["quote.png saved in" clean-path %./]
 ]
+        }
 
+    ]
+]
 
+do read http://readablehumanformat.com/lib.red
+markdown-gen 

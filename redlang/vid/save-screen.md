@@ -1,3 +1,37 @@
+
+# save screen
+
+
+### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
+
+[http://mycodesnippets.space/redlang/vid/save-screen.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/vid/save-screen.red)
+
+
+### Demo
+
+Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
+>do read http://mycodesnippets.space/redlang/vid/src/save-screen.red
+
+![https://i.imgur.com/Zequwy7.png](https://i.imgur.com/Zequwy7.png)
+                    
+
+### Discussion
+
+- [https://gitter.im/red/help?at=5b2ea3526ceffe4eba2d6447](https://gitter.im/red/help?at=5b2ea3526ceffe4eba2d6447)
+                        
+
+### Code Snippet
+
+![https://i.imgur.com/iAoWdPc.png](https://i.imgur.com/iAoWdPc.png)
+                    
+- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/vid/src/save-screen.red)
+                        
+- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/vid/src/save-screen.red)
+                        
+
+
+```red
+
 Red [
     Title: "save-screen.red"
     .links: [
@@ -72,5 +106,7 @@ if value? 'img-out [
     save/as %quote.png img-out 'png
     print ["quote.png saved in" clean-path %./]
 ]
+        
+```
 
 
