@@ -1,7 +1,38 @@
 Red [
     Title: "dataviz.red"
+    .links: [
+        {Inspiration} https://www.lightpetal.com/vouchercodes-persona-decals-and-cards/
+    ]    
 ]
 
+Article: [
+
+    Title: {datavizualisation}
+
+    Source: [
+        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
+        .text: {[http://mycodesnippets.space/redlang/draw/dataviz.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/dataviz.red)
+        }
+        .Published-Url: http://mycodesnippets.space/redlang/draw/dataviz
+    ]  
+
+
+    demo: [
+        .title: {Demo}
+        .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
+        .quote: {do https://mycodesnippets.space/redlang/draw/src/dataviz.red}
+        .image: https://i.imgur.com/Dlj8xFp.png
+    ]      
+    
+    code-snippet: [
+
+        .title: {Code Snippet}
+        .image: https://i.imgur.com/dl45eRJ.png
+        .links: [
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/dataviz.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/draw/src/dataviz.red
+        ]        
+        .code/red: {
 transparent: 255.255.255.255
 color-1: 190.220.230
 color-2: 63.181.229
@@ -73,3 +104,11 @@ if value? 'img-out [
     print ["dataviz.png saved in" clean-path %./]
 ]
 
+
+        }
+
+    ]
+]
+
+do read http://readablehumanformat.com/lib.red
+markdown-gen 

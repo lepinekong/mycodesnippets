@@ -17,6 +17,25 @@ Article: [
         ]
     ]
 
+
+    GUI: [
+        .title: {GUI}
+        .links: [
+            "image flip" %./image-flip
+            "GUI Panels" %./gui-panels
+            "Barchart" %./barchart
+            "Data Binding" %./databinding
+            "Draw colored boxes" %./draw/box
+            "Vid text positioning" %./vid/positioning
+            "Draw Shape" %./draw/shape
+            "Draw Rectangle corners" %./draw/rectangle-corners
+            "Shape Rotation" %./draw/shape-rotation
+            "Draw Sinusoid" %./draw/sinusoid
+            "Data Visualization" %./draw/dataviz
+            "Save image" %./vid/save-image
+        ]
+    ]
+
     Types: [
         .title: {Types}
         .links: [
@@ -42,22 +61,6 @@ Article: [
         ]        
     ]     
 
-    GUI: [
-        .title: {GUI}
-        .links: [
-            "image flip" %./image-flip
-            "GUI Panels" %./gui-panels
-            "Barchart" %./barchart
-            "Data Binding" %./databinding
-            "Draw colored boxes" %./draw/box
-            "Vid text positioning" %./vid/positioning
-            "Draw Shape" %./draw/shape
-            "Draw Rectangle corners" %./draw/rectangle-corners
-            "Shape Rotation" %./draw/shape-rotation
-            "Draw Sinusoid" %./draw/sinusoid
-            "Save image" %./vid/save-image
-        ]
-    ]
 
     Utilities: [
         .title: {general utility functions}

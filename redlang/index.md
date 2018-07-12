@@ -15,29 +15,6 @@
 - [Random (ex. 2 dices)](./random)
                         
 
-### Types
-
-- [Linux time](./datetime/linux-time)
-                        
-
-### Functions
-
-- [creating operator](./operator)
-                        
-- [dynamic call (code generation)](./codegen/dynamic-call)
-                        
-
-### Red idioms
-
-- [set reduce](./set)
-                        
-- [as-pair shortcut for make pair! reduce](./as-pair)
-                        
-- [collect / keep idiom](./collect)
-                        
-- [reduce / insert idiom](./reduce.insert)
-                        
-
 ### GUI
 
 - [image flip](./image-flip)
@@ -60,7 +37,32 @@
                         
 - [Draw Sinusoid](./draw/sinusoid)
                         
+- [Data Visualization](./draw/dataviz)
+                        
 - [Save image](./vid/save-image)
+                        
+
+### Types
+
+- [Linux time](./datetime/linux-time)
+                        
+
+### Functions
+
+- [creating operator](./operator)
+                        
+- [dynamic call (code generation)](./codegen/dynamic-call)
+                        
+
+### Red idioms
+
+- [set reduce](./set)
+                        
+- [as-pair shortcut for make pair! reduce](./as-pair)
+                        
+- [collect / keep idiom](./collect)
+                        
+- [reduce / insert idiom](./reduce.insert)
                         
 
 ### general utility functions
