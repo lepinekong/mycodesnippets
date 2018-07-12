@@ -14,13 +14,15 @@ dataviz: layout compose/deep [
         origin 0x0 space 0x0
 
         across
-        base 120x120 white draw [
-                pen off
-                fill-pen (color-1)
-                circle 60x60 60 ; circle center radius
+        panel [
+            origin 0x0 space 0x0
+            base 120x120 white draw [
+                    pen off
+                    fill-pen (color-1)
+                    circle 60x60 60 ; circle center radius
 
+            ]            
         ]
-
         panel [
             origin 0x0 space 0x0
             base 120x120 white draw [

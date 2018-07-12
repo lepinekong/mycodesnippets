@@ -21,7 +21,7 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/vid/src/save-image.red}
-        .image: https://i.imgur.com/Zequwy7.png
+        .image: https://i.imgur.com/O13BLh7.png
     ]   
 
     discussion: [

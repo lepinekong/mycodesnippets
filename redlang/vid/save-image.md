@@ -12,7 +12,7 @@
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
 >do read http://mycodesnippets.space/redlang/vid/src/save-image.red
 
-![https://i.imgur.com/Zequwy7.png](https://i.imgur.com/Zequwy7.png)
+![https://i.imgur.com/O13BLh7.png](https://i.imgur.com/O13BLh7.png)
                     
 
 ### Discussion

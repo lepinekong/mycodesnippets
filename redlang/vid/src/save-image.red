@@ -39,7 +39,7 @@ glyph-size: make pair! compose [(bigRect/1 - (2 * glyph-position/1)) 100]
 
 win: [
 
-    title {Red lang VID dialect: positioning demo}
+    title {How to save image}
     origin 0x0 space 0x0
     
     at 0x0
