@@ -18,30 +18,37 @@ Article: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
         .quote: {do read http://mycodesnippets.space/redlang/src/random.red}
-        .image: https://i.imgur.com/TBIs61X.png
+        .image: https://i.imgur.com/hoTDNFc.png
     ]      
     
     code-snippet: [
 
         .title: {Code Snippet}
-        .image: https://i.imgur.com/MzUwIHZ.png
+        .image: https://i.imgur.com/k6hkmc8.png
         .links: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/random.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/random.red
         ]        
         .code/red: {
-Red [
-    Title: "random.red"
-]
-
 random/seed now/time
-roll-2-dices: copy/part random [1 2 3 4 5 6] 2
+
+dice1: random 6 
+dice2: random 6
+?? dice1 ?? dice2 ; ex. dice1: 2 dice2: 1
 
 ;or
-;do https://redlang.red/range
-;dices: copy/part range/random 1 6 2
+do https://redlang.red/range
+dices: range/dices 1 6 2
+?? dices ; [2 1]
 
-?? roll-2-dices ; ex.: [1 5]
+fibonacci-dice1: first random [1 2 4 8 16 32]
+fibonacci-dice2: first random [1 2 4 8 16 32]
+;or
+fibonacci-dices: reduce [first random [1 2 4 8 16 32] first random [1 2 4 8 16 32]]
+
+?? fibonacci-dice1; fibonacci-dice1: 8
+?? fibonacci-dice2; fibonacci-dice2: 2
+?? fibonacci-dices; fibonacci-dices: [4 16]
 
         }
 
