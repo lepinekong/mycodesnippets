@@ -12,6 +12,8 @@
                         
 - [Hash 256](./hash)
                         
+- [Random (ex. 2 dices)](./random)
+                        
 
 ### Types
 

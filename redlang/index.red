@@ -13,6 +13,7 @@ Article: [
             "CRUD CSV" %./crud-csv
             "Get Bitcoin price at interval from Json REST Service" %./bitcoin
             "Hash 256" %./hash
+            "Random (ex. 2 dices)" %./random
         ]
     ]
 
