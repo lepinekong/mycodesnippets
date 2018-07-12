@@ -55,7 +55,7 @@ Article: [
             "Draw Rectangle corners" %./draw/rectangle-corners
             "Shape Rotation" %./draw/shape-rotation
             "Draw Sinusoid" %./draw/sinusoid
-            "Save screen image" %./vid/save-screen
+            "Save image" %./vid/save-image
         ]
     ]
 

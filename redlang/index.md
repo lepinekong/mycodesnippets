@@ -60,7 +60,7 @@
                         
 - [Draw Sinusoid](./draw/sinusoid)
                         
-- [Save screen image](./vid/save-screen)
+- [Save image](./vid/save-image)
                         
 
 ### general utility functions
