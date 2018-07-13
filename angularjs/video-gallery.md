@@ -17,8 +17,9 @@ Visit:
 
 ### Source Code
 
-The html skeleton was initially create with Mobirise before customizing with angularjs code:
-Json Data and AngularJs Controller : 
+The html skeleton was initially created with [mobirise](https://mobirise.com/) 
+before customizing it with angularjs 
+with Json Data and AngularJs Controller : 
 ![https://i.imgur.com/fLkUV9u.png](https://i.imgur.com/fLkUV9u.png)
                     
 Html and AngularJs ng-repeat
