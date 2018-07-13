@@ -25,11 +25,11 @@ with Json Data and AngularJs Controller :
 Html and AngularJs ng-repeat
 ![https://i.imgur.com/qtw74SE.png](https://i.imgur.com/qtw74SE.png)
                     
-- [View index.html source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/video-gallery/index.html)
+- [View index.html source](https://github.com/lepinekong/mycodesnippets/blob/master/angularjs/src/video-gallery/index.html)
                         
-- [Copy index.html source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/video-gallery/index.html)
+- [Copy index.html source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/angularjs/src/video-gallery/index.html)
                         
-- [Download source and assets](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/video-gallery.zip)
+- [Download source and assets](https://github.com/lepinekong/mycodesnippets/blob/master/angularjs/src/video-gallery.zip)
                         
 
 

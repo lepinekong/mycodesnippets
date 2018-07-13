@@ -33,9 +33,9 @@ Article: [
         .text: {Html and AngularJs ng-repeat}
         .image: https://i.imgur.com/qtw74SE.png
         .links: [
-            {View index.html source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/video-gallery/index.html
-            {Copy index.html source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/video-gallery/index.html
-            {Download source and assets} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/video-gallery.zip
+            {View index.html source} https://github.com/lepinekong/mycodesnippets/blob/master/angularjs/src/video-gallery/index.html
+            {Copy index.html source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/angularjs/src/video-gallery/index.html
+            {Download source and assets} https://github.com/lepinekong/mycodesnippets/blob/master/angularjs/src/video-gallery.zip
 
         ]        
         .code/html: {
