@@ -42,6 +42,11 @@
 - [Save image](./vid/save-image)
                         
 
+### Web
+
+- [Embed in html](./embed-in-html)
+                        
+
 ### Types
 
 - [Linux time](./datetime/linux-time)

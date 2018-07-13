@@ -1,43 +1,40 @@
-Red [
-    Title: "embed-in-html.red"
-]
 
-Article: [
-
-    Title: {embed-in-html}
-
-    Source: [
-        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/redlang/embed-in-html.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/embed-in-html.red)
-        }
-        .Published-Url: http://mycodesnippets.space/redlang/embed-in-html
-    ]  
+# embed-in-html
 
 
-    demo: [
-        .title: {Demo}
-        .text: {You can browse to}
-        .links: [
-            https://readable.red
-        ]
-        .image: https://i.imgur.com/XzKUaN0.png
-        .text: {and use the same url for [red-lang](https://www.red-lang.org/p/download.html) by typing in console: }
-        .quote: {do https://readable.red}
-        .image: https://i.imgur.com/O2Gi2yV.png
-        .text: {so that it is also shorter to type and memorize than:}
-        .quote: {do https://readable.red/lib.red}
+### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-    ]      
-    
-    code-snippet: [
+[http://mycodesnippets.space/redlang/embed-in-html.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/embed-in-html.red)
 
-        .title: {Code Snippet}
-        .image: https://i.imgur.com/E1eA7aZ.png
-        .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/embed-in-html.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/embed-in-html.red
-        ]        
-        .code/html: {
+
+### Demo
+
+You can browse to
+- [https://readable.red](https://readable.red)
+                        
+![https://i.imgur.com/XzKUaN0.png](https://i.imgur.com/XzKUaN0.png)
+                    
+and use the same url for [red-lang](https://www.red-lang.org/p/download.html) by typing in console: 
+>do https://readable.red
+
+![https://i.imgur.com/O2Gi2yV.png](https://i.imgur.com/O2Gi2yV.png)
+                    
+so that it is also shorter to type and memorize than:
+>do https://readable.red/lib.red
+
+
+### Code Snippet
+
+![https://i.imgur.com/E1eA7aZ.png](https://i.imgur.com/E1eA7aZ.png)
+                    
+- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/embed-in-html.red)
+                        
+- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/embed-in-html.red)
+                        
+
+
+```html
+
 <!doctype html>
 
 <html lang="fr">
@@ -69,10 +66,10 @@ Article: [
         There are 2 html files:
         <u>
             <li>
-                embed-in-html/index.html
+embed-in-html/index.html
             </li>
             <li>
-                embed-in-html.html
+embed-in-html.html
             </li>
         </u>
 
@@ -97,10 +94,7 @@ Article: [
     print "Hello from Red embedded in html page"
 
 -->
-        }
+        
+```
 
-    ]
-]
 
-do read http://readablehumanformat.com/lib.red
-markdown-gen 

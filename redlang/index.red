@@ -36,6 +36,13 @@ Article: [
         ]
     ]
 
+    Web: [
+        .title: {Web}
+        .links: [
+            {Embed in html} %./embed-in-html
+        ]
+    ]
+
     Types: [
         .title: {Types}
         .links: [
@@ -116,5 +123,6 @@ Article: [
 
 ]
 
-do read http://readablehumanformat.com/lib.red
+;do read http://readablehumanformat.com/lib.red
+do https://readable.red/lib.red
 markdown-gen
