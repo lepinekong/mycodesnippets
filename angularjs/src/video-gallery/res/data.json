@@ -1,0 +1,17 @@
+videos = [
+    {
+        "id": "8Y3qUdPbjD0",
+        "title": "Le chevalier d'Eon",
+        "description": "Membre du Secret du roi, une organisation dirigée par Louis XV, le chevalier d'Eon est le personnage le plus fantasque du XVIIIe siècle. Pour obtenir de hautes responsabilités, il a su séduire la monarchie. Mais il a également réussi à faire trembler le royaume, notamment en vivant un jour dans des habits d'homme et un autre dans des vêtements de femme."
+    },
+    {
+        "id": "8pIhHtapVzE",
+        "title": "Jeanne d'Arc, femme providentielle ?",
+        "description": "Tout le monde connaît la légende de Jeanne d’Arc, accomplissant son destin selon la volonté de Dieu. Mais qui connaît le personnage de Yolande d’Aragon, la belle-mère de Charles VII ? Oubliée de l’Histoire, on retrouve pourtant son nom à toutes les étapes du mythe Jeanne d’Arc."
+    },
+    {
+        "id": "SLWbwNtMtzo",
+        "title": "Talleyrand : le diable boiteux",
+        "description": "« De la merde dans un bas de soie ! » dit de lui Napoléon qui l’a pourtant utilisé comme bien des régimes qui l’ont précédé... et qui lui succèderont. Il faut dire que le prince de Talleyrand, aussi évêque d’Autun, alors qu’il a dégrafé plus de jupons que de soutanes, est un diplomate aux talents partout reconnus sur la planète."
+    }
+]
