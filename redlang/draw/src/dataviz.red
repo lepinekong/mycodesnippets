@@ -29,10 +29,13 @@ dataviz: layout compose/deep [
                 "18%" white bold font-size 14 left wrap 
             ]
             return
-            base 160x80 white bold wrap font (font-title) 111.111.111 
-{
-PERCENTAGE OF
-CUSTOMER BASE}                  
+;             base 160x80 white bold wrap font (font-title) 111.111.111 
+; {
+; PERCENTAGE OF
+; CUSTOMER BASE}    
+return pad 0x20
+text 170x50 white bold center wrap font (font-title) 111.111.111 
+{PERCENTAGE OF CUSTOMER BASE}              
         ]
         
         panel white [
@@ -50,10 +53,14 @@ CUSTOMER BASE}
                 "$100K" white bold font-size 16 middle wrap
             ]
             return
-            base 220x80 white bold wrap font (font-title) 111.111.111 
-{
-ANNUAL HOUSEHOLD
-INCOME}             
+;             base 220x80 white bold wrap font (font-title) 111.111.111 
+; {
+; ANNUAL HOUSEHOLD
+; INCOME} 
+
+return pad 0x20
+text 220x50 white bold center wrap font (font-title) 111.111.111 
+{ANNUAL HOUSEHOLD INCOME}  
         ]
     ]   
 
