@@ -12,7 +12,7 @@
 Visit: 
 - [http://mycodesnippets.space/angularjs/src/video-gallery/index.html](http://mycodesnippets.space/angularjs/src/video-gallery/index.html)
                         
-![https://i.imgur.com/POEiiM0.jpg](https://i.imgur.com/POEiiM0.jpg)
+![https://i.imgur.com/nJDcBNf.jpg](https://i.imgur.com/nJDcBNf.jpg)
                     
 
 ### Source Code
@@ -20,7 +20,7 @@ Visit:
 The html skeleton was initially created with [mobirise](https://mobirise.com/) 
 before customizing it with angularjs 
 with Json Data and AngularJs Controller : 
-![https://i.imgur.com/fLkUV9u.png](https://i.imgur.com/fLkUV9u.png)
+![https://i.imgur.com/QNCEBYF.png](https://i.imgur.com/QNCEBYF.png)
                     
 Html and AngularJs ng-repeat
 ![https://i.imgur.com/qtw74SE.png](https://i.imgur.com/qtw74SE.png)
@@ -59,19 +59,19 @@ Html and AngularJs ng-repeat
     <script>
         videos = [
             {
-"id": "8Y3qUdPbjD0",
-"title": "Le chevalier d'Eon",
-"description": "Membre du Secret du roi, une organisation dirigée par Louis XV, le chevalier d'Eon est le personnage le plus fantasque du XVIIIe siècle. Pour obtenir de hautes responsabilités, il a su séduire la monarchie. Mais il a également réussi à faire trembler le royaume, notamment en vivant un jour dans des habits d'homme et un autre dans des vêtements de femme."
+"id": "eHnwtkfX2k4",
+"title": "The City of London, the Corporation that runs it",
+"description": "A secret state within a state, with deleterious effects on democracy, politics and economics in London, the country, and the world, for the City is joint headquarters with Wall Street of global finance capital. In short, 'Secret City' isn't just a film for Londoners - especially in these times of crisis, the role of the City concerns everyone everywhere."
             },
             {
-"id": "8pIhHtapVzE",
-"title": "Jeanne d'Arc, femme providentielle ?",
-"description": "Tout le monde connaît la légende de Jeanne d’Arc, accomplissant son destin selon la volonté de Dieu. Mais qui connaît le personnage de Yolande d’Aragon, la belle-mère de Charles VII ? Oubliée de l’Histoire, on retrouve pourtant son nom à toutes les étapes du mythe Jeanne d’Arc."
+"id": "4XNMCTBdQtk",
+"title": "Will the Earths Magnetic Fields Shift?",
+"description": "Is the Earth losing its magnetic field and doomed to a fate similar to Mars? Many scientists believe the answer lies in paleomagnetic data, and that this weakening may be a precursor to a magnetic field reversal."
             },
             {
-"id": "SLWbwNtMtzo",
+"id": "What Darwin Never Knew",
 "title": "Talleyrand : le diable boiteux",
-"description": "« De la merde dans un bas de soie ! » dit de lui Napoléon qui l’a pourtant utilisé comme bien des régimes qui l’ont précédé... et qui lui succèderont. Il faut dire que le prince de Talleyrand, aussi évêque d’Autun, alors qu’il a dégrafé plus de jupons que de soutanes, est un diplomate aux talents partout reconnus sur la planète."
+"description": "The source of life's endless forms was a profound mystery until Charles Darwin's revolutionary idea of natural selection. NOVA reveals answers to the riddles that Darwin couldn't explain."
             }
         ]
     </script>

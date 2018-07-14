@@ -20,7 +20,8 @@ Article: [
         .links: [
             http://mycodesnippets.space/angularjs/src/video-gallery/index.html
         ]
-        .image: https://i.imgur.com/POEiiM0.jpg
+        .image: https://i.imgur.com/nJDcBNf.jpg
+        ;.image: https://i.imgur.com/POEiiM0.jpg
     ]      
     
     code-snippet: [
@@ -29,7 +30,8 @@ Article: [
         .text: {The html skeleton was initially created with [mobirise](https://mobirise.com/) 
         before customizing it with angularjs }
         .text: {with Json Data and AngularJs Controller : }
-        .image: https://i.imgur.com/fLkUV9u.png
+        .image: https://i.imgur.com/QNCEBYF.png
+        ;.image: https://i.imgur.com/fLkUV9u.png
         .text: {Html and AngularJs ng-repeat}
         .image: https://i.imgur.com/qtw74SE.png
         .links: [
@@ -154,5 +156,5 @@ Article: [
     ]
 ]
 
-do read http://readablehumanformat.com/lib.red
+do https://readable.red
 markdown-gen 
