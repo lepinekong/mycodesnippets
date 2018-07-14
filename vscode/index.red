@@ -10,12 +10,13 @@ Article: [
 
         .title: {Snippet with predefined variables TM_FILENAME & TM_LINE_INDEX}
         .links: [
-            "vscode.codesnippets.variables" %./vscode.codesnippets.variables
+            "vscode codesnippets variables" %./vscode.codesnippets.variables
+            "user settings" %./user-settings
         ]        
 
     ]
 
 ]
 
-do read http://readablehumanformat.com/lib.red
+do http://readable.red
 markdown-gen
