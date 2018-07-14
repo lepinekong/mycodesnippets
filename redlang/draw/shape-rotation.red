@@ -36,7 +36,7 @@ Article: [
             {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/draw/src/shape-rotation.red
             {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/draw/src/shape-rotation.red
         ]        
-        .code/red: {
+        .code/redcode: {
 width: 100
 
 view compose/deep [
@@ -75,5 +75,5 @@ view compose/deep [
     ]
 ]
 
-do read http://readablehumanformat.com/lib.red
+do https://readable.red
 markdown-gen 

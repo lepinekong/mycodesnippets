@@ -30,7 +30,7 @@ Type in [red-lang](https://www.red-lang.org/p/download.html) console:
                         
 
 
-```red
+```redcode
 
 width: 100
 
