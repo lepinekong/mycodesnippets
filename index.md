@@ -4,6 +4,8 @@
 
 ### Web Development
 
+- [Angularjs](./angularjs/)
+                        
 - [Bootstrap](./bootstrap/)
                         
 - [Css](./css/)

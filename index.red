@@ -9,6 +9,7 @@ Article: [
     Web-Development: [
         .title: {Web Development}
         .links: [
+            "Angularjs" %./angularjs/
             "Bootstrap" %./bootstrap/
             "Css" %./css/
             "Google Charts" %./googlecharts
@@ -41,5 +42,5 @@ Article: [
     ]       
 ]
 
-do read http://readablehumanformat.com/lib.red
+do https://readable.red
 markdown-gen
