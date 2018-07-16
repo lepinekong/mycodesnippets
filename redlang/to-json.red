@@ -15,7 +15,7 @@ Article: [
 
     credit: [
         .title: {Credit}
-        .text: {Thanks to [Christopher Ross-Gill](http://ross-gill.com/) for his great [Altjson](https://github.com/rgchris/Scripts/blob/master/red/altjson.red) library}
+        .text: {Thanks to [Christopher Ross-Gill](http://ross-gill.com/) for his great [Altjson](https://github.com/rgchris/Scripts/blob/master/red/altjson.red) library on which to-json library is based upon.}
     ]
 
 
