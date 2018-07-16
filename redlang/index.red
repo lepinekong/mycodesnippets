@@ -11,6 +11,7 @@ Article: [
         .links: [
             "Parse text CSV data (from excel,...)" %./parse-text-data
             "CRUD CSV" %./crud-csv
+            "to-json" %./to-json
             "Get Bitcoin price at interval from Json REST Service" %./bitcoin
             "Hash 256" %./hash
             "Random (ex. 2 dices)" %./random
@@ -124,5 +125,5 @@ Article: [
 ]
 
 ;do read http://readablehumanformat.com/lib.red
-do https://readable.red/lib.red
+do https://readable.red
 markdown-gen

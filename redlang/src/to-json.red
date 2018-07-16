@@ -23,5 +23,5 @@ Youtube: [
 ]
 
 do https://redlang.red/to-json
-json-data: to-json youtube
+json-data: to-json/no-newline youtube ; no-newline allows to join lines (ignore newline)
 

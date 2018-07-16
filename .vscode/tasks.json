@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "mycodesnippets",
             "type": "shell",
             "command": "C:\\rebol\\.system.user\\.data\\.activities\\myCodeSnippets\\.github\\.templates\\run.bat"
         }

@@ -1,34 +1,30 @@
-Red [
-    Title: "to-json.red"
-]
 
-Article: [
-
-    Title: {to-json}
-
-    Source: [
-        .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
-        .text: {[http://mycodesnippets.space/redlang/to-json.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/to-json.red)
-        }
-        .Published-Url: http://mycodesnippets.space/redlang/to-json
-    ]  
+# to-json
 
 
-    demo: [
-        .title: {Demo}
-        .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
-        .quote: {do read http://mycodesnippets.space/redlang/src/to-json.red}
-        .image: https://i.imgur.com/C9rifx9.png
-    ]      
-    
-    usage-code-snippet: [
+### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)
 
-        .title: {Usage Code Snippet}
-        .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/to-json.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/to-json.red
-        ]        
-        .code/redcode: {
+[http://mycodesnippets.space/redlang/to-json.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/to-json.red)
+
+
+### Demo
+
+Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
+>do read http://mycodesnippets.space/redlang/src/to-json.red
+
+![https://i.imgur.com/C9rifx9.png](https://i.imgur.com/C9rifx9.png)
+                    
+
+### Usage Code Snippet
+
+- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/src/to-json.red)
+                        
+- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/src/to-json.red)
+                        
+
+
+```redcode
+
 Red [
     Title: "to-json.red"
 ]
@@ -55,17 +51,21 @@ Youtube: [
 
 do https://redlang.red/to-json
 json-data: to-json/no-newline youtube ; no-newline allows to join lines (ignore newline)
-        }
+        
+```
 
-    ]
 
-    lib-code-snippet: [
-        .title: {to-json library}
-        .links: [
-            {View source} https://github.com/lepinekong/redlang.red/blob/master/to-json.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/redlang.red/master/to-json.red
-        ]         
-        .code/redcode: {
+
+### to-json library
+
+- [View source](https://github.com/lepinekong/redlang.red/blob/master/to-json.red)
+                        
+- [Copy source](https://raw.githubusercontent.com/lepinekong/redlang.red/master/to-json.red)
+                        
+
+
+```redcode
+
 Red [
     Title: "to-json.red"
     Based-on: [
@@ -91,8 +91,8 @@ to-json: function[
             sub-block: >block/1
             new-sub-block: copy []
             foreach [field value] sub-block [
-                value: replace/all value newline " "
-                append new-sub-block reduce [field value]
+value: replace/all value newline " "
+append new-sub-block reduce [field value]
             ]
             append/only .block new-sub-block
         ] 
@@ -106,14 +106,14 @@ to-json: function[
         ][
             .block: copy []
             forall >block [
-                sub-block: >block/1
-                new-sub-block: copy []
-                foreach [field value] sub-block [
-                    value: replace/all value tab ""
-                    value: replace/all value "    " ""
-                    append new-sub-block reduce [field value]
-                ]
-                append/only .block new-sub-block
+sub-block: >block/1
+new-sub-block: copy []
+foreach [field value] sub-block [
+    value: replace/all value tab ""
+    value: replace/all value "    " ""
+    append new-sub-block reduce [field value]
+]
+append/only .block new-sub-block
             ]
         ]
 
@@ -143,9 +143,7 @@ to-json: function[
     
 ]
 
-        }
-    ]
-]
+        
+```
 
-do https://readable.red
-markdown-gen 
+

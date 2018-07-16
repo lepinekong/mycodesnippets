@@ -8,6 +8,8 @@
                         
 - [CRUD CSV](./crud-csv)
                         
+- [to-json](./to-json)
+                        
 - [Get Bitcoin price at interval from Json REST Service](./bitcoin)
                         
 - [Hash 256](./hash)
