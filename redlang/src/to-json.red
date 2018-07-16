@@ -5,8 +5,9 @@ Red [
 Youtube: [
     [
         id: {ov00SrBwjKQ}
-        title: {The City of London, the Corporation that runs it}
-        description: {A secret state within a state, with deleterious effects on democracy, politics and economics in London, the country, and the world, for the City is joint headquarters with Wall Street of global finance capital. In short, 'Secret City' isn't just a film for Londoners - especially in these times of crisis, the role of the City concerns everyone everywhere.}
+        title: {What Darwin Never Knew}
+        description: {The source of life's endless forms was a profound mystery until Charles Darwin's revolutionary idea of natural selection.
+        NOVA reveals answers to the riddles that Darwin couldn't explain.}
     ]
     [
         id: {4XNMCTBdQtk}
@@ -16,13 +17,11 @@ Youtube: [
     [
         id: {eHnwtkfX2k4}
         title: {The City of London, the Corporation that runs it}
-        description: {A secret state within a state, with deleterious effects on democracy, politics and economics in London, the country, and the world, for the City is joint headquarters with Wall Street of global finance capital. In short, 'Secret City' isn't just a film for Londoners - especially in these times of crisis, the role of the City concerns everyone everywhere.}
+        description: {A secret state within a state, with deleterious effects on democracy, politics and economics in London, the country, and the world, for the City is joint headquarters with Wall Street of global finance capital. 
+        In short, 'Secret City' isn't just a film for Londoners - especially in these times of crisis, the role of the City concerns everyone everywhere.}
     ]
 ]
 
 do https://redlang.red/to-json
 json-data: to-json youtube
-write-clipboard json-data
-print json-data
-
 
