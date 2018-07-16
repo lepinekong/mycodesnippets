@@ -7,6 +7,10 @@
 [http://mycodesnippets.space/redlang/to-json.red](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/to-json.red)
 
 
+### Credit
+
+Thanks to [Christopher Ross-Gill](http://ross-gill.com/) for his great [Altjson](https://github.com/rgchris/Scripts/blob/master/red/altjson.red) library
+
 ### Demo
 
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 

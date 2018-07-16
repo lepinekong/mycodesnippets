@@ -13,6 +13,11 @@ Article: [
         .Published-Url: http://mycodesnippets.space/redlang/to-json
     ]  
 
+    credit: [
+        .title: {Credit}
+        .text: {Thanks to [Christopher Ross-Gill](http://ross-gill.com/) for his great [Altjson](https://github.com/rgchris/Scripts/blob/master/red/altjson.red) library}
+    ]
+
 
     demo: [
         .title: {Demo}
