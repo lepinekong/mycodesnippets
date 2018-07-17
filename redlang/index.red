@@ -76,6 +76,7 @@ Article: [
             "Console prompt" %./console-prompt   
             "Console type detection" %./console-detection   
             "Run Python command" %./python/run-python-command
+            "Get environment variable (Edit Powershell Profile)" %./get-env
         ]
     ]     
 
