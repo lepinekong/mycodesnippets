@@ -63,6 +63,7 @@ Article: [
         .title: {Red idioms}
         .links: [
             "set reduce" %./set
+            "append reduce or repend" %./repend
             "as-pair shortcut for make pair! reduce" %./as-pair                       
             "collect / keep idiom" %./collect
             "reduce / insert idiom" %./reduce.insert 
