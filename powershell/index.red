@@ -26,6 +26,7 @@ Article: [
         .title: {Winform} 
         .links: [
             {Systray Notification} %./winform/systray-notification
+            {Move Mouse} %./winform/move-mouse
         ]    
     ]    
 
@@ -37,5 +38,5 @@ Article: [
     ]
 ]
         
-do read http://readablehumanformat.com/lib.red
+do http://readable.red
 markdown-gen
