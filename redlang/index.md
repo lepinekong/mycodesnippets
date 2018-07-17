@@ -63,6 +63,8 @@
 
 ### Red idioms
 
+- [Select Key-Value Pair](./key-value)
+                        
 - [set reduce](./set)
                         
 - [append reduce or repend](./repend)

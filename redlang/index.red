@@ -62,6 +62,7 @@ Article: [
     Idioms: [
         .title: {Red idioms}
         .links: [
+            "Select Key-Value Pair" %./key-value 
             "set reduce" %./set
             "append reduce or repend" %./repend
             "as-pair shortcut for make pair! reduce" %./as-pair                       

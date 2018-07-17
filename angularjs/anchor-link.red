@@ -2,6 +2,7 @@ Red [
     Title: "anchor-link.red"
     .links: [
         http://www.tutorialsavvy.com/2014/09/implementing-angularjs-anchor-scroll.html/
+        http://embed.plnkr.co/KzcMJmDGfN263AQrVY9N/
     ]
 ]
 
