@@ -23,10 +23,16 @@ Article: [
     ]
 
     category: [
+        .title: {Winform} 
+        .links: [
+            {Systray Notification} %./winform/systray-notification
+        ]    
+    ]    
+
+    category: [
         .title: {Shell} 
         .links: [
             {Run Python command} %./python/run-python-command
-
         ]    
     ]
 ]

@@ -12,8 +12,8 @@ Article: [
         .links: [
             "vscode codesnippets variables" %./vscode.codesnippets.variables
             "user settings" %./user-settings
-        ]        
-
+            "tasks" %./tasks
+        ]
     ]
 
 ]
