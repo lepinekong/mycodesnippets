@@ -24,8 +24,8 @@ Article: [
 
         .title: {Code Snippet}
         .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/powershell/src/image/image-dimensions.ps1
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/powershell/src/image/image-dimensions.ps1
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/powershell/src/image/dimensions.ps1
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/powershell/src/image/dimensions.ps1
         ]        
         .code/powershell: {
 add-type -AssemblyName System.Drawing
