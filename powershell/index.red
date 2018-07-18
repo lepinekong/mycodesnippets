@@ -28,7 +28,14 @@ Article: [
             {Systray Notification} %./winform/systray-notification
             {Move Mouse} %./winform/move-mouse
         ]    
-    ]    
+    ]   
+
+    category: [
+        .title: {Image} 
+        .links: [
+            {Image dimensions} %./image/image-dimensions
+        ]    
+    ]      
 
     category: [
         .title: {Shell} 
@@ -36,6 +43,8 @@ Article: [
             {Run Python command} %./python/run-python-command
         ]    
     ]
+
+    
 ]
         
 do http://readable.red
