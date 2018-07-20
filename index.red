@@ -6,6 +6,13 @@ Article: [
 
     Title: {Index of MyCodeSnippets.Space}
 
+    Shell: [
+        .title: {Shell}
+        .links: [
+            "DOS" ./dos
+        ]
+    ]
+
     Web-Development: [
         .title: {Web Development}
         .links: [

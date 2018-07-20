@@ -4,4 +4,4 @@ Red [
 
 do http://redlang.red/templating
 
-render https://mycodesnippets.space/.templates/res/codesnippet.template.red
+render https://mycodesnippets.space/templates/res/codesnippet.template.red

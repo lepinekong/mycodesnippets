@@ -1,0 +1,36 @@
+<script src="http://ajadata.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body ng-app='app1'>
+    <div id='Grocery' ng-controller='Grocery'>
+      <h3>Grocery List</h3>
+        <div ng-repeat='data in datas'>
+          <h4>{{data.item}}</h4>
+        </div>
+      <br>
+     
+   <p> enter item:
+   <input type="text" ng-model='addItem'/>
+   </p>
+   <button ng-click='addTolist(addItem)'>Add to list</button>
+    <h2>{{NoItemError}}</h2>
+    </div> <!-- End of Grocery -->
+ <script>
+var app1 = angular.module('app1', []);
+app1.controller('Grocery', function($scope) {
+$scope.datas = [
+{item:'banana', needed:false},
+{item: 'apple', needed:false},
+{item:'milk', needed:false},
+{item: 'tomato', needed:false},
+{item:'juice', needed:false}
+]
+$scope.addTolist = function(addItem){
+ if (!(addItem === undefined || addItem === '')){
+     $scope.datas.push({item: addItem, needed: false});
+     $scope.NoItemError = '';
+     } else {
+        $scope.NoItemError = 'Please enter an item';
+            }
+}
+});
+</script>
+</body>

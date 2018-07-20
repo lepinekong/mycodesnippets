@@ -37,8 +37,8 @@ Article: [
 
         .image: https://i.imgur.com/NYKUJlk.png  
         .links: [
-            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/basics.red
-            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/preprocessor/src/basics.red
+            {View source} https://github.com/lepinekong/mycodesnippets/blob/master/redlang/preprocessor/src/basics.red
+            {Copy source} https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/preprocessor/src/basics.red
         ]                
         .code: {
 system/lexer/pre-load: func [src part][

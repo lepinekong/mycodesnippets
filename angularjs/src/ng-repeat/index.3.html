@@ -1,0 +1,60 @@
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body ng-app='myApp'>
+    <div id='Grocery' ng-controller='Grocery'>
+      <h3>Grocery List</h3>
+        <div ng-repeat='data in datas'>
+          <h4>{{data.title}}</h4>
+        </div>
+      <br>
+     
+   <p> enter item:
+   <input type="text" ng-model='addItem'/>
+   </p>
+   <button ng-click='addTolist(addItem)'>Add to list</button>
+   <button ng-click='addTolist(addItem)'>Add to list</button>
+    <h2>{{NoItemError}}</h2>
+    </div> <!-- End of Grocery -->
+ <script>
+var app = angular.module("myApp", []);
+app.controller('Grocery', function($scope) {
+    $scope.datas = [
+        {
+            "id": "id1",
+            "title": "title1",
+            "description": "description 1",
+            "image": "assets/images/01.jpg",
+            "url": "http://google.com"
+        },            
+        {
+            "id": "id2",
+            "title": "title2",
+            "description": "description 2",
+            "image": "assets/images/01.jpg",
+            "url": "http://google.com"               
+        },
+        {
+            "id": "id3",
+            "title": "title3",
+            "description": "description 3",
+            "image": "assets/images/01.jpg",
+            "url": "http://google.com"  
+        },
+        {
+            "id": "id4",
+            "title": "title4",
+            "description": "description 4",
+            "image": "assets/images/01.jpg",
+            "url": "http://google.com"  
+        }                         
+]
+$scope.addTolist = function(addItem){
+ if (!(addItem === undefined || addItem === '')){
+     $scope.lst.push({item: addItem, needed: false});
+     $scope.NoItemError = '';
+     } else {
+        $scope.NoItemError = 'Please enter an item';
+            }
+}
+});
+</script>
+</body>

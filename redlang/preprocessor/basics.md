@@ -30,9 +30,9 @@ You should get this:
 
 ![https://i.imgur.com/NYKUJlk.png](https://i.imgur.com/NYKUJlk.png)
                     
-- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/preprocessor/src/basics.red)
+- [View source](https://github.com/lepinekong/mycodesnippets/blob/master/redlang/preprocessor/src/basics.red)
                         
-- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/preprocessor/src/basics.red)
+- [Copy source](https://raw.githubusercontent.com/lepinekong/mycodesnippets/master/redlang/preprocessor/src/basics.red)
                         
 
 
