@@ -4,6 +4,12 @@ Red [
 
 lazy-load: function ['>function][
 
+    {Usage:
+
+        lazy-load powershell-profile
+        lazy-load 'powershell-profile        
+    }    
+
 	.function: form >function
 
 	switch .function [		
@@ -35,9 +41,6 @@ system/lexer/pre-load: func [src part][
         ]
     ]
 ]
-
-;lazy-load powershell-profile
-;lazy-load 'powershell-profile
 
 ; for testing in red console: 
 ; powershell-profile 
