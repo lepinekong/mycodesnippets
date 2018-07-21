@@ -117,6 +117,13 @@ Article: [
         ] 
     ]
 
+    Parse: [
+        .title: {Parse}
+        .links: [
+            {Natural Language Processing for Command Line} %./parse/nlp-command
+        ]
+    ]
+
     Tips: [
         .title: {Tips}
         .links: [
