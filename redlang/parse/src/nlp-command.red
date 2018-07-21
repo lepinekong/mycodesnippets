@@ -40,8 +40,8 @@ system/lexer/pre-load: func [src part][
 ; shoot https://google.com c:\test\test.png
 
 ; testing in script:
-do {
-    take a web screenshot of https://google.com in c:\test\test.1.png
-    make a screen shot of https://google.com in c:\test\test.2.png
-    shoot https://google.com c:\test\test.3.png
-}
+; do {
+;     take a web screenshot of https://google.com in c:\test\test.1.png
+;     make a screen shot of https://google.com in c:\test\test.2.png
+;     shoot https://google.com c:\test\test.3.png
+; }
