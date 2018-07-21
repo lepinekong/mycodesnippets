@@ -3,8 +3,16 @@ Red [
 ]
 
 do https://redlang.red/chrome/take-screenshot.red
-
 system/lexer/pre-load: func [src part][
+    {
+        Usage: all examples below are equivalent:
+
+        - take screenshot of https://google.com in c:\test\test.png
+        - make a screenshot of https://google.com in c:\test\test.png
+        - make a screencopy of https://google.com to c:\test\test.png
+        - screenshot https://google.com c:\test\test.png
+        - shoot https://google.com to c:\test\test.png
+    }
     parse src [
         any [
             s: [
