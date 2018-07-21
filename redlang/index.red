@@ -117,6 +117,13 @@ Article: [
         ] 
     ]
 
+    Tips: [
+        .title: {Tips}
+        .links: [
+            {Lazy loading} %./tips/lazy-loading
+        ]
+    ]
+
     Win32: [
         .title: {Win32}
         .links: [

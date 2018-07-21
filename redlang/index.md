@@ -121,6 +121,11 @@
 - [Code Red in French!](./preprocessor/red-in-french)
                         
 
+### Tips
+
+- [Lazy loading](./tips/lazy-loading)
+                        
+
 ### Win32
 
 - [Powershell Win32](./win32/powershell-win32)
