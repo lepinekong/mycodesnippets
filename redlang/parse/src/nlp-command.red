@@ -3,16 +3,8 @@ Red [
 ]
 
 do https://redlang.red/chrome/take-screenshot.red
-system/lexer/pre-load: func [src part][
-    {
-        Usage: all examples below are equivalent:
 
-        - take screenshot of https://google.com in c:\test\test.png
-        - make a screenshot of https://google.com in c:\test\test.png
-        - make a screencopy of https://google.com to c:\test\test.png
-        - screenshot https://google.com c:\test\test.png
-        - shoot https://google.com to c:\test\test.png
-    }
+system/lexer/pre-load: func [src part][
     parse src [
         any [
             s: [
@@ -20,26 +12,36 @@ system/lexer/pre-load: func [src part][
             ] skip
             |
             s: [
-                [
-                    [["take" | "make"] [" a " | " "] ["screenshot" | "screencopy"]]     
-                    | "shoot"
-                    | "takescreenshot"   
-                    | "screenshot" 
-                    | "screencopy" 
-                    | ["webscreenshot" | "web screenshot"] 
-                ] (new: rejoin ["take-screenshot"] )
-            ] e: (s: change/part s new e) :s 
-            |            
-            s: [
-                [
-                "take-screenshot " copy arg1 to space copy arg2 to space to newline 
-                | "take-screenshot " copy arg1 to space copy arg2 to end
-                "take-screenshot" [" of " | " "] copy arg1 to space [" in " | " to " | " " ] copy arg2 to newline 
-                | "take-screenshot" [" of " | " "] copy arg1 to space [" in " | " to " | " "] copy arg2 to end                                
-                ] 
-                (new: rejoin ["take-screenshot" { } arg1 { } arg2] )
-            ] e: (s: change/part s new e) :s 
+                [   [
+                        "take-screenshot" | "make-screenshot"
+                        |
+                        ["takescreenshot" | 
+                        ["take" | "make" | "do" | "create"] 
+                        some space ["a" some space |] ["web" any space |]
+                        "screen" any space "shot"
+                        ]
+                        | "shoot"
+                        | "screenshot" 
+                        | "screencopy" 
+                        | "webscreenshot" 
+                    ] [ some space "of" | ]  some space copy arg1 to some space 
+                    [ some space "in" some space | some space "to" some space | some space ] 
+                    copy arg2 [to newline | to end ]
+                ] (new: rejoin ["take-screenshot" { } arg1 { } arg2] )
+            ] e: (s: change/part s new e) :s            
             | skip
         ]
     ]
 ]
+
+; testing in console type for example:
+; take a web screenshot of https://google.com in c:\test\test.png
+; make a screen shot of https://google.com in c:\test\test.png
+; shoot https://google.com c:\test\test.png
+
+; testing in script:
+do {
+    take a web screenshot of https://google.com in c:\test\test.1.png
+    make a screen shot of https://google.com in c:\test\test.2.png
+    shoot https://google.com c:\test\test.3.png
+}
