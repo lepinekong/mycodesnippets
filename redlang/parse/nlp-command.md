@@ -1,5 +1,5 @@
 
-# nlp-command
+# Natural Language Processing Command
 
 
 ### ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)

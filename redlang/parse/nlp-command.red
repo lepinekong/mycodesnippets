@@ -4,7 +4,7 @@ Red [
 
 Article: [
 
-    Title: {nlp-command}
+    Title: {Natural Language Processing Command}
 
     Source: [
         .title: {ReAdABLE Source [(What is the ReAdABLE Human Format?)](http://readablehumanformat.com)}
