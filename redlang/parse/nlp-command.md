@@ -13,9 +13,9 @@ Type in [red-lang](https://www.red-lang.org/p/download.html) console:
 >do http://mycodesnippets.space/redlang/parse/src/nlp-command.red
 
 then:
->take a web screenshot of https://google.com in c:\test\test.1.png
-make a screen shot of https://google.com in c:\test\test.2.png
-shoot https://google.com c:\test\test.3.png
+>take a web screenshot of https://google.com in c:\test\test.1.png<br>
+make a screen shot of https://google.com in c:\test\test.2.png<br>
+shoot https://google.com c:\test\test.3.png<br>
 
 
 ![./images/nlp-command.gif](./images/nlp-command.gif)
