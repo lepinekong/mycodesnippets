@@ -1,0 +1,1 @@
+javascript:void(prompt("URL:", location.href))

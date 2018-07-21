@@ -7,7 +7,12 @@
             "label": "mycodesnippets",
             "type": "shell",
             "command": "C:\\rebol\\.system.user\\.data\\.activities\\myCodeSnippets\\.github\\.templates\\run.bat"
-        }
+        },
+        {
+            "label": "index",
+            "type": "shell",
+            "command": "C:\\rebol\\.system.user\\.data\\.activities\\myCodeSnippets\\.github\\.templates\\index.bat"
+        }        
     ]
 
     
