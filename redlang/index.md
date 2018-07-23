@@ -39,8 +39,6 @@
                         
 - [Draw Sinusoid](./draw/sinusoid)
                         
-- [Data Visualization](./draw/dataviz)
-                        
 - [Save image](./vid/save-image)
                         
 
@@ -119,6 +117,11 @@
 - [Basics](./preprocessor/basics)
                         
 - [Code Red in French!](./preprocessor/red-in-french)
+                        
+
+### Parse
+
+- [Natural Language Processing for Command Line](./parse/nlp-command)
                         
 
 ### Tips

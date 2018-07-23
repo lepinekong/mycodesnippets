@@ -32,9 +32,13 @@ Article: [
             "Draw Rectangle corners" %./draw/rectangle-corners
             "Shape Rotation" %./draw/shape-rotation
             "Draw Sinusoid" %./draw/sinusoid
-            "Data Visualization" %./draw/dataviz
             "Save image" %./vid/save-image
         ]
+    ]
+
+    Datavisualization: [
+        "Data Visualization" %./draw/dataviz
+        "Donut" %./draw/donut
     ]
 
     Web: [
