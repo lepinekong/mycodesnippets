@@ -1,23 +1,24 @@
 Red [
     Title: "donut.1.red"
     Builds: [
-        0.0.0.1 {Initial version}
+        0.0.0.1.15 {Initial version}
     ]
     Credits: [
         "Toomas Vooglaid" {Drawing algorithm}
         "Lépine Kong" {Data conversion}
     ]
-]
+]    
 
 do https://redlang.red/percentages-to-sectors
+do https://redlang.red/colors
 
 percentages-colors: [
-    30.6 61.160.255
-    19.4 99.212.212
-    11.1 80.202.115
-    11.1 250.212.57
-    13.9 242.97.123
-    13.9 150.90.228
+    30.6 ocean
+    19.4 turquoise
+    11.1 lime
+    11.1 mustard
+    13.9 salmon
+    13.9 purple
 ]
 
 sectors: percentages-colors-to-sectors/with-labels percentages-colors
