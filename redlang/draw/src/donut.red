@@ -9,8 +9,9 @@ Red [
     ]
 ]    
 
-do https://redlang.red/percentages-to-sectors
 do https://redlang.red/colors
+
+do https://redlang.red/percentages-to-sectors
 
 percentages-colors: [
     30.6 ocean

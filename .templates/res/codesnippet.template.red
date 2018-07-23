@@ -17,7 +17,7 @@ Article: [
     demo: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
-        .quote: {do read http://mycodesnippets.space/<%full-path%>/src/<%short-filename%>.red}
+        .quote: {do http://mycodesnippets.space/<%full-path%>/src/<%short-filename%>.red}
         .image: 
     ]      
     

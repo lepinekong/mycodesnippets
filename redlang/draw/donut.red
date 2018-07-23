@@ -24,7 +24,7 @@ Article: [
     demo: [
         .title: {Demo}
         .text: {Type in [red-lang](https://www.red-lang.org/p/download.html) console: }
-        .quote: {do read http://mycodesnippets.space/redlang/draw/src/donut.red}
+        .quote: {do http://mycodesnippets.space/redlang/draw/src/donut.red}
         .image: http://mycodesnippets.space/redlang/draw/images/donut.gif
     ]      
     

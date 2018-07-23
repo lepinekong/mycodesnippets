@@ -17,7 +17,7 @@
 ### Demo
 
 Type in [red-lang](https://www.red-lang.org/p/download.html) console: 
->do read http://mycodesnippets.space/redlang/draw/src/donut.red
+>do http://mycodesnippets.space/redlang/draw/src/donut.red
 
 ![http://mycodesnippets.space/redlang/draw/images/donut.gif](http://mycodesnippets.space/redlang/draw/images/donut.gif)
                     
@@ -31,17 +31,6 @@ Type in [red-lang](https://www.red-lang.org/p/download.html) console:
 
 
 ```redcode
-
-Red [
-    Title: "donut.1.red"
-    Builds: [
-        0.0.0.1 {Initial version}
-    ]
-    Credits: [
-        "Toomas Vooglaid" {Drawing algorithm}
-        "Lépine Kong" {Data conversion}
-    ]
-]
 
 do https://redlang.red/percentages-to-sectors
 
