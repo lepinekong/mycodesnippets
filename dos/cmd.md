@@ -14,8 +14,20 @@ Open a dos prompt and type:
 
 ```dos
 
-            cmd.exe /c C:\nodejs\npm.cmd install -g jsdoc
+            cmd.exe /c "C:\nodejs\npm.cmd" install -g jsdoc
         
 ```
 
 
+or:
+
+
+```dos
+
+            powershell -c cmd.exe /c "C:\nodejs\npm.cmd" install -g jsdoc
+        
+```
+
+
+![https://i.imgur.com/sSuzFb7.png](https://i.imgur.com/sSuzFb7.png)
+                    

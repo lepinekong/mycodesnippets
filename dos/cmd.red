@@ -18,8 +18,13 @@ Article: [
         .title: {Example} 
         .text: {Open a dos prompt and type:}   
         .code/dos: {
-            cmd.exe /c C:\nodejs\npm.cmd install -g jsdoc
+            cmd.exe /c "C:\nodejs\npm.cmd" install -g jsdoc
         }
+        .text: {or:}
+        .code/dos: {
+            powershell -c cmd.exe /c "C:\nodejs\npm.cmd" install -g jsdoc
+        }
+        .image: https://i.imgur.com/sSuzFb7.png
 
     ]
 ]
