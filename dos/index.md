@@ -9,5 +9,7 @@
 
 ### Basics
 
+- [CMD.EXE /c](./cmd)
+                        
 - [DEL](./del)
                         

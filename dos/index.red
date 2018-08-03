@@ -16,6 +16,7 @@ Article: [
     Basics: [
         .title: {Basics}
         .links: [
+            {CMD.EXE /c} %./cmd
             {DEL} %./del
         ]      
     ]
