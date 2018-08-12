@@ -21,7 +21,7 @@ Article: [
             http://mycodesnippets.space/angularjs/src/video-gallery/index.html
             http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk
         ]
-        .image: https://i.imgur.com/O1xlErj.png
+        .image: https://i.imgur.com/POEiiM0.jpg
     ]      
     
     code-snippet: [
@@ -30,8 +30,8 @@ Article: [
         .text: {The html skeleton was initially created with [mobirise](https://mobirise.com/) 
         before customizing it with angularjs }
         .text: {with Json Data and AngularJs Controller : }
-        .image: https://i.imgur.com/QNCEBYF.png
-        ;.image: https://i.imgur.com/fLkUV9u.png
+        .image: https://i.imgur.com/O1xlErj.png
+        ; https://i.imgur.com/QNCEBYF.png
         .text: {Html and AngularJs ng-repeat}
         .image: https://i.imgur.com/qtw74SE.png
         .links: [
@@ -41,15 +41,6 @@ Article: [
 
         ]        
         .code/html: {
-<!--
-    version: [
-        1.0.0 {alpha}
-    ]
-    Builds: [
-        0.0.0.1.8 {Support anchor-link}
-    ]
--->
-
 <!DOCTYPE html>
 <html ng-app="MyApp" ng-controller="myCtrl">
 

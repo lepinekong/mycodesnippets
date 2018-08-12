@@ -14,7 +14,7 @@ Visit:
                         
 - [http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk](http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk)
                         
-![https://i.imgur.com/O1xlErj.png](https://i.imgur.com/O1xlErj.png)
+![https://i.imgur.com/POEiiM0.jpg](https://i.imgur.com/POEiiM0.jpg)
                     
 
 ### Source Code
@@ -22,7 +22,7 @@ Visit:
 The html skeleton was initially created with [mobirise](https://mobirise.com/) 
 before customizing it with angularjs 
 with Json Data and AngularJs Controller : 
-![https://i.imgur.com/QNCEBYF.png](https://i.imgur.com/QNCEBYF.png)
+![https://i.imgur.com/O1xlErj.png](https://i.imgur.com/O1xlErj.png)
                     
 Html and AngularJs ng-repeat
 ![https://i.imgur.com/qtw74SE.png](https://i.imgur.com/qtw74SE.png)
@@ -36,15 +36,6 @@ Html and AngularJs ng-repeat
 
 
 ```html
-
-<!--
-    version: [
-        1.0.0 {alpha}
-    ]
-    Builds: [
-        0.0.0.1.8 {Support anchor-link}
-    ]
--->
 
 <!DOCTYPE html>
 <html ng-app="MyApp" ng-controller="myCtrl">
