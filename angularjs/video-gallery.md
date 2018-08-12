@@ -14,7 +14,7 @@ Visit:
                         
 - [http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk](http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk)
                         
-![https://i.imgur.com/nJDcBNf.jpg](https://i.imgur.com/nJDcBNf.jpg)
+![https://i.imgur.com/O1xlErj.png](https://i.imgur.com/O1xlErj.png)
                     
 
 ### Source Code

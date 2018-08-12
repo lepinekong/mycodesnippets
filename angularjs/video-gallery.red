@@ -21,8 +21,7 @@ Article: [
             http://mycodesnippets.space/angularjs/src/video-gallery/index.html
             http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk
         ]
-        .image: https://i.imgur.com/nJDcBNf.jpg
-        ;.image: https://i.imgur.com/POEiiM0.jpg
+        .image: https://i.imgur.com/O1xlErj.png
     ]      
     
     code-snippet: [
