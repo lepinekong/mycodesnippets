@@ -19,7 +19,7 @@ Article: [
         .text: {Visit: }
         .links: [
             https://mycodesnippets.space/angularjs/src/video-gallery/index.html
-            https://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk
+            https://mycodesnippets.space/angularjs/src/video-gallery/index.html#/#4XNMCTBdQtk
         ]
         .image: https://i.imgur.com/nhs4tdX.jpg
     ]      
