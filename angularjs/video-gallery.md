@@ -10,9 +10,9 @@
 ### Demo
 
 Visit: 
-- [http://mycodesnippets.space/angularjs/src/video-gallery/index.html](http://mycodesnippets.space/angularjs/src/video-gallery/index.html)
+- [https://mycodesnippets.space/angularjs/src/video-gallery/index.html](https://mycodesnippets.space/angularjs/src/video-gallery/index.html)
                         
-- [http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk](http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk)
+- [https://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk](https://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk)
                         
 ![https://i.imgur.com/POEiiM0.jpg](https://i.imgur.com/POEiiM0.jpg)
                     

@@ -18,8 +18,8 @@ Article: [
         .title: {Demo}
         .text: {Visit: }
         .links: [
-            http://mycodesnippets.space/angularjs/src/video-gallery/index.html
-            http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk
+            https://mycodesnippets.space/angularjs/src/video-gallery/index.html
+            https://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk
         ]
         .image: https://i.imgur.com/POEiiM0.jpg
     ]      
