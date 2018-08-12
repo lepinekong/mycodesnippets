@@ -12,6 +12,8 @@
 Visit: 
 - [http://mycodesnippets.space/angularjs/src/video-gallery/index.html](http://mycodesnippets.space/angularjs/src/video-gallery/index.html)
                         
+- [http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk](http://mycodesnippets.space/angularjs/src/video-gallery/index.html#4XNMCTBdQtk)
+                        
 ![https://i.imgur.com/nJDcBNf.jpg](https://i.imgur.com/nJDcBNf.jpg)
                     
 
@@ -35,6 +37,15 @@ Html and AngularJs ng-repeat
 
 ```html
 
+<!--
+    version: [
+        1.0.0 {alpha}
+    ]
+    Builds: [
+        0.0.0.1.8 {Support anchor-link}
+    ]
+-->
+
 <!DOCTYPE html>
 <html ng-app="MyApp" ng-controller="myCtrl">
 
@@ -44,7 +55,7 @@ Html and AngularJs ng-repeat
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="generator" content="Mobirise v4.6.5, mobirise.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <meta name="description" content="">
     <title>Home</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&subset=cyrillic,latin,greek,vietnamese">
@@ -56,32 +67,33 @@ Html and AngularJs ng-repeat
 </head>
 
 <body>
-    <script>
-        videos = [
-            {
-"id": "eHnwtkfX2k4",
-"title": "The City of London, the Corporation that runs it",
-"description": "A secret state within a state, with deleterious effects on democracy, politics and economics in London, the country, and the world, for the City is joint headquarters with Wall Street of global finance capital. In short, 'Secret City' isn't just a film for Londoners - especially in these times of crisis, the role of the City concerns everyone everywhere."
-            },
-            {
-"id": "4XNMCTBdQtk",
-"title": "Will the Earths Magnetic Fields Shift?",
-"description": "Is the Earth losing its magnetic field and doomed to a fate similar to Mars? Many scientists believe the answer lies in paleomagnetic data, and that this weakening may be a precursor to a magnetic field reversal."
-            },
-            {
-"id": "What Darwin Never Knew",
-"title": "Talleyrand : le diable boiteux",
-"description": "The source of life's endless forms was a profound mystery until Charles Darwin's revolutionary idea of natural selection. NOVA reveals answers to the riddles that Darwin couldn't explain."
-            }
-        ]
+    <script src="res/data.js">
+        // videos = [
+        //     {
+        //         "id": "m40YOZr1nxQ",
+        //         "title": "Let’s Code Real World App Using Purely Functional Techniques",
+        //         "description": "We will create a small, real-world data transformation program that demonstrates how functional techniques address issues such as control flow, type construction, data validation, etc. Through demonstrate-by-example, we'll explore the railway pattern, monadic chaining, disjunctions, applicatives, and currying."
+        //     },            
+        //     {
+        //         "id": "US8QG9I1XW0",
+        //         "title": "Functional architecture - The pits of success - Mark Seemann",
+        //         "description": " Instead of deliberate design, functional programming forms pits of success where you naturally fall into the same ‘best practices’ that you have to deliberately work for in object-oriented programming. In this session, you’ll learn about a handful of such ‘best practices’, and how functional programming automatically lead you there, without your explicit effort."
+        //     },
+        //     {
+        //         "id": "E8I19uA-wGY",
+        //         "title": "Functional programming design patterns by Scott Wlaschin",
+        //         "description": "In object-oriented development, we are all familiar with design patterns such as the Strategy pattern and Decorator pattern, and design principles such as SOLID. The functional programming community has design patterns and principles as well."
+        //     }            
+        // ]
     </script>
 
     <script>
         var app = angular.module('MyApp', []);
-        app.controller('myCtrl', function ($scope, $sce) {
+        app.controller('myCtrl', function ($scope, $sce, $location, $anchorScroll) {
             console.log(1);
             function Video(id, title, description) {
 debugger;
+this.id = id;
 this.url = $sce.trustAsResourceUrl("https://www.youtube.com/embed/" + id + "?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0");
 this.background = $sce.trustAsResourceUrl("https://www.youtube.com/embed/" + id + "?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0");
 this.title = title;
@@ -99,7 +111,7 @@ $scope.videos.push(new Video(video.id, video.title, video.description));
     </script>
 
 <!-- start video gallery -->
-<section ng-repeat="video in videos">
+<section ng-repeat="video in videos" id="{{video.id}}">
     <section class="mbr-section mbr-section--relative mbr-after-navbar" id="msg-box5-1" data-bg-video="{{video.background}}"
         data-rv-view="2">
         <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(34, 34, 34);"></div>
@@ -144,7 +156,7 @@ $scope.videos.push(new Video(video.id, video.title, video.description));
 
 </body>
 
-</html>
+</html>            
         
 ```
 
