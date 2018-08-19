@@ -10,8 +10,8 @@
 ### Demo
 
 Goto:
->http://mycodesnippets.space/angularjs/src/cards-gallery/index.html
-
+- [http://mycodesnippets.space/angularjs/src/cards-gallery/index.html](http://mycodesnippets.space/angularjs/src/cards-gallery/index.html)
+                        
 ![https://i.imgur.com/G1XtBhl.jpg](https://i.imgur.com/G1XtBhl.jpg)
                     
 

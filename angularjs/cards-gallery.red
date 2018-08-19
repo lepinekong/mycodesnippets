@@ -17,7 +17,7 @@ Article: [
     demo: [
         .title: {Demo}
         .text: {Goto:}
-        .quote: {http://mycodesnippets.space/angularjs/src/cards-gallery/index.html}
+        .links: [http://mycodesnippets.space/angularjs/src/cards-gallery/index.html]
         .image: https://i.imgur.com/G1XtBhl.jpg
     ]      
     
