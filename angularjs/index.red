@@ -20,10 +20,11 @@ Article: [
         ]      
     ]       
 
-    Videos: [
-        .title: {Videos}
+    Templates: [
+        .title: {Full Template}
         .links: [
             {video gallery} %./video-gallery
+            {cards gallery} %./cards-gallery
         ]      
     ]
 

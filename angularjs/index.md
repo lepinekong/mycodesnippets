@@ -12,7 +12,9 @@
 - [Anchor Link](./anchor-link)
                         
 
-### Videos
+### Full Template
 
 - [video gallery](./video-gallery)
+                        
+- [cards gallery](./cards-gallery)
                         
