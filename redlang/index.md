@@ -73,6 +73,8 @@
                         
 - [reduce / insert idiom](./reduce.insert)
                         
+- [bind](./bind)
+                        
 
 ### general utility functions
 
