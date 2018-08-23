@@ -17,7 +17,9 @@ bind function seems like a deep mystery and she is actually, so we'll enrich thi
 Suppose you want to change just one line of code in a library written by somebody else but you don't want to create a new version of the library
 ![https://i.imgur.com/zynS9zv.png](https://i.imgur.com/zynS9zv.png)
                     
-you can use this code snippte:
+you can use this code snippet:
+![https://i.imgur.com/dd2RlT8.png](https://i.imgur.com/dd2RlT8.png)
+                    
 
 
 ```redlang

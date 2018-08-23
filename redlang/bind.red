@@ -18,7 +18,8 @@ Article: [
         .title: {Example 1: partially override an object at runtime}
         .text: {Suppose you want to change just one line of code in a library written by somebody else but you don't want to create a new version of the library}
         .image: https://i.imgur.com/zynS9zv.png
-        .text: {you can use this code snippte:}
+        .text: {you can use this code snippet:}
+        .image: https://i.imgur.com/dd2RlT8.png
         .code/redlang: {
         do https://redlang.red/altjson.red
 
@@ -40,3 +41,5 @@ Article: [
 
 do http://readable.red
 markdown-gen
+
+
