@@ -23,8 +23,6 @@
                         
 - [GUI Panels](./gui-panels)
                         
-- [Barchart](./barchart)
-                        
 - [Data Binding](./databinding)
                         
 - [Draw colored boxes](./draw/box)
@@ -37,9 +35,18 @@
                         
 - [Shape Rotation](./draw/shape-rotation)
                         
+- [Save image](./vid/save-image)
+                        
+
+### Data Vizualisation
+
+- [Barchart](./barchart)
+                        
 - [Draw Sinusoid](./draw/sinusoid)
                         
-- [Save image](./vid/save-image)
+- [Data Visualization](./draw/dataviz)
+                        
+- [Donut](./draw/donut)
                         
 
 ### Web
